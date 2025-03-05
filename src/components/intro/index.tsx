@@ -3,7 +3,7 @@ import AutoCarousel from "@/components/auto-carousel";
 
 export default function Intro() {
   return (
-    <div className="relative w-full h-[500px] overflow-hidden">
+    <div className="relative w-full h-[550px] overflow-hidden">
       {/* Video background */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
@@ -29,7 +29,7 @@ export default function Intro() {
           </h5>
         </div>
 
-        <div className="flex flex-1 z-[9999] h-[350px] w-[200px]">
+        <div className="flex flex-1 h-[350px] w-[200px]">
           <AutoCarousel />
         </div>
       </div>

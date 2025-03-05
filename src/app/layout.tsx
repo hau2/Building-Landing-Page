@@ -34,26 +34,26 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.variable}>
         <header>
-          <div className="z-[1] bg-transparent p-4 fixed shadow-2xs left-0 right-0 flex justify-end">
+          <div className="z-[999] bg-white p-4 fixed shadow-2xs left-0 right-0 flex justify-end">
             <div className="flex gap-[16px] items-center">
               <ul className="flex gap-5 text-white">
                 <li>
-                  <Link href={"/"}>Trang chủ</Link>
+                  <Link href={"/"} className="text-black">Trang chủ</Link>
                 </li>
                 <li>
-                  <Link href={"/"}>Giới thiệu</Link>
+                  <Link href={"/"} className="text-black">Giới thiệu</Link>
                 </li>
                 <li>
-                  <Link href={"/"}>Năng lực thi công</Link>
+                  <Link href={"/"} className="text-black">Năng lực thi công</Link>
                 </li>
                 <li>
-                  <Link href={"/"}>Dự án</Link>
+                  <Link href={"/"} className="text-black">Dự án</Link>
                 </li>
                 <li>
-                  <Link href={"/"}>Tin tức</Link>
+                  <Link href={"/"} className="text-black">Tin tức</Link>
                 </li>
                 <li>
-                  <Link href={"/"}>Tuyển dụng</Link>
+                  <Link href={"/"} className="text-black">Tuyển dụng</Link>
                 </li>
               </ul>
               <Input placeholder="Search ..." className="w-[200px] bg-white" />
