@@ -32,7 +32,7 @@ export default function Section3() {
           </p>
         </div>
         <Link href={"/"} className="relative z-10 pl-[48px] mt-[16px]">
-          <div className="flex gap-[8px] w-[380px] text-white pl-0 hover:bg-red-400 hover:pl-[16px] pt-[16px] pr-[16px] pb-[16px] rounded-2xl transition-all duration-300 cursor-pointer">
+          <div className="flex gap-[8px] w-[320px] text-white pl-0 hover:bg-red-400 hover:pl-[16px] pt-[16px] pr-[16px] pb-[16px] rounded-2xl transition-all duration-300 cursor-pointer">
             <span className="inline-block font-bold">
               Những người đứng sau các dự án
             </span>
