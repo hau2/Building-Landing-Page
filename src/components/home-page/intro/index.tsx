@@ -23,7 +23,7 @@ export default function Intro() {
           </h2>
 
           <h5 className="p-0 m-0 text-white text-3xl font-thin text-left text-[20px]">
-            Tại Bechtel, chúng tôi hợp tác với khách hàng để hiện thực hóa tham
+            Tại Bình Doanh, chúng tôi hợp tác với khách hàng để hiện thực hóa tham
             vọng của họ, thực hiện các dự án tạo ra sự khác biệt lâu dài và có ý
             nghĩa cho mọi người và cộng đồng trên toàn thế giới.
           </h5>

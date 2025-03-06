@@ -26,7 +26,7 @@ export default function Section4() {
         <Link href={"/"}>
           <div className="flex gap-[8px] w-[280px] text-red-500 pl-0 hover:bg-red-400 hover:text-white hover:pl-[16px] pt-[16px] pr-[16px] pb-[16px] rounded-2xl transition-all duration-300 cursor-pointer">
             <span className="inline-block font-bold">
-              Tham gia nhóm Bechtel
+              Tham gia nhóm Bình Doanh
             </span>
             <MoveRight />
           </div>
