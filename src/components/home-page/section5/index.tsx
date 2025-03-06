@@ -19,7 +19,7 @@ export default function Section5() {
       <div className="flex h-full w-full flex-col justify-center">
         <div className="flex w-full items-center gap-16 pr-[48px] pl-[48px]">
           <h2 className="relative z-10 flex-1 flex flex-col items-start justify-center gap-[32px] text-white text-[48px] font-semibold">
-            Chúng tôi là Bechtel
+            Chúng tôi là BÌNH DOANH
           </h2>
           <p className="relative z-10 flex-1 flex flex-col items-start justify-center gap-[32px] text-white text-[20px] font-thin">
             Tính chính trực, sự đổi mới và tinh thần “không bao giờ thỏa hiệp”
