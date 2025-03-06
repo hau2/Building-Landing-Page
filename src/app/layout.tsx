@@ -47,7 +47,7 @@ export default function RootLayout({
                   <Link href={"/"} className="text-black">Năng lực thi công</Link>
                 </li>
                 <li>
-                  <Link href={"/"} className="text-black">Dự án</Link>
+                  <Link href={"/du-an"} className="text-black">Dự án</Link>
                 </li>
                 <li>
                   <Link href={"/"} className="text-black">Tin tức</Link>
@@ -60,6 +60,7 @@ export default function RootLayout({
             </div>
           </div>
         </header>
+        <div className="h-[80px]" />
         {children}
       </body>
     </html>
