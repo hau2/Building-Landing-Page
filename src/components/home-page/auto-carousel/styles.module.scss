@@ -1,0 +1,42 @@
+/* Style cho nút Previous */
+.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;  /* Đặt ở bên trái của slider */
+    transform: translateY(-50%);
+    font-size: 24px;  /* Tăng kích thước chữ */
+    color: #fff;  /* Màu chữ trắng */
+    background-color: rgba(0, 0, 0, 0.5);  /* Màu nền mờ */
+    padding: 10px;
+    border-radius: 50%;  /* Tạo hình tròn */
+    z-index: 10;
+  }
+  
+  /* Style cho nút Next */
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    right: 10px;  /* Đặt ở bên phải của slider */
+    transform: translateY(-50%);
+    font-size: 24px;  /* Tăng kích thước chữ */
+    color: #fff;  /* Màu chữ trắng */
+    background-color: rgba(0, 0, 0, 0.5);  /* Màu nền mờ */
+    padding: 10px;
+    border-radius: 50%;  /* Tạo hình tròn */
+    z-index: 10;
+  }
+  
+  /* Hiệu ứng hover cho nút */
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);  /* Màu nền khi hover */
+    cursor: pointer;  /* Con trỏ chuột thay đổi khi hover */
+  }
+  
+  /* Tùy chỉnh cho các nút khi chúng không hoạt động (disabled) */
+  .swiper-button-prev.swiper-button-disabled,
+  .swiper-button-next.swiper-button-disabled {
+    opacity: 0.3;  /* Giảm độ mờ khi nút bị vô hiệu hóa */
+    pointer-events: none;  /* Vô hiệu hóa sự kiện khi nút bị disabled */
+  }
+  

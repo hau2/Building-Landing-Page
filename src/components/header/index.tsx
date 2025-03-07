@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
       <div className="z-[999] bg-white p-[8px] fixed shadow-2xs left-0 right-0 flex justify-between">
-        <div className="bg-amber-400">
+        <div>
           <Image
             src={"/images/mainlogo.jpg"}
             alt={"Bình Doanh"}
