@@ -1,3 +1,4 @@
+import DuAnNoiBat from "@/components/home-page/du-an-noi-bat";
 import Intro from "@/components/home-page/intro";
 import Section2 from "@/components/home-page/section2";
 import Section3 from "@/components/home-page/section3";
@@ -12,6 +13,7 @@ export default function Home() {
       <Section3 />
       <Section4 />
       <Section5 />
+      <DuAnNoiBat />
     </main>
   );
 }
