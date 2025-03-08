@@ -5,17 +5,19 @@ import Section3 from "@/components/home-page/section3";
 import Section4 from "@/components/home-page/section4";
 import Section5 from "@/components/home-page/section5";
 import ThongSo from "@/components/home-page/thong-so";
+import TinTuc from "@/components/home-page/tintuc";
 
 export default function Home() {
   return (
     <main>
       <Intro />
       <ThongSo />
+      <DuAnNoiBat />
+      <TinTuc/>
       <Section2/>
       <Section3 />
       <Section4 />
       <Section5 />
-      <DuAnNoiBat />
     </main>
   );
 }
