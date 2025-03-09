@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages} from 'next-intl/server';
+import {notFound} from 'next/navigation';
+import {routing} from '@/i18n/routing';
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -29,18 +34,32 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async  function RootLayout({
   children,
-}: Readonly<{
+  params
+}: {
   children: React.ReactNode;
-}>) {
+  params: Promise<{locale: string}>;
+  }) {
+    const {locale} = await params;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    if (!routing.locales.includes(locale as any)) {
+      notFound();
+    }
+  
+    // Providing all messages to the client
+    // side is the easiest way to get started
+    const messages = await getMessages();
+ 
   return (
-    <html lang="en">
+    <html lang="locale">
       <body className={roboto.variable}>
-        <Header />
-        <div className="h-[90px]" />
-        {children}
-        <Footer />
+         <NextIntlClientProvider messages={messages}>
+          <Header />
+          <div className="h-[90px]" />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
