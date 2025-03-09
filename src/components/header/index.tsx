@@ -24,7 +24,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href={"/"} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
+              <Link href={"/tong-quan"} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
                 Giới thiệu
               </Link>
             </li>
