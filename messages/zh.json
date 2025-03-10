@@ -2,6 +2,10 @@
   "HomePage": {
     "title": "你好，世界！",
     "homePage": "主页",
-    "about": "转到关于页面"
+    "about": "关于我们",
+    "capacity": "建设能力",
+    "project": "项目",
+    "new": "新闻",
+    "recruitment": "招聘"
   }
 }

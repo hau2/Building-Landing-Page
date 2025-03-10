@@ -5,5 +5,5 @@ export const routing = defineRouting({
   locales: ['en', 'vi', 'zh'],
   
   // Ngôn ngữ mặc định
-  defaultLocale: 'en'
+  defaultLocale: 'vi'
 });

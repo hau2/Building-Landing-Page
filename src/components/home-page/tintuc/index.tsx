@@ -42,7 +42,7 @@ const TinTucItems = [
 
 export default function TinTuc() {
   return (
-    <div className="pr-[64px] pl-[64px]">
+    <div className="pr-[64px] pl-[64px] mt-[40px]">
       <h2 className="font-bold text-black/70 text-[32px]">Tin mới nhất</h2>
       <div className="flex flex-col gap-[24px] mt-[16px]">
         {TinTucItems.map((item, index) => (

@@ -2,6 +2,10 @@
   "HomePage": {
     "title": "Xin chào thế giới!",
     "homePage": "Trang chủ",
-    "about": "Đi đến trang giới thiệu"
+    "about": "Giới thiệu",
+    "capacity": "Năng lực xây dựng",
+    "project": "Dự án",
+    "new": "Tin tức",
+    "recruitment": "Tuyển dụng"
   }
 }

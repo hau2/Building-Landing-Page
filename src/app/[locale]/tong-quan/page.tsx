@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function TongQuan() {
   return (
     <div>
-      <div className="relative w-full h-[300px]">
+      <div className="relative w-full h-[500px]">
         <Image
           src="/images/duan.png"
           alt="Background"

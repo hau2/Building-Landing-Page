@@ -12,12 +12,12 @@ const languages = [
 export default function LanguageSwitcher() {
   const pathname = usePathname();
   const router = useRouter();
-  const [selectedLang, setSelectedLang] = useState("en"); // ✅ Giá trị mặc định
+  const [selectedLang, setSelectedLang] = useState("vi"); // ✅ Giá trị mặc định
 
   useEffect(() => {
     const locales = ["en", "vi", "zh"];
     const segments = pathname.split("/").filter(Boolean);
-    const detectedLocale = locales.includes(segments[0]) ? segments[0] : "en";
+    const detectedLocale = locales.includes(segments[0]) ? segments[0] : "vi";
     setSelectedLang(detectedLocale);
   }, [pathname]);
 

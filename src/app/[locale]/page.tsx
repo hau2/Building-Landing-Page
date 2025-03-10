@@ -1,3 +1,4 @@
+import CoreValuesPage from "@/components/home-page/core-value";
 import DuAnNoiBat from "@/components/home-page/du-an-noi-bat";
 import Intro from "@/components/home-page/intro";
 // import Section2 from "@/components/home-page/section2";
@@ -6,21 +7,21 @@ import Intro from "@/components/home-page/intro";
 // import Section5 from "@/components/home-page/section5";
 import ThongSo from "@/components/home-page/thong-so";
 import TinTuc from "@/components/home-page/tintuc";
-import {useTranslations} from 'next-intl';
+import VisionMission from "@/components/home-page/vision";
 
 export default function Home() {
-   const t = useTranslations('HomePage');
-  return (
-    <main>
-       <h1>{t('title')}</h1>
-      <Intro />
-      <ThongSo />
-      <DuAnNoiBat />
-      <TinTuc/>
-      {/* <Section2/>
-      <Section3 />
-      <Section4 />
-      <Section5 /> */}
-    </main>
-  );
+    return (
+        <main>
+            <Intro />
+            <ThongSo />
+            <VisionMission/>
+            <CoreValuesPage/>
+            <DuAnNoiBat />
+            <TinTuc />
+            {/* <Section2/>
+    <Section3 />
+    <Section4 />
+    <Section5 /> */}
+        </main>
+    );
 }

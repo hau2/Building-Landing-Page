@@ -36,7 +36,7 @@ export default function Intro() {
 
     //   <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
     // </div>
-    <div className="w-full h-[500px]">
+    <div className="w-full h-[650px]">
       <AutoCarousel />
     </div>
   );

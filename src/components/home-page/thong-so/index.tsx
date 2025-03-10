@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 export default function ThongSo() {
   return (
-    <div className="pt-[32px] pb-[32px] flex flex-col items-center justify-center bg-white">
+    <div className="pt-[28px] pb-[2px] flex flex-col items-center justify-center bg-white">
       <div className="text-center p-5">
         <div className="text-2xl font-bold text-blue-900">
           TỔNG THẦU XÂY DỰNG & MEPF HÀNG ĐẦU VIỆT NAM

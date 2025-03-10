@@ -1,44 +1,71 @@
-import { Mail, MapPin, PhoneCall } from "lucide-react";
-import React from "react";
+// components/Footer.tsx
+
+import { MapPin, Mail, Phone, Facebook } from 'lucide-react';
+import Image from "next/image";
 
 export default function Footer() {
-  return (
-    <footer className="h-auto mt-[32px] pt-[32px] pb-[32px] text-white bg-black/50 flex flex-row justify-center gap-[64px] pl-[32px] pr-[32px]">
-      <div className="flex flex-col gap-[8px]">
-        <h2 className="uppercase font-bold">Liên hệ</h2>
-        <div className="flex flex-row gap-[8px]">
-          <MapPin />
-          <span>
-            204/09 Nguyễn Văn Hưởng, P. Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh,
-            Việt Nam
-          </span>
-        </div>
-        <div className="flex flex-row gap-[8px]">
-          <PhoneCall />
-          <span>(+84) 358 500 195</span>
-        </div>
-        <div className="flex flex-row gap-[8px]">
-          <Mail />
-          <span>contact@binhdoanh.vn</span>
-        </div>
-      </div>
-      <div className="flex flex-col gap-[8px]">
-        <h2 className="uppercase font-bold">Văn phòng đà nẵng</h2>
-        <div className="flex flex-row gap-[8px]">
-          <MapPin />
-          <span>
-            204/09 Nguyễn Văn Hưởng, P. Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh,
-            Việt Nam
-          </span>
-        </div>
-      </div>
-      <div className="flex flex-col gap-[8px]">
-        <h2 className="uppercase font-bold">Theo dõi</h2>
-        <div className="flex flex-row gap-[8px]">
-          <Mail />
-          <span>www.facebook.com/binhdoanhvn</span>
-        </div>
-      </div>
-    </footer>
-  );
+    return (
+        <footer className="bg-[#152E51] py-8 mt-20">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+                <div>
+                    <Image
+                        src={"/images/mainlogo.jpg"}
+                        alt={"Bình Doanh"}
+                        width={200}
+                        height={80}
+                        style={{
+                            objectFit: "cover",
+                            backgroundColor: "transparent",
+                        }}
+                    />
+                    <h2 className="font-bold text-xl text-white mb-4 mt-4">
+                        BINH DOANH
+                    </h2>
+
+                    <p className="text-gray-400 text-base mt-4">
+                        Here you can use rows and columns here to organize your
+                        footer content. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.
+                    </p>
+                </div>
+
+                <div>
+                    <div className="ml-24">
+                        <h2 className="font-bold text-xl text-white mb-4">
+                            SITEMAP
+                        </h2>
+                        <ul className="text-gray-400 text-base">
+                            <li>Giới thiệu</li>
+                            <li>Dự án</li>
+                            <li>Tin tức</li>
+                            <li>Tuyển dụng</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <h2 className="font-bold text-xl text-white mb-4">
+                        CONTACT
+                    </h2>
+                    <p className="flex items-center gap-2 text-gray-400 text-base">
+                        <MapPin size={28} /> 204/09 Nguyễn Văn Hưởng, P. Thảo
+                        Điền, TP. Thủ Đức, TP. Hồ Chí Minh, Việt Nam
+                    </p>
+                    <p className="flex items-center gap-2 text-gray-400 text-base">
+                        <Mail size={18} /> binhdoanh@gmail.com
+                    </p>
+                    <p className="flex items-center gap-2 text-gray-400 text-base">
+                        <Phone size={18} /> (+84) 358 500 195
+                    </p>
+                    <p className="flex items-center gap-2 text-gray-400 text-base">
+                        <Facebook size={18} /> www.facebook.com/binhdoanhvn
+                    </p>
+                </div>
+            </div>
+
+            <div className="text-center text-gray-500 text-sm mt-4">
+                © 2024 BinhDoanh.com
+            </div>
+        </footer>
+    );
 }
