@@ -7,35 +7,35 @@ const TinTucItems = [
     img: "/images/tintuc1.jpg",
     title: "Bình doanh tổ chức workshop chào mừng ngày quốc tế phụ nữ 8/3",
     subTitle: "Hoạt động nội bộ | 07/03/2025",
-    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Central đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
+    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Bình Doanh đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
     link: '/'
   },
   {
     img: "/images/tintuc2.jpg",
     title: "Bình doanh tổ chức workshop chào mừng ngày quốc tế phụ nữ 8/3",
     subTitle: "Hoạt động nội bộ | 07/03/2025",
-    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Central đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
+    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Bình Doanh đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
     link: '/'
   },
   {
     img: "/images/tintuc3.jpg",
     title: "Bình doanh tổ chức workshop chào mừng ngày quốc tế phụ nữ 8/3",
     subTitle: "Hoạt động nội bộ | 07/03/2025",
-    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Central đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
+    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Bình Doanh đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
     link: '/'
   },
   {
     img: "/images/tintuc4.jpg",
     title: "Bình doanh tổ chức workshop chào mừng ngày quốc tế phụ nữ 8/3",
     subTitle: "Hoạt động nội bộ | 07/03/2025",
-    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Central đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
+    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Bình Doanh đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
     link: '/'
   },
   {
     img: "/images/tintuc5.jpg",
     title: "Bình doanh tổ chức workshop chào mừng ngày quốc tế phụ nữ 8/3",
     subTitle: "Hoạt động nội bộ | 07/03/2025",
-    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Central đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
+    desc: "Hòa trong không khí chào mừng ngày Quốc tế Phụ nữ 8/3, Công ty Cổ phần Xây dựng Bình Doanh đã tổ chức buổi lễ dành riêng cho Chị Em nhằm tri ân những cống hiến của phái đẹp. Buổi lễ...",
     link: '/'
   },
 ];

@@ -43,10 +43,10 @@ export default function TongQuan() {
           <div className="flex-1 p-10 bg-white text-gray-800">
             <div className="grid grid-cols-2 gap-y-4">
               <div className="font-semibold">Tên đầy đủ</div>
-              <div>CÔNG TY CỔ PHẦN XÂY DỰNG CENTRAL</div>
+              <div>CÔNG TY CỔ PHẦN XÂY DỰNG BÌNH DOANH</div>
 
               <div className="font-semibold">Tên viết tắt</div>
-              <div>CENTRAL</div>
+              <div>BÌNH DOANH</div>
 
               <div className="font-semibold">Mã số thuế</div>
               <div>031 447 66 89</div>
@@ -66,7 +66,7 @@ export default function TongQuan() {
                   href="https://centralcons.vn"
                   className="text-blue-500 hover:underline"
                 >
-                  centralcons.vn
+                  binhdoanh.vn
                 </a>
               </div>
 
@@ -76,7 +76,7 @@ export default function TongQuan() {
                   href="mailto:contact@centralcons.vn"
                   className="text-blue-500 hover:underline"
                 >
-                  contact@centralcons.vn
+                  contact@binhdoanh.vn
                 </a>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function TongQuan() {
               {'"Xây Dựng Niềm Tin, Kiến Tạo Giá Trị"'}
             </h2>
             <p className="text-gray-800 leading-relaxed mb-4">
-              CENTRAL được hình thành và phát triển với khát khao tạo dựng nên
+              BÌNH DOANH được hình thành và phát triển với khát khao tạo dựng nên
               những công trình kiến trúc kỳ vĩ có độ bền đến hàng thế kỷ.
             </p>
             <p className="text-gray-800 leading-relaxed mb-4">
@@ -98,11 +98,11 @@ export default function TongQuan() {
               thuần mà còn định hình một nền tảng sống tốt hơn. Chúng tôi tự hào
               góp phần trong việc phát triển đô thị gắn liền với các mục tiêu
               tăng trưởng kinh tế xã hội. Với tinh thần tiên phong, công nghệ
-              tiên tiến, CENTRAL từng bước nâng cao chất lượng cuộc sống, kiến
+              tiên tiến, BÌNH DOANH từng bước nâng cao chất lượng cuộc sống, kiến
               tạo vị thế lâu dài và bền vững tại Việt Nam và khu vực Đông Nam Á.
             </p>
             <p className="text-gray-800 leading-relaxed">
-              CENTRAL luôn dẫn đầu và khác biệt bởi sự uy tín, chính trực trong
+              BÌNH DOANH luôn dẫn đầu và khác biệt bởi sự uy tín, chính trực trong
               cam kết và cung cách làm việc chuyên nghiệp. Các dự án của chúng
               tôi luôn có tiến độ thi công ưu việt, chất lượng và thẩm mỹ cao.
             </p>

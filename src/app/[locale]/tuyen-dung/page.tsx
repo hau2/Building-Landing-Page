@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 const jobs = [
   {
@@ -34,7 +35,8 @@ const jobs = [
   {
     title: "Thực tập sinh Thiết Kế",
     salary: "Trợ cấp: 4tr/tháng",
-    location: "Newtecons Tower, 96 Phan Đăng Lưu, Phường 5, Quận Phú Nhuận, TPHCM",
+    location:
+      "Newtecons Tower, 96 Phan Đăng Lưu, Phường 5, Quận Phú Nhuận, TPHCM",
     tags: ["Điện lạnh", "Cơ điện"],
     image: "/images/job5.jpg",
   },
@@ -86,16 +88,17 @@ export default function TuyenDung() {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 p-10 text-white h-full">
           <h1 className="text-5xl h-full flex justify-center items-center">
-            Tuyển dụng
+            Tuyển Dụng
           </h1>
         </div>
       </div>
-      <div className="min-h-screen bg-gray-100 p-6">
+      <div className="min-h-screen bg-gray-100 p-6 flex flex-col items-center">
         <div className="max-w-3xl mx-auto space-y-4">
           {jobs.map((job, index) => (
             <JobCard key={index} job={job} />
           ))}
         </div>
+        <Button size={"lg"} className="mt-[32px]">Nộp CV Ngay</Button>
       </div>
     </div>
   );
