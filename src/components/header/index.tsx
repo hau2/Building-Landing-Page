@@ -72,7 +72,7 @@ export default function Header() {
                       </li>
                       <li>
                           <Link
-                              href={`/${currentLocale}`}
+                              href={`/${currentLocale}/tin-tuc`}
                               className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
                           >
                               {t("new")}
@@ -80,7 +80,7 @@ export default function Header() {
                       </li>
                       <li>
                           <Link
-                              href={`/${currentLocale}`}
+                              href={`/${currentLocale}/tuyen-dung`}
                               className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
                           >
                               {t("recruitment")}
