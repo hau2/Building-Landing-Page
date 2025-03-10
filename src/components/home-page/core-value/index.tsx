@@ -39,7 +39,7 @@ export default function CoreValuesPage() {
             <h1 className="text-3xl font-bold mb-4 text-[#DAB87A]">
                 GIÁ TRỊ CỐT LÕI
             </h1>
-            <p className="mb-12 italic text-gray-600">
+            <p className="mb-12 italic text-gray-600 text-lg">
                 {
                     "Trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm dinh dưỡng và sức khỏe phục vụ cuộc sống con người"
                 }
@@ -57,10 +57,10 @@ export default function CoreValuesPage() {
                             className="object-contain"
                         />
                         {/* </div> */}
-                        <h2 className="text-lg font-bold text-blue-800 mt-4 mb-2">
+                        <h2 className="text-lg font-bold text-blue-800 mt-4 mb-2 text-lg">
                             {item.title}
                         </h2>
-                        <p className="text-sm text-gray-600 max-w-xs">
+                        <p className="text-sm text-gray-600 max-w-xs text-lg">
                             {item.description}
                         </p>
                     </div>

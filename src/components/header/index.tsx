@@ -25,47 +25,71 @@ export default function Header() {
   console.log("currentLocale:", currentLocale);
 
   return (
-    <header>
-      <div className="z-[999] bg-white p-[8px] fixed shadow-2xs left-0 right-0 flex justify-between">
-        <div className="ml-20">
-          <Image src={"/images/mainlogo.jpg"} alt={"Bình Doanh"} width={200} height={80} style={{ objectFit: "cover" }} />
-        </div>
-        <div className="flex gap-[16px] flex-row items-center justify-between">
-          <ul className="flex gap-5 text-white">
-            <li>
-              <Link href={`/${currentLocale}`} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
-                {t("homePage")}
-              </Link>
-            </li>
-            <li>
-              <Link href={`/${currentLocale}/tong-quan`} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
-                Giới thiệu
-              </Link>
-            </li>
-            <li>
-              <Link href={`/${currentLocale}`} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
-                Năng lực thi công
-              </Link>
-            </li>
-            <li>
-              <Link href={`/${currentLocale}/du-an`} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
-                Dự án
-              </Link>
-            </li>
-            <li>
-              <Link href={`/${currentLocale}/tin-tuc`} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
-                Tin tức
-              </Link>
-            </li>
-            <li>
-              <Link href={`/${currentLocale}`} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
-                Tuyển dụng
-              </Link>
-            </li>
-          </ul>
-          <LanguageSwitcher />
-        </div>
-      </div>
-    </header>
+      <header>
+          <div className="z-[999] bg-white p-[8px] fixed shadow-2xs left-0 right-0 flex justify-between">
+              <div className="ml-20">
+                  <Image
+                      src={"/images/mainlogo.jpg"}
+                      alt={"Bình Doanh"}
+                      width={200}
+                      height={80}
+                      style={{ objectFit: "cover" }}
+                  />
+              </div>
+              <div className="flex gap-[16px] flex-row items-center justify-between">
+                  <ul className="flex gap-5 text-white">
+                      <li>
+                          <Link
+                              href={`/${currentLocale}`}
+                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+                          >
+                              {t("homePage")}
+                          </Link>
+                      </li>
+                      <li>
+                          <Link
+                              href={`/${currentLocale}/tong-quan`}
+                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+                          >
+                              {t("about")}
+                          </Link>
+                      </li>
+                      <li>
+                          <Link
+                              href={`/${currentLocale}`}
+                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+                          >
+                              {t("capacity")}
+                          </Link>
+                      </li>
+                      <li>
+                          <Link
+                              href={`/${currentLocale}/du-an`}
+                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+                          >
+                              {t("project")}
+                          </Link>
+                      </li>
+                      <li>
+                          <Link
+                              href={`/${currentLocale}`}
+                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+                          >
+                              {t("new")}
+                          </Link>
+                      </li>
+                      <li>
+                          <Link
+                              href={`/${currentLocale}`}
+                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+                          >
+                              {t("recruitment")}
+                          </Link>
+                      </li>
+                  </ul>
+                  <LanguageSwitcher />
+              </div>
+          </div>
+      </header>
   );
 }
