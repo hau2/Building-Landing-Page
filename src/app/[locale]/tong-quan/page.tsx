@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function TongQuan() {
   return (
     <div>
-      <div className="relative w-full h-[500px]">
+      <div className="relative w-full h-[300px]">
         <Image
           src="/images/duan.png"
           alt="Background"
@@ -120,7 +120,7 @@ export default function TongQuan() {
           </div>
         </div>
       </div>
-      <div className="pl-[32px] pr-[32px] my-[32px]">
+      <div className="p-[64px]">
         <h2 className="text-black/80 font-semibold text-[32px]">
           Nhân sự cấp cao
         </h2>

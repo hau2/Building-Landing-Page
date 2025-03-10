@@ -10,18 +10,18 @@ import TinTuc from "@/components/home-page/tintuc";
 import VisionMission from "@/components/home-page/vision";
 
 export default function Home() {
-    return (
-        <main>
-            <Intro />
-            <ThongSo />
-            <VisionMission/>
-            <CoreValuesPage/>
-            <DuAnNoiBat />
-            <TinTuc />
-            {/* <Section2/>
+  return (
+    <main>
+      <Intro />
+      <ThongSo />
+      <VisionMission />
+      <CoreValuesPage />
+      <DuAnNoiBat />
+      <TinTuc />
+      {/* <Section2/>
     <Section3 />
     <Section4 />
     <Section5 /> */}
-        </main>
-    );
+    </main>
+  );
 }

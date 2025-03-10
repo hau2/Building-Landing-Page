@@ -53,7 +53,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href={`/${currentLocale}`} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
+              <Link href={`/${currentLocale}/tin-tuc`} className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold">
                 Tin tức
               </Link>
             </li>
