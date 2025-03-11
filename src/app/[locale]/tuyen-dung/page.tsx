@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 
 const jobs = [
   {
@@ -98,7 +97,6 @@ export default function TuyenDung() {
             <JobCard key={index} job={job} />
           ))}
         </div>
-        <Button size={"lg"} className="mt-[32px]">Nộp CV Ngay</Button>
       </div>
     </div>
   );
