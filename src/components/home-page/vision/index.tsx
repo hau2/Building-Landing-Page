@@ -11,17 +11,14 @@ export default function VisionMission() {
                       TẦM NHÌN
                   </h1>
                   <p className="italic text-gray-600 max-w-lg text-lg">
-                      Trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản
-                      phẩm dinh dưỡng và sức khỏe phục vụ cuộc sống con người
+                  Trở thành biểu tượng uy tín hàng đầu Việt Nam trong lĩnh vực xây dựng và hạ tầng, đóng góp vào sự phát triển bền vững của đất nước.
                   </p>
 
                   <h2 className="mt-16 text-3xl font-bold text-[#003DA5]">
                       SỨ MỆNH
                   </h2>
                   <p className="italic text-gray-600 max-w-lg mt-4 text-lg">
-                      Vinamilk cam kết mang đến cho cộng đồng nguồn dinh dưỡng
-                      và sức khỏe tốt nhất, thông qua các sản phẩm chất lượng
-                      cao và dịch vụ xuất sắc.
+                  Chúng tôi cam kết cung cấp các giải pháp xây dựng chất lượng cao, đáp ứng nhu cầu xã hội, đảm bảo an toàn và tính bền vững cho mọi dự án.
                   </p>
               </div>
               <Image

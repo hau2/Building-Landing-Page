@@ -4,31 +4,31 @@ const values = [
     {
         title: "CHÍNH TRỰC",
         description:
-            "Liêm chính, Trung thực trong ứng xử và trong tất cả các giao dịch.",
+            "Trung thực và minh bạch trong mọi hoạt động, xây dựng niềm tin với khách hàng và đối tác thông qua sự chuyên nghiệp.",
         icon: "/images/chinh-truc.png",
     },
     {
         title: "TÔN TRỌNG",
         description:
-            "Tôn trọng bản thân, Tôn trọng đồng nghiệp, Tôn trọng Công ty, Tôn trọng đối tác, Hợp tác trong sự tôn trọng.",
+            "Tôn trọng khách hàng, nhân viên, đối tác và các bên liên quan, tạo dựng môi trường hợp tác và hỗ trợ lẫn nhau.",
         icon: "/images/ton-trong.png",
     },
     {
         title: "CÔNG BẰNG",
         description:
-            "Công bằng với nhân viên, khách hàng, nhà cung cấp và các bên liên quan khác.",
+            "Cung cấp dịch vụ công bằng cho khách hàng, nhân viên và các đối tác kinh doanh, đảm bảo sự phát triển và lợi ích chung.",
         icon: "/images/cong-bang.png",
     },
     {
         title: "ĐẠO ĐỨC",
         description:
-            "Tôn trọng các tiêu chuẩn đã được thiết lập và hành động một cách đạo đức.",
+            "Tuân thủ các tiêu chuẩn đạo đức cao, giữ gìn các giá trị đạo đức trong mọi hoạt động của công ty.",
         icon: "/images/dao-duc.png",
     },
     {
         title: "TUÂN THỦ",
         description:
-            "Tuân thủ Luật pháp, Bộ Quy Tắc Ứng Xử và các quy chế, chính sách, quy định của Công ty.",
+            "Chấp hành đầy đủ các quy định của pháp luật, bộ quy tắc ứng xử và các chính sách, quy định của công ty để duy trì sự chuyên nghiệp và trách nhiệm.",
         icon: "/images/tuan-thu.png",
     },
 ];
