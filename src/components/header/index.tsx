@@ -6,6 +6,7 @@ import Image from "next/image";
 import LanguageSwitcher from "../languageSwitcher";
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation"; // ✅ Dùng `next/navigation`
+import { Button } from "@/components/ui/button";
 
 export default function Header() {
   const t = useTranslations("HomePage");
@@ -25,71 +26,82 @@ export default function Header() {
   console.log("currentLocale:", currentLocale);
 
   return (
-      <header>
-          <div className="z-[999] bg-white p-[8px] fixed shadow-2xs left-0 right-0 flex justify-between">
-              <div className="ml-20">
-                  <Image
-                      src={"/images/mainlogo.jpg"}
-                      alt={"Bình Doanh"}
-                      width={200}
-                      height={80}
-                      style={{ objectFit: "cover" }}
-                  />
-              </div>
-              <div className="flex gap-[16px] flex-row items-center justify-between">
-                  <ul className="flex gap-5 text-white">
-                      <li>
-                          <Link
-                              href={`/${currentLocale}`}
-                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
-                          >
-                              {t("homePage")}
-                          </Link>
-                      </li>
-                      <li>
-                          <Link
-                              href={`/${currentLocale}/tong-quan`}
-                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
-                          >
-                              {t("about")}
-                          </Link>
-                      </li>
-                      <li>
-                          <Link
-                              href={`/${currentLocale}`}
-                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
-                          >
-                              {t("capacity")}
-                          </Link>
-                      </li>
-                      <li>
-                          <Link
-                              href={`/${currentLocale}/du-an`}
-                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
-                          >
-                              {t("project")}
-                          </Link>
-                      </li>
-                      <li>
-                          <Link
-                              href={`/${currentLocale}/tin-tuc`}
-                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
-                          >
-                              {t("new")}
-                          </Link>
-                      </li>
-                      <li>
-                          <Link
-                              href={`/${currentLocale}/tuyen-dung`}
-                              className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
-                          >
-                              {t("recruitment")}
-                          </Link>
-                      </li>
-                  </ul>
-                  <LanguageSwitcher />
-              </div>
+    <header>
+      <div className="z-[999] bg-white p-[8px] fixed shadow-2xs left-0 right-0 flex justify-between">
+        <div className="ml-20">
+          <Image
+            src={"/images/mainlogo.jpg"}
+            alt={"Bình Doanh"}
+            width={200}
+            height={80}
+            style={{ objectFit: "cover" }}
+          />
+        </div>
+        <div className="flex gap-[16px] flex-row items-center justify-between">
+          <ul className="flex gap-5 text-white">
+            <li>
+              <Link
+                href={`/${currentLocale}`}
+                className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+              >
+                {t("homePage")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={`/${currentLocale}/tong-quan`}
+                className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+              >
+                {t("about")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={`/${currentLocale}`}
+                className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+              >
+                {t("capacity")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={`/${currentLocale}/du-an`}
+                className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+              >
+                {t("project")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={`/${currentLocale}/tin-tuc`}
+                className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+              >
+                {t("new")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={`/${currentLocale}/tuyen-dung`}
+                className="uppercase text-[14px] hover:text-yellow-600 text-black/70 font-semibold"
+              >
+                {t("recruitment")}
+              </Link>
+            </li>
+          </ul>
+          <LanguageSwitcher />
+          <div className="flex items-center justify-center">
+            <Button size={"lg"} className="m-auto">
+              <a
+                href="https://pwa-app.leconghau.id.vn/BINH_DOANH_GROUP.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                E-Brochure
+              </a>
+            </Button>
           </div>
-      </header>
+        </div>
+      </div>
+    </header>
   );
 }

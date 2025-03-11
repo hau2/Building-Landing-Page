@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default function TongQuan() {
   return (
@@ -90,21 +91,23 @@ export default function TongQuan() {
               {'"Xây Dựng Niềm Tin, Kiến Tạo Giá Trị"'}
             </h2>
             <p className="text-gray-800 leading-relaxed mb-4">
-              BÌNH DOANH được hình thành và phát triển với khát khao tạo dựng nên
-              những công trình kiến trúc kỳ vĩ có độ bền đến hàng thế kỷ.
+              BÌNH DOANH được hình thành và phát triển với khát khao tạo dựng
+              nên những công trình kiến trúc kỳ vĩ có độ bền đến hàng thế kỷ.
             </p>
             <p className="text-gray-800 leading-relaxed mb-4">
               Sứ mệnh của chúng tôi qua mỗi dự án không chỉ là xây dựng đơn
               thuần mà còn định hình một nền tảng sống tốt hơn. Chúng tôi tự hào
               góp phần trong việc phát triển đô thị gắn liền với các mục tiêu
               tăng trưởng kinh tế xã hội. Với tinh thần tiên phong, công nghệ
-              tiên tiến, BÌNH DOANH từng bước nâng cao chất lượng cuộc sống, kiến
-              tạo vị thế lâu dài và bền vững tại Việt Nam và khu vực Đông Nam Á.
+              tiên tiến, BÌNH DOANH từng bước nâng cao chất lượng cuộc sống,
+              kiến tạo vị thế lâu dài và bền vững tại Việt Nam và khu vực Đông
+              Nam Á.
             </p>
             <p className="text-gray-800 leading-relaxed">
-              BÌNH DOANH luôn dẫn đầu và khác biệt bởi sự uy tín, chính trực trong
-              cam kết và cung cách làm việc chuyên nghiệp. Các dự án của chúng
-              tôi luôn có tiến độ thi công ưu việt, chất lượng và thẩm mỹ cao.
+              BÌNH DOANH luôn dẫn đầu và khác biệt bởi sự uy tín, chính trực
+              trong cam kết và cung cách làm việc chuyên nghiệp. Các dự án của
+              chúng tôi luôn có tiến độ thi công ưu việt, chất lượng và thẩm mỹ
+              cao.
             </p>
           </div>
 
@@ -148,7 +151,53 @@ export default function TongQuan() {
             </Link>
           </div>
         </div>
-        <div className="my-[16px] flex flex-row items-center justify-center gap-[32px]">
+        <div className="my-[16px] flex flex-row items-center justify-center gap-[64px]">
+          <div className="flex flex-col items-center">
+            <div className="w-[200px] h-[200px] rounded-[50%] bg-amber-600 overflow-hidden border-8 shadow-2xl">
+              <Image
+                src={"/images/nhansu1.png"}
+                width={200}
+                height={200}
+                alt="nhansu"
+              />
+            </div>
+            <h5 className="font-semibold text-[16px] text-orange-800/70">
+              Trần Quang Tuấn
+            </h5>
+            <p className="font-semibold text-black/60 text-[14px] mt-[8px]">
+              Giám đốc điều hành
+            </p>
+            <Link
+              className="text-[14px] text-blue-800 italic font-semibold"
+              href={"/"}
+            >
+              Xem thêm
+            </Link>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="w-[200px] h-[200px] rounded-[50%] bg-amber-600 overflow-hidden border-8 shadow-2xl">
+              <Image
+                src={"/images/nhansu1.png"}
+                width={200}
+                height={200}
+                alt="nhansu"
+              />
+            </div>
+            <h5 className="font-semibold text-[16px] text-orange-800/70">
+              Trần Quang Tuấn
+            </h5>
+            <p className="font-semibold text-black/60 text-[14px] mt-[8px]">
+              Giám đốc điều hành
+            </p>
+            <Link
+              className="text-[14px] text-blue-800 italic font-semibold"
+              href={"/"}
+            >
+              Xem thêm
+            </Link>
+          </div>
+        </div>
+        <div className="my-[16px] flex flex-row items-center justify-center gap-[64px]">
           <div className="flex flex-col items-center">
             <div className="w-[200px] h-[200px] rounded-[50%] bg-amber-600 overflow-hidden border-8 shadow-2xl">
               <Image
@@ -216,118 +265,18 @@ export default function TongQuan() {
             </Link>
           </div>
         </div>
-        <div className="my-[16px] flex flex-row items-center justify-center gap-[32px]">
-          <div className="flex flex-col items-center">
-            <div className="w-[200px] h-[200px] rounded-[50%] bg-amber-600 overflow-hidden border-8 shadow-2xl">
-              <Image
-                src={"/images/nhansu1.png"}
-                width={200}
-                height={200}
-                alt="nhansu"
-              />
-            </div>
-            <h5 className="font-semibold text-[16px] text-orange-800/70">
-              Trần Quang Tuấn
-            </h5>
-            <p className="font-semibold text-black/60 text-[14px] mt-[8px]">
-              Giám đốc điều hành
-            </p>
-            <Link
-              className="text-[14px] text-blue-800 italic font-semibold"
-              href={"/"}
-            >
-              Xem thêm
-            </Link>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="w-[200px] h-[200px] rounded-[50%] bg-amber-600 overflow-hidden border-8 shadow-2xl">
-              <Image
-                src={"/images/nhansu1.png"}
-                width={200}
-                height={200}
-                alt="nhansu"
-              />
-            </div>
-            <h5 className="font-semibold text-[16px] text-orange-800/70">
-              Trần Quang Tuấn
-            </h5>
-            <p className="font-semibold text-black/60 text-[14px] mt-[8px]">
-              Giám đốc điều hành
-            </p>
-            <Link
-              className="text-[14px] text-blue-800 italic font-semibold"
-              href={"/"}
-            >
-              Xem thêm
-            </Link>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="w-[200px] h-[200px] rounded-[50%] bg-amber-600 overflow-hidden border-8 shadow-2xl">
-              <Image
-                src={"/images/nhansu1.png"}
-                width={200}
-                height={200}
-                alt="nhansu"
-              />
-            </div>
-            <h5 className="font-semibold text-[16px] text-orange-800/70">
-              Trần Quang Tuấn
-            </h5>
-            <p className="font-semibold text-black/60 text-[14px] mt-[8px]">
-              Giám đốc điều hành
-            </p>
-            <Link
-              className="text-[14px] text-blue-800 italic font-semibold"
-              href={"/"}
-            >
-              Xem thêm
-            </Link>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="w-[200px] h-[200px] rounded-[50%] bg-amber-600 overflow-hidden border-8 shadow-2xl">
-              <Image
-                src={"/images/nhansu1.png"}
-                width={200}
-                height={200}
-                alt="nhansu"
-              />
-            </div>
-            <h5 className="font-semibold text-[16px] text-orange-800/70">
-              Trần Quang Tuấn
-            </h5>
-            <p className="font-semibold text-black/60 text-[14px] mt-[8px]">
-              Giám đốc điều hành
-            </p>
-            <Link
-              className="text-[14px] text-blue-800 italic font-semibold"
-              href={"/"}
-            >
-              Xem thêm
-            </Link>
-          </div>
-          <div className="flex flex-col items-center">
-            <div className="w-[200px] h-[200px] rounded-[50%] bg-amber-600 overflow-hidden border-8 shadow-2xl">
-              <Image
-                src={"/images/nhansu1.png"}
-                width={200}
-                height={200}
-                alt="nhansu"
-              />
-            </div>
-            <h5 className="font-semibold text-[16px] text-orange-800/70">
-              Trần Quang Tuấn
-            </h5>
-            <p className="font-semibold text-black/60 text-[14px] mt-[8px]">
-              Giám đốc điều hành
-            </p>
-            <Link
-              className="text-[14px] text-blue-800 italic font-semibold"
-              href={"/"}
-            >
-              Xem thêm
-            </Link>
-          </div>
-        </div>
+      </div>
+
+      <div className="p-[32px] flex items-center justify-center">
+        <a
+          href="https://pwa-app.leconghau.id.vn/BINH_DOANH_GROUP.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className="m-auto h-[60px] w-[150px] rounded-2xl">
+            E-Brochure
+          </Button>
+        </a>
       </div>
     </div>
   );
