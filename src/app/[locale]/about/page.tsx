@@ -76,17 +76,21 @@ export default function TongQuan() {
               {'"Xây Dựng Niềm Tin, Kiến Tạo Giá Trị"'}
             </h2>
             <p className="text-gray-800 leading-relaxed mb-4">
-              BÌNH DOANH được hình thành và phát triển với khát khao tạo dựng
-              nên những công trình kiến trúc kỳ vĩ có độ bền đến hàng thế kỷ.
+              Công ty cổ phần tư vấn thiết kế xây dựng Bình Doanh được thành lập
+              năm 2006, tự hào là đơn vị dẫn đầu khu vực trong việc ứng dụng các
+              giải pháp công nghệ hiện đại vào lĩnh vực xây dựng, nhằm mang đến
+              cho khách hàng những công trình chất lượng cao, thân thiện với môi
+              trường và tiết kiệm chi phí.
             </p>
             <p className="text-gray-800 leading-relaxed mb-4">
-              Sứ mệnh của chúng tôi qua mỗi dự án không chỉ là xây dựng đơn
-              thuần mà còn định hình một nền tảng sống tốt hơn. Chúng tôi tự hào
-              góp phần trong việc phát triển đô thị gắn liền với các mục tiêu
-              tăng trưởng kinh tế xã hội. Với tinh thần tiên phong, công nghệ
-              tiên tiến, BÌNH DOANH từng bước nâng cao chất lượng cuộc sống,
-              kiến tạo vị thế lâu dài và bền vững tại Việt Nam và khu vực Đông
-              Nam Á.
+              Đội ngũ kỹ sư giàu kinh nghiệm của chúng tôi luôn nỗ lực nghiên
+              cứu và triển khai các công nghệ mới như hệ thống mô phỏng dự án
+              (BIM), giúp quản lý hiệu quả toàn bộ quy trình từ giai đoạn thiết
+              kế đến khi hoàn thiện, giảm thiểu rủi ro và tối ưu thời gian. Đến
+              với Bình Doanh, quý khách sẽ được tư vấn về thủ tục pháp lý, lựa
+              chọn vật tư, giá cả xây dựng và sẽ được miễn giảm phần trăm chi
+              phí thiết kế nếu các chủ đầu tư chọn công ty Bình Doanh chúng tôi
+              là đơn vị nhà thầu thi công.
             </p>
             <p className="text-gray-800 leading-relaxed">
               BÌNH DOANH luôn dẫn đầu và khác biệt bởi sự uy tín, chính trực
@@ -107,7 +111,7 @@ export default function TongQuan() {
             />
           </div>
         </div>
-      </div>    
+      </div>
 
       <div className="p-[32px] flex items-center justify-center">
         <a
