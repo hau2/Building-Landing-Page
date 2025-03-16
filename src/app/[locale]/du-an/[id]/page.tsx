@@ -1,11 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
 import { IDuAn } from "@/components/du-an/du-an-item";
 
 export default function DuAnDetail() {
-    const router = useRouter();
-    const { slug } = router.query;
+    // const router = useRouter();
+    // const { slug } = router.query;
     const [item, setItem] = useState<IDuAn | null>(null);
 
     useEffect(() => {
@@ -94,7 +93,7 @@ export default function DuAnDetail() {
                                 ⚙️ Gói thầu
                             </h4>
                             <p className="text-gray-800">
-                                {item?.goithau || "Tổng thầu"}
+                                {item?.constructionPackage || "Tổng thầu"}
                             </p>
                         </div>
                     </div>

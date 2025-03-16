@@ -14,7 +14,8 @@ export interface IDuAn {
   businessSector: string;
   constructionPeriod: string;
   detailImages: string[];
-  status: string
+  status: string;
+  constructionPackage?: string;
 }
 
 export default function DuAnItem(props: Readonly<{ item: IDuAn }>) {
