@@ -55,20 +55,6 @@ export default function Header() {
     {
       title: t("project"),
       link: `/${currentLocale}/du-an`,
-      subMenu: [
-        {
-          title: "Dự án nổi bật",
-          link: `/${currentLocale}/du-an`,
-        },
-        {
-          title: "Dự án trong nước",
-          link: `/${currentLocale}/du-an`,
-        },
-        {
-          title: "Dự án quốc tế",
-          link: `/${currentLocale}/du-an`,
-        },
-      ],
     },
     {
       title: t("capacity"),
