@@ -73,21 +73,7 @@ export default function Header() {
     { title: t("new"), link: `/${currentLocale}/tin-tuc` },
     {
       title: t("recruitment"),
-      link: `/${currentLocale}/tuyen-dung`,
-      subMenu: [
-        {
-          title: "Cơ hội nghề nghiệp",
-          link: `/${currentLocale}/tuyen-dung`,
-        },
-        {
-          title: "Chính sách nhân sự",
-          link: `/${currentLocale}/tuyen-dung`,
-        },
-        {
-          title: "Vcông ty",
-          link: `/${currentLocale}/tuyen-dung`,
-        },
-      ],
+      link: `/${currentLocale}/tuyen-dung`
     },
   ];
 
