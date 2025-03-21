@@ -42,7 +42,7 @@ export default function DuAnItem(props: Readonly<{ item: IDuAn }>) {
             height={300}
             className="w-full h-full object-cover transition-opacity duration-500 ease-in-out"
           />
-          <div className="absolute inset-0 bg-black/20 transition-opacity duration-500 ease-in-out hover:bg-black/60"></div>
+          <div className="absolute inset-0 bg-black/2 transition-opacity duration-500 ease-in-out hover:bg-black/20"></div>
           {!isHovered && (
             <div className="absolute bottom-0 left-0 p-4 text-white transition-all duration-500 ease-in-out">
               <h3 className="font-bold text-xl">{props.item.name}</h3>

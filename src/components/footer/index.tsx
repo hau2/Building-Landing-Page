@@ -1,6 +1,6 @@
 // components/Footer.tsx
 
-import { MapPin, Mail, Phone, Facebook } from 'lucide-react';
+import { MapPin, Mail, Phone, Facebook } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -9,10 +9,10 @@ export default function Footer() {
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
                 <div>
                     <Image
-                        src={"/images/mainlogo.jpg"}
+                        src={"/images/logo-new.png"}
                         alt={"Bình Doanh"}
-                        width={200}
-                        height={80}
+                        width={300}
+                        height={180}
                         style={{
                             objectFit: "cover",
                             backgroundColor: "transparent",

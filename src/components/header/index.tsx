@@ -24,57 +24,57 @@ export default function Header() {
   }, [pathname]);
 
   const menuItems = [
-    { title: t("homePage"), link: `/${currentLocale}` },
-    {
-      title: t("about"),
-      link: `/${currentLocale}/about`,
-      subMenu: [
-        { title: "Tổng Quan", link: `/${currentLocale}/about` },
-        {
-          title: "Thông điệp Chủ tịch",
-          link: `/${currentLocale}/thong-diep`,
-        },
-        {
-          title: "Tầm nhìn, giá trị cốt lõi",
-          link: `/${currentLocale}/tam-nhin`,
-        },
-        {
-          title: "Nhân sự cấp cao",
-          link: `/${currentLocale}/tong-quan/nhan-su-cap-cao`,
-        },
-        {
-          title: "Chứng nhận và giải thưởng",
-          link: `/${currentLocale}/chung-nhan`,
-        },
-        {
-          title: "Đối tác và khách hàng",
-          link: `/${currentLocale}/doi-tac`,
-        },
-      ],
-    },
-    {
-      title: t("project"),
-      link: `/${currentLocale}/du-an`,
-    },
-    {
-      title: t("capacity"),
-      link: `/${currentLocale}/construction-capacity/our-business-lines`,
-      subMenu: [
-        {
-          title: "Lĩnh vực thi công",
+      { title: t("homePage"), link: `/${currentLocale}` },
+      {
+          title: t("about"),
+          link: `/${currentLocale}/about`,
+          subMenu: [
+              { title: "Tổng Quan", link: `/${currentLocale}/about` },
+              {
+                  title: "Thông điệp Chủ tịch",
+                  link: `/${currentLocale}/about/foreword`,
+              },
+              {
+                  title: "Tầm nhìn, giá trị cốt lõi",
+                  link: `/${currentLocale}/about/core-vision`,
+              },
+              {
+                  title: "Nhân sự cấp cao",
+                  link: `/${currentLocale}/about/staff`,
+              },
+              {
+                  title: "Chứng nhận và giải thưởng",
+                  link: `/${currentLocale}/about/award`,
+              },
+              {
+                  title: "Đối tác và khách hàng",
+                  link: `/${currentLocale}/about/customer`,
+              },
+          ],
+      },
+      {
+          title: t("project"),
+          link: `/${currentLocale}/du-an`,
+      },
+      {
+          title: t("capacity"),
           link: `/${currentLocale}/construction-capacity/our-business-lines`,
-        },
-        {
-          title: "Hình ảnh dự án",
-          link: `/${currentLocale}/construction-capacity/construction-gallery`,
-        }
-      ],
-    },
-    { title: t("new"), link: `/${currentLocale}/tin-tuc` },
-    {
-      title: t("recruitment"),
-      link: `/${currentLocale}/tuyen-dung`
-    },
+          subMenu: [
+              {
+                  title: "Lĩnh vực thi công",
+                  link: `/${currentLocale}/construction-capacity/our-business-lines`,
+              },
+              {
+                  title: "Hình ảnh dự án",
+                  link: `/${currentLocale}/construction-capacity/construction-gallery`,
+              },
+          ],
+      },
+      { title: t("new"), link: `/${currentLocale}/tin-tuc` },
+      {
+          title: t("recruitment"),
+          link: `/${currentLocale}/tuyen-dung`,
+      },
   ];
 
   return (
