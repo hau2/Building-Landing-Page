@@ -60,7 +60,7 @@ export default function TuyenDung() {
       <div className="bg-gray-100 min-h-screen p-6">
         {/* Header */}
         <header className="bg-white p-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Bình Doanh Tuyển Dụng</h1>
+          <h1 className="text-2xl text-[#152E51] font-bold">Bình Doanh Tuyển Dụng</h1>
         </header>
 
         {/* Environment and Career Opportunities Section */}
@@ -68,7 +68,7 @@ export default function TuyenDung() {
           {/* Work Environment Section */}
           <section className="bg-white p-6 rounded-lg shadow-md grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
             <div>
-              <h2 className="text-2xl font-bold text-blue-700">
+              <h2 className="text-2xl font-bold text-[#152E51]">
                 MÔI TRƯỜNG LÀM VIỆC
               </h2>
               <p className="text-gray-600 mt-4">
@@ -107,7 +107,7 @@ export default function TuyenDung() {
               />
             </div>
             <div>
-              <h2 className="text-2xl font-bold text-blue-700">
+              <h2 className="text-2xl font-bold text-[#152E51]">
                 CƠ HỘI NGHỀ NGHIỆP
               </h2>
               <p className="text-gray-600 mt-4">
@@ -124,7 +124,7 @@ export default function TuyenDung() {
           </section>
 
           {/* Human Resource Strategy Section */}
-          <section className="relative bg-blue-800/80 py-12 text-center text-white">
+          <section className="relative bg-[#152E51] py-12 text-center text-white">
             <h2 className="text-3xl font-bold">CHIẾN LƯỢC NHÂN SỰ</h2>
           </section>
           <section className="relative max-w-5xl mx-auto -mt-10 bg-white p-6 rounded-lg shadow-lg">
@@ -164,13 +164,13 @@ export default function TuyenDung() {
           </section>
 
           <section className="max-w-6xl mx-auto mt-12 bg-white p-6 rounded-lg shadow-lg">
-            <h2 className="text-3xl font-bold text-center text-blue-800 mb-6">
+            <h2 className="text-3xl font-bold text-center text-[#152E51] mb-6">
               VỊ TRÍ ĐANG TUYỂN
             </h2>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse border border-blue-800">
+              <table className="w-full border-collapse border border-[#152E51]">
                 <thead>
-                  <tr className="bg-blue-800 text-white text-left">
+                  <tr className="bg-[#152E51] text-white text-left">
                     <th className="border border-white p-2">STT</th>
                     <th className="border border-white p-2">
                       VỊ TRÍ TUYỂN DỤNG

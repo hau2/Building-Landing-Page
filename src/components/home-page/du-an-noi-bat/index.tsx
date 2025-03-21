@@ -195,28 +195,28 @@ export default function DuAnNoiBat() {
                                               <h5 className="font-semibold text-[24px] text-center text-white">
                                                   {item.name}
                                               </h5>
-                                              <div className="flex flex-col gap-[16px] pt-8">
-                                                  <div className="flex flex-row w-full gap-[2px]">
-                                                      <p className="flex-1 text-[18px]">
+                                              <div className="flex flex-col gap-[16px] pt-1">
+                                                  <div className="flex flex-row w-full">
+                                                      <p className="flex-1 text-[14px]">
                                                           Nhà đầu tư:
                                                       </p>
-                                                      <p className="flex-1 text-[18px]">
+                                                      <p className="flex-1 text-[14px]">
                                                           {item.businessSector}
                                                       </p>
                                                   </div>
                                                   <div className="flex flex-row w-full gap-[8px]">
-                                                      <p className="flex-1 text-[18px]">
+                                                      <p className="flex-1 text-[14px]">
                                                           Vị trí:
                                                       </p>
-                                                      <p className="flex-1 text-[18px]">
+                                                      <p className="flex-1 text-[14px]">
                                                           {item.address}
                                                       </p>
                                                   </div>
                                                   <div className="flex flex-row w-full gap-[8px]">
-                                                      <p className="flex-1 text-[18px]">
+                                                      <p className="flex-1 text-[14px]">
                                                           Tổng mức đầu tư:
                                                       </p>
-                                                      <p className="flex-1 text-[18px]">
+                                                      <p className="flex-1 text-[14px]">
                                                           {item.totalInvestment}
                                                       </p>
                                                   </div>
