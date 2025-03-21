@@ -196,7 +196,7 @@ export default function Staff() {
 
       <h2 className="text-4xl font-bold text-white bg-blue-900 py-4 px-6 rounded-lg mb-6">BỘ MÁY CÔNG TY</h2>
       
-      <div className="grid grid-cols-2 gap-6 w-full max-w-6xl">
+      <div className="grid grid-cols-2 gap-6 w-full">
         {/* Left Section - Organization Structure */}
         <div className="bg-blue-900 text-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold mb-4">CÁC BỘ PHẬN CHÍNH</h3>

@@ -3,39 +3,43 @@ import React from "react";
 import Image from "next/image";
 
 export default function TuyenDung() {
-  const jobListings = [
-    {
-      stt: 1,
-      position: "Kỹ sư xây dựng",
-      location: "Hà Nội",
-      quantity: 5,
-      deadline: "30/04/2025",
-      details: "Yêu cầu: Tốt nghiệp đại học chuyên ngành xây dựng, có ít nhất 3 năm kinh nghiệm, biết sử dụng AutoCAD, SAP2000. Công việc: Giám sát công trình, lập báo cáo kỹ thuật, đảm bảo tiến độ xây dựng."
-    },
-    {
-      stt: 2,
-      position: "Kỹ sư cơ khí",
-      location: "TP. Hồ Chí Minh",
-      quantity: 3,
-      deadline: "15/05/2025",
-      details: "Yêu cầu: Tốt nghiệp chuyên ngành cơ khí, biết sử dụng phần mềm thiết kế SolidWorks, AutoCAD. Công việc: Thiết kế và lắp đặt hệ thống cơ khí, giám sát chất lượng sản xuất."
-    },
-    {
-      stt: 3,
-      position: "Kỹ sư điện",
-      location: "Đà Nẵng",
-      quantity: 4,
-      deadline: "10/06/2025",
-      details: "Yêu cầu: Có bằng đại học ngành điện, có kinh nghiệm lắp đặt hệ thống điện tòa nhà. Công việc: Thiết kế hệ thống điện, bảo trì và xử lý sự cố."
-    },
-    {
-      stt: 4,
-      position: "Công nhân xây dựng",
-      location: "Bình Dương",
-      quantity: 10,
-      deadline: "15/06/2025",
-      details: "Yêu cầu: Có sức khỏe tốt, kinh nghiệm làm công trình xây dựng. Công việc: Hỗ trợ thi công, vận chuyển vật liệu, đảm bảo an toàn lao động."
-    }
+  const jobListings: any[] = [
+    // {
+    //   stt: 1,
+    //   position: "Kỹ sư xây dựng",
+    //   location: "Hà Nội",
+    //   quantity: 5,
+    //   deadline: "30/04/2025",
+    //   details:
+    //     "Yêu cầu: Tốt nghiệp đại học chuyên ngành xây dựng, có ít nhất 3 năm kinh nghiệm, biết sử dụng AutoCAD, SAP2000. Công việc: Giám sát công trình, lập báo cáo kỹ thuật, đảm bảo tiến độ xây dựng.",
+    // },
+    // {
+    //   stt: 2,
+    //   position: "Kỹ sư cơ khí",
+    //   location: "TP. Hồ Chí Minh",
+    //   quantity: 3,
+    //   deadline: "15/05/2025",
+    //   details:
+    //     "Yêu cầu: Tốt nghiệp chuyên ngành cơ khí, biết sử dụng phần mềm thiết kế SolidWorks, AutoCAD. Công việc: Thiết kế và lắp đặt hệ thống cơ khí, giám sát chất lượng sản xuất.",
+    // },
+    // {
+    //   stt: 3,
+    //   position: "Kỹ sư điện",
+    //   location: "Đà Nẵng",
+    //   quantity: 4,
+    //   deadline: "10/06/2025",
+    //   details:
+    //     "Yêu cầu: Có bằng đại học ngành điện, có kinh nghiệm lắp đặt hệ thống điện tòa nhà. Công việc: Thiết kế hệ thống điện, bảo trì và xử lý sự cố.",
+    // },
+    // {
+    //   stt: 4,
+    //   position: "Công nhân xây dựng",
+    //   location: "Bình Dương",
+    //   quantity: 10,
+    //   deadline: "15/06/2025",
+    //   details:
+    //     "Yêu cầu: Có sức khỏe tốt, kinh nghiệm làm công trình xây dựng. Công việc: Hỗ trợ thi công, vận chuyển vật liệu, đảm bảo an toàn lao động.",
+    // },
   ];
   return (
     <div>
@@ -68,7 +72,7 @@ export default function TuyenDung() {
                 MÔI TRƯỜNG LÀM VIỆC
               </h2>
               <p className="text-gray-600 mt-4">
-                DVSM mong muốn tạo nên môi trường làm việc kỷ luật, văn hóa, đề
+                BÌNH DOANH mong muốn tạo nên môi trường làm việc kỷ luật, văn hóa, đề
                 cao tính nhân văn. Tại đây, mỗi nhân viên được quan tâm tạo điều
                 kiện để rèn luyện, phát triển bản thân và thăng tiến trong sự
                 nghiệp.
@@ -107,7 +111,7 @@ export default function TuyenDung() {
                 CƠ HỘI NGHỀ NGHIỆP
               </h2>
               <p className="text-gray-600 mt-4">
-                Tại DVSM, một vị trí nhân sự đồng nghĩa với một sự nghiệp được
+                Tại BÌNH DOANH, một vị trí nhân sự đồng nghĩa với một sự nghiệp được
                 xây dựng bởi chính Bạn, cùng những cơ hội phát triển, lợi ích và
                 một môi trường làm việc thỏa sức sáng tạo.
               </p>
@@ -135,9 +139,9 @@ export default function TuyenDung() {
             </div>
             <div className="relative p-6 bg-white rounded-lg shadow-md -mt-36">
               <p className="text-gray-700">
-                Tại <strong>DVSM</strong>, nguồn nhân lực là nền tảng vững chắc
+                Tại <strong>BÌNH DOANH</strong>, nguồn nhân lực là nền tảng vững chắc
                 giúp Công ty không ngừng tạo nên những giá trị gia tăng hiệu quả
-                cho khách hàng và xã hội. Do đó, <strong>DVSM</strong> luôn đặt
+                cho khách hàng và xã hội. Do đó, <strong>BÌNH DOANH</strong> luôn đặt
                 ra mục tiêu dài hạn và tầm nhìn trong việc xây dựng các giá trị
                 văn hóa doanh nghiệp.
               </p>
@@ -145,14 +149,14 @@ export default function TuyenDung() {
                 Chúng tôi luôn tự hào về một đội ngũ nhân sự{" "}
                 <strong>CHUYÊN NGHIỆP - NĂNG ĐỘNG - TÂM HUYẾT</strong> trong
                 công việc và đặc biệt không ngừng sáng tạo để kiến tạo những sản
-                phẩm chất lượng mang thương hiệu DVSM.
+                phẩm chất lượng mang thương hiệu BÌNH DOANH.
               </p>
               <p className="text-gray-700 mt-2">
                 Với hệ giá trị cốt lõi{" "}
                 <strong>
                   “PHÁT TRIỂN BỀN VỮNG - TIN TƯỞNG ĐỒNG HÀNH - HÀI HÒA LỢI ÍCH”
                 </strong>
-                , DVSM luôn nỗ lực tạo dựng môi trường làm việc tốt nhất, thu
+                , BÌNH DOANH luôn nỗ lực tạo dựng môi trường làm việc tốt nhất, thu
                 hút nhân tài không chỉ bằng chế độ lương thưởng mà còn bằng cơ
                 hội phát triển năng lực chuyên môn.
               </p>
