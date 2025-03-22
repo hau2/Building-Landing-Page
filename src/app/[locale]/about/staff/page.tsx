@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Staff() {
   return (
-    <div className="p-[32px]">
-      <h2 className="text-4xl font-bold text-white bg-blue-900 py-4 px-6 rounded-lg mb-6">
-        SƠ ĐỒ TỔ CHỨC
+    <div className="py-16 px-4 md:px-12 lg:px-24 bg-white">
+      <h2 className="text-4xl font-bold text-[#152E51] mb-10 border-b pb-4">
+        Sơ đồ tổ chức
       </h2>
       <div className="relative w-full h-[500px] overflow-hidden">
         <Image
@@ -16,8 +16,8 @@ export default function Staff() {
         />
       </div>
 
-      <h2 className="text-4xl font-bold text-white bg-blue-900 py-4 px-6 rounded-lg mb-6">
-        NHÂN SỰ CẤP CAO
+      <h2 className="text-4xl font-bold text-[#152E51] mb-10 border-b pb-4">
+        Nhân sự cấp cao
       </h2>
       <div className="my-[64px] flex flex-row items-center justify-center gap-[32px]">
         <div className="flex flex-col items-center">

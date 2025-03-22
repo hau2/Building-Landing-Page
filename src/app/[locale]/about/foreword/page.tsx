@@ -31,9 +31,9 @@ export default function ChairmanMessage() {
   };
 
   return (
-    <div className="bg-white py-12 px-6 lg:px-6">
+    <div className="py-16 px-4 md:px-12 lg:px-24 bg-white">
       <MotionH2
-        className="text-3xl md:text-4xl font-bold text-[#152E51] mb-8 text-center md:text-left"
+        className="text-4xl font-bold text-[#152E51] mb-10 border-b pb-4"
         {...fadeUp}
       >
         {t("chairmanMessageTitle")}
@@ -59,7 +59,7 @@ export default function ChairmanMessage() {
           <div className="absolute inset-0 rounded-full bg-[#152E51] shadow-2xl">
             <div className="absolute inset-1 bg-white rounded-full">
               <Image
-                src="/images/sdtc1.png"
+                src="/images/CEO.png"
                 alt="Nguyễn Thanh Bình - Chủ tịch Bình Doanh Group"
                 layout="fill"
                 objectFit="contain"

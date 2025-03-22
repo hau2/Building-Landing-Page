@@ -34,7 +34,7 @@ export default function Certificates() {
               </p>
             </div>
           </DialogTrigger>
-          <DialogContent className="max-w-4xl p-4 bg-white z-999">
+          <DialogContent className="max-w-4xl p-4 bg-white z-[999]">
             <DialogTitle className="sr-only">CC Năng Lực</DialogTitle>
             <div className="relative w-full h-[90vh]">
               <Image
