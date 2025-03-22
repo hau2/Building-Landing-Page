@@ -33,7 +33,7 @@ export default function ChairmanMessage() {
   return (
     <div className="bg-white py-12 px-6 lg:px-6">
       <MotionH2
-        className="text-3xl md:text-4xl font-bold text-blue-900 mb-8 text-center md:text-left"
+        className="text-3xl md:text-4xl font-bold text-[#152E51] mb-8 text-center md:text-left"
         {...fadeUp}
       >
         {t("chairmanMessageTitle")}
@@ -56,7 +56,7 @@ export default function ChairmanMessage() {
           className="relative w-40 h-40 md:w-80 md:h-80 mb-6 lg:mb-0 lg:mr-12 z-10 mt-[32px]"
           {...zoomIn}
         >
-          <div className="absolute inset-0 rounded-full bg-blue-900 shadow-2xl">
+          <div className="absolute inset-0 rounded-full bg-[#152E51] shadow-2xl">
             <div className="absolute inset-1 bg-white rounded-full">
               <Image
                 src="/images/sdtc1.png"
@@ -82,7 +82,7 @@ export default function ChairmanMessage() {
           <p className="mt-6 font-bold text-yellow-600 text-lg md:text-xl">
             {t("chairmanMessageParagraph7")}
           </p>
-          <p className="text-blue-900 font-semibold text-sm md:text-base">
+          <p className="text-[#152E51] font-semibold text-sm md:text-base">
             {t("chairmanMessageParagraph8")}
           </p>
         </MotionDiv>
