@@ -2,35 +2,37 @@
 import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function AboutLayout({
     children,
 }: {
     children: React.ReactNode;
 }) {
+    const t = useTranslations("HomePage");
     const router = useRouter();
     const pathname = usePathname();
     const [currentLocale, setCurrentLocale] = useState("vi");
     const tabs = [
-        { title: "Tổng Quan", link: `/${currentLocale}/about` },
+        { title: t("aboutOverview"), link: `/${currentLocale}/about` },
         {
-            title: "Thông điệp Chủ tịch",
+            title: t("aboutForeword"),
             link: `/${currentLocale}/about/foreword`,
         },
         {
-            title: "Tầm nhìn, giá trị cốt lõi",
+            title: t("aboutCoreVision"),
             link: `/${currentLocale}/about/core-vision`,
         },
         {
-            title: "Nhân sự cấp cao",
+            title: t("aboutStaff"),
             link: `/${currentLocale}/about/staff`,
         },
         {
-            title: "Chứng nhận và giải thưởng",
+            title: t("aboutAward"),
             link: `/${currentLocale}/about/award`,
         },
         {
-            title: "Đối tác và khách hàng",
+            title: t("aboutCustomer"),
             link: `/${currentLocale}/about/customer`,
         },
     ];
@@ -56,7 +58,7 @@ export default function AboutLayout({
                 <div className="absolute inset-0 bg-black/50"></div>
                 <div className="relative z-10 p-10 text-white h-full">
                     <h1 className="text-5xl h-full flex justify-center items-center">
-                        Tổng Quan
+                        {t("aboutForeword")}
                     </h1>
                 </div>
             </div>

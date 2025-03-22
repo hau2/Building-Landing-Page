@@ -1,9 +1,27 @@
-// components/Footer.tsx
+"use client";
 
 import { MapPin, Mail, Phone, Facebook } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function Footer() {
+    const t = useTranslations("HomePage");
+    const pathname = usePathname();
+    const [currentLocale, setCurrentLocale] = useState("vi");
+
+    useEffect(() => {
+        const locales = ["en", "vi", "zh"];
+        const segments = pathname.split("/").filter(Boolean);
+        const detectedLocale = locales.includes(segments[0])
+            ? segments[0]
+            : "vi";
+
+        setCurrentLocale(detectedLocale);
+        localStorage.setItem("locale", detectedLocale);
+    }, [pathname]);
     return (
         <footer className="bg-[#152E51] py-8 mt-20">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
@@ -18,14 +36,9 @@ export default function Footer() {
                             backgroundColor: "transparent",
                         }}
                     />
-                    <h2 className="font-bold text-xl text-white mb-4 mt-4">
-                        BINH DOANH
-                    </h2>
 
                     <p className="text-gray-400 text-base mt-4">
-                        Here you can use rows and columns here to organize your
-                        footer content. Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit.
+                        {t("missionHighlight")}
                     </p>
                 </div>
 
@@ -35,10 +48,38 @@ export default function Footer() {
                             SITEMAP
                         </h2>
                         <ul className="text-gray-400 text-base">
-                            <li>Giới thiệu</li>
-                            <li>Dự án</li>
-                            <li>Tin tức</li>
-                            <li>Tuyển dụng</li>
+                            <li>
+                                <Link
+                                    href={`/${currentLocale}/about`}
+                                    className="hover:underline"
+                                >
+                                    {t("about")}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href={`/${currentLocale}/du-an`}
+                                    className="hover:underline"
+                                >
+                                    {t("project")}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href={`/${currentLocale}/tin-tuc`}
+                                    className="hover:underline"
+                                >
+                                    {t("new")}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href={`/${currentLocale}/tuyen-dung`}
+                                    className="hover:underline"
+                                >
+                                    {t("recruitment")}
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
