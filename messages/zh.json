@@ -122,7 +122,7 @@
     "servicesConsultingDesc": "Binh Doanh 为客户提供全面的咨询服务，包括材料选择、施工方法及每个项目的最优解决方案。"
   },
   "career": {
-   "recruitmentBannerTitle": "招聘",
+    "recruitmentBannerTitle": "招聘",
     "recruitmentPageTitle": "平盈建设招聘",
     "workEnvironmentTitle": "工作环境",
     "workEnvironmentParagraph1": "平盈建设致力于营造一个有纪律、有文化、以人为本的工作环境。每位员工都被关心并获得发展和晋升的机会。",
@@ -141,5 +141,17 @@
     "tableHeaderQuantity": "人数",
     "tableHeaderDeadline": "截止日期",
     "tableHeaderDetails": "详情"
+   
+  },
+  "chairmanMessages": {
+    "chairmanMessageTitle": "董事长寄语", 
+    "chairmanMessageParagraph1": "亲爱的合作伙伴、客户以及整个Binh Doanh 团队：",
+    "chairmanMessageParagraph2": "自成立以来，Binh Doanh 建筑公司始终致力于成为建筑行业的先锋品牌。我们不仅构筑建筑物，更奠定了企业成长、社区繁荣和社会创新的坚实基础。",
+    "chairmanMessageParagraph3": "秉持“建设快速 – 质量保障 – 创造真实价值”的宗旨，Binh Doanh 始终将进度、质量与责任放在首位。坚固的结构不仅源于坚实的混凝土，更源自奉献精神、承诺与信任。",
+    "chairmanMessageParagraph4": "Binh Doanh 承建的每一个项目，不仅是一个商业合同，更是一份关于可持续、安全与经济效益的承诺。世界在变化，建筑行业也在不断发展。我们积极拥抱趋势，应用先进技术，优化施工流程，拓展战略合作伙伴关系。Binh Doanh 的目标不仅是确立作为值得信赖的总承包商的地位，更要打造具有品位、创新与可持续性的标志性项目。",
+    "chairmanMessageParagraph5": "为实现这一愿景，我们正在构建一个强大的生态系统，在这里，Binh Doanh 不仅是一家承包商，更是一个由多家成员公司组成的集团，相互支持，涵盖从材料生产、机械设备到施工管理和房地产开发的各个环节。这个生态系统是Binh Doanh 掌控质量、优化成本并为客户提供最全面解决方案的核心力量。",
+    "chairmanMessageParagraph6": "展望未来，我所设想的Binh Doanh 不仅强大，更是一个完整的建筑生态系统，所有流程均被优化，每个人都能发挥最大的创造力，每一个项目都承载着开拓进取的精神。我们将不断创新，不断拓展，打造一个既强于当下、更可持续于未来的Binh Doanh 。",
+    "chairmanMessageParagraph7": "Nguyen Thanh Binh",
+    "chairmanMessageParagraph8": "BINH DOANH集团董事长"
   }
 }

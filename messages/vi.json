@@ -145,5 +145,16 @@
     "tableHeaderQuantity": "SỐ LƯỢNG",
     "tableHeaderDeadline": "HẾT HẠN",
     "tableHeaderDetails": "CHI TIẾT"
+  },
+  "chairmanMessages": {
+    "chairmanMessageTitle": "Thông điệp chủ tịch",
+    "chairmanMessageParagraph1": "Kính gửi Quý đối tác, khách hàng và toàn thể đội ngũ Bình Doanh,",
+    "chairmanMessageParagraph2": "Từ những ngày đầu thành lập, Công ty Xây dựng Bình Doanh đã mang trong mình khát vọng trở thành thương hiệu tiên phong trong lĩnh vực xây dựng. Chúng tôi không chỉ dựng lên những công trình mà còn kiến tạo nền tảng vững chắc cho doanh nghiệp phát triển, cộng đồng thịnh vượng và xã hội đổi mới.",
+    "chairmanMessageParagraph3": "Với tôn chỉ “Xây dựng nhanh chóng – Cung cấp đúng chất lượng – Kiến tạo giá trị thực”, Bình Doanh luôn đặt tiến độ, chất lượng và trách nhiệm lên hàng đầu. Một công trình vững chắc không chỉ nằm ở những khối bê tông kiên cố mà còn được xây nên từ tâm huyết, cam kết và niềm tin.",
+    "chairmanMessageParagraph4": "Mỗi dự án mà Bình Doanh thực hiện không chỉ là một hợp đồng thương mại, mà là lời hứa về sự bền vững, an toàn và hiệu quả kinh tế. Thế giới đang thay đổi, ngành xây dựng cũng không ngừng chuyển mình. Chúng tôi chủ động đón đầu xu thế, ứng dụng công nghệ tiên tiến, tối ưu quy trình thi công và mở rộng hợp tác chiến lược. Mục tiêu của Bình Doanh không chỉ là khẳng định vị thế tổng thầu xây dựng uy tín, mà còn kiến tạo những công trình mang dấu ấn đẳng cấp, đổi mới và bền vững.",
+    "chairmanMessageParagraph5": "Để hiện thực hóa khát vọng ấy, chúng tôi đang xây dựng một hệ sinh thái mạnh mẽ, nơi Bình Doanh không chỉ là một nhà thầu mà còn là một tổ hợp các công ty thành viên, hỗ trợ lẫn nhau, từ sản xuất vật liệu, cơ khí, thiết bị đến quản lý thi công và phát triển bất động sản. Hệ sinh thái này chính là sức mạnh giúp Bình Doanh chủ động về chất lượng, tối ưu chi phí và mang đến những giải pháp toàn diện nhất cho khách hàng.",
+    "chairmanMessageParagraph6": "Nhìn về tương lai, tôi có tầm nhìn về một Bình Doanh không chỉ lớn mạnh mà còn là một hệ sinh thái xây dựng hoàn chỉnh, nơi mọi quy trình được tối ưu hóa, nơi con người có thể phát huy tối đa khả năng sáng tạo và nơi mỗi công trình đều mang dấu ấn tiên phong. Chúng tôi sẽ không ngừng đổi mới, không ngừng vươn xa, để xây dựng một Bình Doanh không chỉ mạnh trong hiện tại mà còn bền vững trong tương lai.",
+    "chairmanMessageParagraph7": "Nguyễn Thanh Bình", 
+    "chairmanMessageParagraph8": "CHỦ TỊCH BÌNH DOANH GROUP"
   }
 }
