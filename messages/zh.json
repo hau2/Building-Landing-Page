@@ -153,5 +153,9 @@
     "chairmanMessageParagraph6": "展望未来，我所设想的Binh Doanh 不仅强大，更是一个完整的建筑生态系统，所有流程均被优化，每个人都能发挥最大的创造力，每一个项目都承载着开拓进取的精神。我们将不断创新，不断拓展，打造一个既强于当下、更可持续于未来的Binh Doanh 。",
     "chairmanMessageParagraph7": "Nguyen Thanh Binh",
     "chairmanMessageParagraph8": "BINH DOANH集团董事长"
+  },
+  "pagination": {
+    "previous": "返回",
+    "next": "下一页"
   }
 }
