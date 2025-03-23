@@ -32,7 +32,7 @@ const slides = [
   {
     id: "5",
     name: "CÔNG TY TNHH SHING MARK VINA",
-    image: "/images/du-an/duan-shing-mark-vina-2.jpg",
+    image: "/images/du-an/duan-shing-mark-vina-1.JPG",
   },
   {
     id: "6",
