@@ -31,7 +31,7 @@ export default function ChairmanMessage() {
             <div className="absolute inset-0 rounded-full bg-[#152E51] shadow-2xl">
               <div className="absolute inset-1 bg-white rounded-full">
                 <Image
-                  src="/images/CEO.png"
+                  src="/images/CEO.jpg"
                   alt="Nguyễn Thanh Bình - Chủ tịch Bình Doanh Group"
                   layout="fill"
                   objectFit="contain"
