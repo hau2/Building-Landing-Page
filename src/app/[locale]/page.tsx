@@ -3,6 +3,7 @@ import DuAnNoiBat from "@/components/home-page/du-an-noi-bat";
 import Intro from "@/components/home-page/intro";
 import ThongSo from "@/components/home-page/thong-so";
 import ChairmanMessage from "./about/foreword/page";
+import ClientPartnerSlider from "@/components/partners";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ChairmanMessage />
       <DuAnNoiBat />
       <VideoGallery />
+      <ClientPartnerSlider />
     </main>
   );
 }
