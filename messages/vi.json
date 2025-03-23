@@ -57,7 +57,8 @@
     "scale": "Quy mô",
     "updating": "Đang cập nhật",
     "underConstruction": "Đang thi công",
-    "businessSector": "Ngành kinh doanh"
+    "businessSector": "Ngành kinh doanh",
+    "certificationTitle": "Chứng Chỉ Năng Lực"
   },
   "project": {
     "1": {
@@ -161,5 +162,81 @@
   "pagination": {
     "previous": "Trở về",
     "next": "Tiếp theo"
+  },
+  "thongSo": {
+    "heading": "Tổng thầu xây dựng & MEPF hàng đầu Việt Nam",
+    "subheading": "Doanh nghiệp xuất sắc Châu Á APEA 3 năm liên tiếp",
+    "data": [
+      {
+        "title": "DỰ ÁN THI CÔNG",
+        "unit": "dự án"
+      },
+      {
+        "title": "DOANH SỐ BACKLOG",
+        "unit": "tỷ"
+      },
+      {
+        "title": "TỔNG SỐ NHÂN VIÊN",
+        "unit": "nhân viên"
+      },
+      {
+        "title": "LỰC LƯỢNG THI CÔNG",
+        "unit": "nhân công"
+      }
+    ]
+  },
+  "staff": {
+    "orgChart": "Sơ đồ tổ chức",
+    "executives": "Nhân sự cấp cao",
+    "structureTitle": "Bộ Máy Công Ty",
+    "structureSubtitle": "Cấu trúc tổ chức và đội ngũ nhân sự chuyên môn cao",
+    "structureBoxTitle": "Cơ Cấu Tổ Chức",
+    "structureBoxDesc": "Bộ máy điều hành gồm các phòng ban chuyên môn, vận hành linh hoạt và hiệu quả trong mọi lĩnh vực thi công.",
+    "departmentsTitle": "Các Bộ Phận Chính",
+    "departments": [
+      "Chủ tịch hội đồng thành viên",
+      "Ban giám đốc",
+      "Phòng kế toán",
+      "Phòng kinh doanh",
+      "Phòng cung ứng vật tư",
+      "Phòng hành chính",
+      "Phòng thiết kế",
+      "Phòng kỹ thuật",
+      "Đội thi công xây dựng",
+      "Đội thi công cầu đường",
+      "Đội thi công cơ giới",
+      "Đội TC điện, nước, lạnh",
+      "Đội san lấp, cải tạo",
+      "Đội lắp đặt cơ khí"
+    ],
+    "workforceTitle": "Lực Lượng Lao Động",
+    "techTitle": "Lao động kỹ thuật",
+    "workerTitle": "Công nhân & Thợ lành nghề",
+    "techList": [
+      "Kiến trúc sư: <strong>10 người</strong>",
+      "Kỹ sư xây dựng: <strong>40 người</strong>",
+      "Kỹ sư cơ khí: <strong>15 người</strong>",
+      "Kỹ sư cầu đường: <strong>5 người</strong>",
+      "Kỹ sư điện công nghiệp: <strong>5 người</strong>",
+      "Kỹ sư điện, điện lạnh: <strong>5 người</strong>",
+      "Cử nhân kinh tế tài chính: <strong>15 người</strong>",
+      "Cử nhân trắc địa: <strong>15 người</strong>"
+    ],
+    "workerList": [
+      "Thường xuyên: <strong>Hơn 800 người</strong>",
+      "Thời vụ: <strong>Hơn 1.200 người</strong>"
+    ],
+    "role": {
+    "ceo": "Tổng giám đốc",
+    "vice_ceo_design": "Phó tổng giám đốc - Trưởng phòng thiết kế",
+    "cfo": "Giám đốc tài chính",
+    "assistant_sales_director": "Trợ lý giám đốc - Giám đốc kinh doanh",
+    "accounting_head": "Trưởng phòng kế toán",
+    "procurement_head": "Trưởng phòng vật tư",
+    "tech_head": "Trưởng phòng kỹ thuật",
+    "site_manager": "Chỉ huy trưởng",
+    "deputy_site_manager": "Chỉ huy phó công trình",
+    "deputy_design": "Phó phòng thiết kế"
+  }
   }
 }

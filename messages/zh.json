@@ -57,7 +57,8 @@
     "scale": "规模",
     "updating": "更新中",
     "underConstruction": "施工中",
-    "businessSector": "经营领域"
+    "businessSector": "经营领域",
+    "certificationTitle": "能力认证证书"
   },
   "project": {
     "1": {
@@ -158,5 +159,69 @@
   "pagination": {
     "previous": "返回",
     "next": "下一页"
+  },
+  "thongSo": {
+    "heading": "越南领先的总承包和机电工程公司",
+    "subheading": "连续三年荣获亚太企业卓越奖（APEA）",
+    "data": [
+      { "title": "施工项目", "unit": "项目" },
+      { "title": "待执行合同金额", "unit": "亿越盾" },
+      { "title": "员工总数", "unit": "人" },
+      { "title": "施工人员", "unit": "工人" }
+    ]
+  },
+  "staff": {
+    "orgChart": "组织结构图",
+    "executives": "高级管理人员",
+    "structureTitle": "公司结构",
+    "structureSubtitle": "组织结构与高素质专业团队",
+    "structureBoxTitle": "组织系统",
+    "structureBoxDesc": "管理体系由各专业部门组成，在各类施工领域中灵活高效地运作。",
+    "departmentsTitle": "主要部门",
+    "departments": [
+      "董事会主席",
+      "董事会",
+      "会计部",
+      "商务部",
+      "物资供应部",
+      "行政部",
+      "设计部",
+      "技术部",
+      "建筑施工队",
+      "桥梁道路施工队",
+      "机械施工队",
+      "电水冷安装队",
+      "土地平整与改造队",
+      "机械安装队"
+    ],
+    "workforceTitle": "劳动力",
+    "techTitle": "技术人员",
+    "workerTitle": "熟练工人",
+    "techList": [
+      "建筑师：<strong>10人</strong>",
+      "土木工程师：<strong>40人</strong>",
+      "机械工程师：<strong>15人</strong>",
+      "桥梁工程师：<strong>5人</strong>",
+      "工业电气工程师：<strong>5人</strong>",
+      "电气与空调工程师：<strong>5人</strong>",
+      "经济与金融学士：<strong>15人</strong>",
+      "测绘学士：<strong>15人</strong>"
+    ],
+    "workerList": [
+      "常驻：<strong>800人以上</strong>",
+      "临时：<strong>1200人以上</strong>"
+    ],
+    "role": {
+    "ceo": "总经理",
+    "vice_ceo_design": "副总经理 - 设计部主管",
+    "cfo": "财务总监",
+    "assistant_sales_director": "总经理助理 - 销售总监",
+    "accounting_head": "会计部主管",
+    "procurement_head": "采购部主管",
+    "tech_head": "技术部主管",
+    "site_manager": "施工主管",
+    "deputy_site_manager": "副施工主管",
+    "deputy_design": "设计部副主管"
+  }
   }
 }

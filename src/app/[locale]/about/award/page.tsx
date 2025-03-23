@@ -34,12 +34,14 @@ export default function Certificates() {
                   />
                 </div>
                 <p className="mt-4 text-center text-gray-600 text-sm">
-                  CC Năng Lực
+                  {t("certificationTitle")}
                 </p>
               </div>
             </DialogTrigger>
             <DialogContent className="max-w-4xl p-4 bg-white">
-              <DialogTitle className="sr-only">CC Năng Lực</DialogTitle>
+              <DialogTitle className="sr-only">
+                {t("certificationTitle")}
+              </DialogTitle>
               <div className="relative w-full h-[90vh]">
                 <Image
                   src="/images/chungchi.png" // Đường dẫn ảnh lớn khi zoom

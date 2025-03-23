@@ -46,9 +46,9 @@
     "coreValuesHeading": "CORE VALUES",
     "coreValuesSubtitle": "To become Vietnam’s leading symbol of trust in the construction industry, delivering high-quality, sustainable projects that create long-term value for the community.",
     "viewDetail": "View Details",
-    "projectHighlightTitle": "Featured Project",
+    "projectHighlightTitle": "Projects",
     "projectImagesTitle": "Project Gallery",
-    "projectVideoHighlightTitle": "Highlights videos",
+    "projectVideoHighlightTitle": "Videos",
     "investor": "Investor",
     "totalInvestment": "Total Investment",
     "address": "Location",
@@ -57,7 +57,8 @@
     "scale": "Scale",
     "updating": "Updating...",
     "underConstruction": "Under Construction",
-    "businessSector": "Business Sector"
+    "businessSector": "Business Sector",
+    "certificationTitle": "Capability Certificate"
   },
   "project": {
     "1": {
@@ -157,5 +158,69 @@
   "pagination": {
     "previous": "Previous",
     "next": "Next"
+  },
+  "thongSo": {
+    "heading": "Leading General Contractor & MEPF in Vietnam",
+    "subheading": "Asia Pacific Enterprise Award Winner 3 Years In A Row",
+    "data": [
+      { "title": "Projects Completed", "unit": "projects" },
+      { "title": "Backlog Revenue", "unit": "billion VND" },
+      { "title": "Total Employees", "unit": "people" },
+      { "title": "Construction Workforce", "unit": "workers" }
+    ]
+  },
+  "staff": {
+    "orgChart": "Organization Chart",
+    "executives": "Executive Team",
+    "structureTitle": "Company Structure",
+    "structureSubtitle": "Organizational structure and a highly skilled professional team",
+    "structureBoxTitle": "Organizational System",
+    "structureBoxDesc": "The management system consists of specialized departments, operating flexibly and efficiently across all construction sectors.",
+    "departmentsTitle": "Main Departments",
+    "departments": [
+      "Chairman of the Board",
+      "Board of Directors",
+      "Accounting Department",
+      "Business Department",
+      "Procurement Department",
+      "Administration Department",
+      "Design Department",
+      "Technical Department",
+      "Construction Team",
+      "Bridge & Road Construction Team",
+      "Mechanical Construction Team",
+      "Electrical/Water/Air Conditioning Team",
+      "Land Reclamation Team",
+      "Mechanical Installation Team"
+    ],
+    "workforceTitle": "Labor Force",
+    "techTitle": "Technical Staff",
+    "workerTitle": "Skilled Workers",
+    "techList": [
+      "Architects: <strong>10 people</strong>",
+      "Civil Engineers: <strong>40 people</strong>",
+      "Mechanical Engineers: <strong>15 people</strong>",
+      "Bridge Engineers: <strong>5 people</strong>",
+      "Industrial Electrical Engineers: <strong>5 people</strong>",
+      "Electrical & HVAC Engineers: <strong>5 people</strong>",
+      "Economists & Finance: <strong>15 people</strong>",
+      "Surveyors: <strong>15 people</strong>"
+    ],
+    "workerList": [
+      "Permanent: <strong>800+ workers</strong>",
+      "Seasonal: <strong>1,200+ workers</strong>"
+    ],
+    "role": {
+    "ceo": "Chief Executive Officer",
+    "vice_ceo_design": "Vice CEO - Head of Design",
+    "cfo": "Chief Financial Officer",
+    "assistant_sales_director": "Executive Assistant - Sales Director",
+    "accounting_head": "Head of Accounting",
+    "procurement_head": "Head of Procurement",
+    "tech_head": "Head of Technical Department",
+    "site_manager": "Site Manager",
+    "deputy_site_manager": "Deputy Site Manager",
+    "deputy_design": "Deputy Head of Design"
+  }
   }
 }

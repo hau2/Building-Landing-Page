@@ -49,7 +49,7 @@ export default function OurBusinessLines() {
   useEffect(() => setShowMotion(true), []);
 
   return (
-    <>
+    <div className="px-12">
       <section className="container mx-auto py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
         {showMotion && (
           <MotionDiv
@@ -167,6 +167,6 @@ export default function OurBusinessLines() {
           </>
         )}
       </section>
-    </>
+    </div>
   );
 }

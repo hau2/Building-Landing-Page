@@ -140,3 +140,19 @@
   aspect-ratio: 16 / 9;
   padding: 0 !important;
 }
+
+.swiper-slide.slide-custom {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform: scale(0.8) !important;
+  opacity: 0.8;
+
+}
+
+/* 3 slide chính giữa: hiển thị rõ */
+.swiper-slide.slide-custom.swiper-slide-active,
+.swiper-slide.slide-custom.swiper-slide-next,
+.swiper-slide.slide-custom.swiper-slide-prev {
+  transform: scale(1) !important;
+  opacity: 1;
+  z-index: 10;
+}

@@ -1,7 +1,5 @@
 "use client";
 
-import { FadeUp } from "@/components/animations";
-import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -147,94 +145,115 @@ export default function DuAnNoiBat() {
   const projectTranslate = useTranslations("project");
 
   return (
-    <div className="px-4">
-      <FadeUp>
-        <h2 className="text-4xl font-bold text-[#152E51] mb-10 border-b pb-4">
-          {t("projectHighlightTitle")}
-        </h2>
-      </FadeUp>
-      <div className="flex justify-center px-[32px]">
+    <div className="px-20 w-full">
+      <h2 className="text-4xl font-bold text-[#152E51] mb-4 pb-4 border-b">
+        {t("projectHighlightTitle")}
+      </h2>
+
+      <div className="relative p-2 bg-[#F5F5F5]">
+        <div className="custom-prev absolute top-1/2 left-0 z-20 -translate-y-1/2 cursor-pointer p-2 bg-white/80 rounded-full shadow-md hover:bg-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6 text-black"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </div>
         <Swiper
           modules={[Navigation, Autoplay]}
-          spaceBetween={20}
+          spaceBetween={30}
           loop={true}
+          centeredSlides={true}
           autoplay={{ delay: 3000 }}
           speed={800}
+          slidesPerView={4}
           navigation={{
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
-          breakpoints={{
-            0: { slidesPerView: 1 },
-            640: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
           className="w-full"
         >
           {listDuAn?.map((item, index) => (
-            <SwiperSlide key={index}>
+            <SwiperSlide key={index} className="slide-custom">
               <motion.div
-                className="w-full h-[280px] sm:h-[320px] md:h-[360px] relative"
+                className="relative w-full aspect-[4/5]"
                 initial={{ scale: 0.9, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.6 }}
               >
-                <div className="p-1">
-                  <Card className="p-0 rounded-2xl overflow-hidden">
-                    <CardContent className="flex aspect-square items-center justify-center p-0 relative group">
-                      <Image
-                        src={item.image}
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                        }}
-                        alt="duan"
-                      />
-                      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
-                      <div className="absolute bottom-[32px] group-hover:opacity-0 bg-black/10 shadow-2xl">
-                        <p className="text-white text-[20px] font-semibold uppercase shadow-lg">
-                          {item && projectTranslate(`${item.id}.name`)}
+                <div className="p-1 flex items-center justify-center group relative w-full h-full">
+                  <Image
+                    src={item.image}
+                    alt={`Slide ${index + 1}`}
+                    fill
+                    style={{ objectFit: "cover" }}
+                  />
+                  <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10 "></div>
+
+                  {/* Tiêu đề mặc định */}
+                  <div className="absolute bottom-[32px] group-hover:opacity-0 bg-black/10 shadow-2xl transition-all duration-300 px-4 py-2 rounded-lg">
+                    <p className="text-white text-[16px] font-semibold uppercase text-center">
+                      {item && projectTranslate(`${item.id}.name`)}
+                    </p>
+                  </div>
+
+                  {/* Hover nội dung */}
+                  <div className="absolute bottom-0 left-0 w-full h-full p-4 bg-black/30 text-white opacity-0 group-hover:opacity-100 transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 flex flex-col">
+                    <h5 className="font-semibold text-[20px] text-center text-white">
+                      {item && projectTranslate(`${item.id}.name`)}
+                    </h5>
+                    <div className="flex flex-col gap-[16px] pt-1">
+                      <div className="flex flex-row w-full">
+                        <p className="flex-1 text-[14px]">{t("investor")}</p>
+                        <p className="flex-1 text-[14px]">
+                          {projectTranslate(`${item?.id}.businessSector`)}
                         </p>
                       </div>
-                      <div className="absolute bottom-0 left-0 w-full h-full p-4 bg-black/30 bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 flex flex-col">
-                        <h5 className="font-semibold text-[24px] text-center text-white">
-                          {item && projectTranslate(`${item.id}.name`)}
-                        </h5>
-                        <div className="flex flex-col gap-[16px] pt-1">
-                          <div className="flex flex-row w-full">
-                            <p className="flex-1 text-[14px]">
-                              {t("investor")}
-                            </p>
-                            <p className="flex-1 text-[14px]">
-                              {projectTranslate(`${item?.id}.businessSector`)}
-                            </p>
-                          </div>
-                          <div className="flex flex-row w-full gap-[8px]">
-                            <p className="flex-1 text-[14px]">{t("address")}</p>
-                            <p className="flex-1 text-[14px]">
-                              {projectTranslate(`${item?.id}.address`)}
-                            </p>
-                          </div>
-                          <div className="flex flex-row w-full gap-[8px]">
-                            <p className="flex-1 text-[14px]">
-                              {t("totalInvestment")}
-                            </p>
-                            <p className="flex-1 text-[14px]">
-                              {item.totalInvestment}
-                            </p>
-                          </div>
-                        </div>
+                      <div className="flex flex-row w-full gap-[8px]">
+                        <p className="flex-1 text-[14px]">{t("address")}</p>
+                        <p className="flex-1 text-[14px]">
+                          {projectTranslate(`${item?.id}.address`)}
+                        </p>
                       </div>
-                    </CardContent>
-                  </Card>
+                      <div className="flex flex-row w-full gap-[8px]">
+                        <p className="flex-1 text-[14px]">
+                          {t("totalInvestment")}
+                        </p>
+                        <p className="flex-1 text-[14px]">
+                          {item.totalInvestment}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </motion.div>
             </SwiperSlide>
           ))}
         </Swiper>
+        <div className="custom-next absolute top-1/2 right-0 z-20 -translate-y-1/2 cursor-pointer p-2 bg-white/80 rounded-full shadow-md hover:bg-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6 text-black"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   );
