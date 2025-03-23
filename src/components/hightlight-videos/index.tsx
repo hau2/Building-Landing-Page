@@ -67,17 +67,20 @@ export function VideoGallery() {
         ))}
       </div>
 
+
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-4xl w-full p-0 aspect-video">
-          <DialogTitle className="hidden">Video Nổi Bật</DialogTitle>
-          <iframe
-            src={currentVideo || ""}
-            className="w-full h-full rounded-md"
-            allowFullScreen
-            allow="autoplay; encrypted-media"
-          ></iframe>
-        </DialogContent>
-      </Dialog>
+  <DialogContent className="dialog-video-large overflow-hidden">
+    <DialogTitle className="hidden">Video Nổi Bật</DialogTitle>
+    <iframe
+      src={currentVideo || ""}
+      className="w-full h-full rounded-md"
+      allowFullScreen
+      allow="autoplay; encrypted-media"
+    ></iframe>
+  </DialogContent>
+</Dialog>
+
+
     </section>
   );
 }

@@ -133,3 +133,10 @@
     @apply text-xs;
   }
 }
+
+.dialog-video-large {
+  width: 80vw !important;
+  max-width: none !important;
+  aspect-ratio: 16 / 9;
+  padding: 0 !important;
+}
