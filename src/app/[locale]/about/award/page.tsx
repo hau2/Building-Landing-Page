@@ -21,7 +21,7 @@ export default function Certificates() {
       </FadeUp>
 
       <FadeUp>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 z-[9999999]">
           <Dialog>
             <DialogTrigger asChild>
               <div className="group cursor-pointer flex flex-col items-center">
@@ -38,7 +38,7 @@ export default function Certificates() {
                 </p>
               </div>
             </DialogTrigger>
-            <DialogContent className="max-w-4xl p-4 bg-white z-[999]">
+            <DialogContent className="max-w-4xl p-4 bg-white">
               <DialogTitle className="sr-only">CC Năng Lực</DialogTitle>
               <div className="relative w-full h-[90vh]">
                 <Image
