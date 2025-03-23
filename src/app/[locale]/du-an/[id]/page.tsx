@@ -34,15 +34,6 @@ export default function DuAnDetail() {
     }
   }, []);
 
-  const formatCurrency = (value: number) => {
-    return value
-      ? new Intl.NumberFormat("vi-VN", {
-          style: "currency",
-          currency: "VND",
-        }).format(value)
-      : "Tổng thầu";
-  };
-
   return (
     <motion.div
       className="pl-20 pr-20"
@@ -148,7 +139,7 @@ export default function DuAnDetail() {
                   <DollarSign /> {t("totalInvestment")}
                 </h4>
                 <p className="text-l text-gray-700 mt-2">
-                  {formatCurrency(item?.totalInvestment || 0)}
+                  {item?.totalInvestment}
                 </p>
               </div>
             </div>

@@ -11,7 +11,7 @@ export interface IDuAn {
     image: string;
     investor: string;
     address: string;
-    totalInvestment: number;
+    totalInvestment: string;
     businessSector: string;
     constructionPeriod: string;
     detailImages: string[];

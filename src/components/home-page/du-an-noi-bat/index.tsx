@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
 
 import React from "react";
 import { Navigation, Autoplay } from "swiper/modules";
@@ -97,7 +98,7 @@ const listDuAn = [
   {
     id: "5",
     name: "CÔNG TY TNHH SHING MARK VINA",
-    image: "/images/du-an/duan-shing-mark-vina-1.jpg",
+    image: "/images/du-an/duan-shing-mark-vina-2.jpg",
     investor: "Carven Industries Limited",
     address: "KCN Bàu Xéo, huyện Trảng Bom, tỉnh Đồng Nai",
     totalInvestment: "10.581.950.000.000 VND",
@@ -144,6 +145,11 @@ export default function DuAnNoiBat() {
   const t = useTranslations("HomePage");
   const projectTranslate = useTranslations("project");
 
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
+   const handleNavigate = (item: any) => {
+     localStorage.setItem("duAnData", JSON.stringify(item));
+   };
+
   return (
     <div className="px-20 w-full">
       <h2 className="text-4xl font-bold text-[#152E51] mb-4 pb-4 border-b">
@@ -189,51 +195,59 @@ export default function DuAnNoiBat() {
                 whileInView={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.6 }}
               >
-                <div className="p-1 flex items-center justify-center group relative w-full h-full">
-                  <Image
-                    src={item.image}
-                    alt={`Slide ${index + 1}`}
-                    fill
-                    style={{ objectFit: "cover" }}
-                  />
-                  <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10 "></div>
+                <Link
+                  href={`/${localStorage.getItem("locale") || "vi"}/du-an/${
+                    item.id
+                  }`}
+                  onClick={() => handleNavigate(item)}
+                  className="relative w-full h-full block"
+                >
+                  <div className="p-1 flex items-center justify-center group relative w-full h-full">
+                    <Image
+                      src={item.image}
+                      alt={`Slide ${index + 1}`}
+                      fill
+                      style={{ objectFit: "cover" }}
+                    />
+                    <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10 "></div>
 
-                  {/* Tiêu đề mặc định */}
-                  <div className="absolute bottom-[32px] group-hover:opacity-0 bg-black/10 shadow-2xl transition-all duration-300 px-4 py-2 rounded-lg">
-                    <p className="text-white text-[16px] font-semibold uppercase text-center">
-                      {item && projectTranslate(`${item.id}.name`)}
-                    </p>
-                  </div>
+                    {/* Tiêu đề mặc định */}
+                    <div className="absolute bottom-[32px] group-hover:opacity-0 bg-black/10 shadow-2xl transition-all duration-300 px-4 py-2 rounded-lg">
+                      <p className="text-white text-[16px] font-semibold uppercase text-center">
+                        {item && projectTranslate(`${item.id}.name`)}
+                      </p>
+                    </div>
 
-                  {/* Hover nội dung */}
-                  <div className="absolute bottom-0 left-0 w-full h-full p-4 bg-black/30 text-white opacity-0 group-hover:opacity-100 transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 flex flex-col">
-                    <h5 className="font-semibold text-[20px] text-center text-white">
-                      {item && projectTranslate(`${item.id}.name`)}
-                    </h5>
-                    <div className="flex flex-col gap-[16px] pt-1">
-                      <div className="flex flex-row w-full">
-                        <p className="flex-1 text-[14px]">{t("investor")}</p>
-                        <p className="flex-1 text-[14px]">
-                          {projectTranslate(`${item?.id}.businessSector`)}
-                        </p>
-                      </div>
-                      <div className="flex flex-row w-full gap-[8px]">
-                        <p className="flex-1 text-[14px]">{t("address")}</p>
-                        <p className="flex-1 text-[14px]">
-                          {projectTranslate(`${item?.id}.address`)}
-                        </p>
-                      </div>
-                      <div className="flex flex-row w-full gap-[8px]">
-                        <p className="flex-1 text-[14px]">
-                          {t("totalInvestment")}
-                        </p>
-                        <p className="flex-1 text-[14px]">
-                          {item.totalInvestment}
-                        </p>
+                    {/* Hover nội dung */}
+                    <div className="absolute bottom-0 left-0 w-full h-full p-4 bg-black/30 text-white opacity-0 group-hover:opacity-100 transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 flex flex-col">
+                      <h5 className="font-semibold text-[20px] text-center text-white">
+                        {item && projectTranslate(`${item.id}.name`)}
+                      </h5>
+                      <div className="flex flex-col gap-[16px] pt-1">
+                        <div className="flex flex-row w-full">
+                          <p className="flex-1 text-[14px]">{t("investor")}</p>
+                          <p className="flex-1 text-[14px]">
+                            {projectTranslate(`${item?.id}.businessSector`)}
+                          </p>
+                        </div>
+                        <div className="flex flex-row w-full gap-[8px]">
+                          <p className="flex-1 text-[14px]">{t("address")}</p>
+                          <p className="flex-1 text-[14px]">
+                            {projectTranslate(`${item?.id}.address`)}
+                          </p>
+                        </div>
+                        <div className="flex flex-row w-full gap-[8px]">
+                          <p className="flex-1 text-[14px]">
+                            {t("totalInvestment")}
+                          </p>
+                          <p className="flex-1 text-[14px]">
+                            {item.totalInvestment}
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </motion.div>
             </SwiperSlide>
           ))}
