@@ -81,7 +81,7 @@ export default function OurBusinessLines() {
             viewport={{ once: true, amount: 0.3 }}
           >
             <Image
-              src="/images/du-an/duan-shing-mark-vina-8.jpg"
+              src="/images/du-an/duan-shing-mark-vina-8.JPG"
               height={500}
               width={500}
               alt="Dự án tiêu biểu"
@@ -89,7 +89,7 @@ export default function OurBusinessLines() {
               style={{ height: 500, objectFit: "cover" }}
             />
             <Image
-              src="/images/du-an/duan-shing-mark-vina-9.jpg"
+              src="/images/du-an/duan-shing-mark-vina-9.JPG"
               width={500}
               height={300}
               alt="Dự án tiêu biểu khác"
