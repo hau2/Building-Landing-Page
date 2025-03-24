@@ -38,7 +38,7 @@ export default function Footer() {
                     />
 
                     <p className="text-gray-400 text-base mt-4">
-                        {t("missionHighlight")}
+                        {t("vision")}
                     </p>
                 </div>
 
@@ -89,14 +89,13 @@ export default function Footer() {
                         CONTACT
                     </h2>
                     <p className="flex items-center gap-2 text-gray-400 text-base">
-                        <MapPin size={28} /> 204/09 Nguyễn Văn Hưởng, P. Thảo
-                        Điền, TP. Thủ Đức, TP. Hồ Chí Minh, Việt Nam
+                        <MapPin size={28} /> {t("companyAddressFull")}
                     </p>
                     <p className="flex items-center gap-2 text-gray-400 text-base">
-                        <Mail size={18} /> binhdoanh@gmail.com
+                        <Mail size={18} /> binhdoanhgroup@gmail.com
                     </p>
                     <p className="flex items-center gap-2 text-gray-400 text-base">
-                        <Phone size={18} /> (+84) 358 500 195
+                        <Phone size={18} /> (+84) 91 379 57 65
                     </p>
                     <p className="flex items-center gap-2 text-gray-400 text-base">
                         <Facebook size={18} /> www.facebook.com/binhdoanhvn

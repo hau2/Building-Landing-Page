@@ -2,6 +2,7 @@
 
 import { Tree, TreeNode } from "react-organizational-chart";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 const NodeBox = ({ label, level = 1 }: { label: string; level?: number }) => {
     const colors: Record<number, string> = {
@@ -29,37 +30,32 @@ const NodeBox = ({ label, level = 1 }: { label: string; level?: number }) => {
 };
 
 const OrgChartTree = () => {
+    const t = useTranslations("orgChart");
+
     return (
         <div className="w-full bg-gray-50 py-20">
             <div className="w-full overflow-x-auto">
                 <div className="w-full flex justify-center">
                     <div
                         className="
-                    w-fit
-                    px-2
-                    origin-top
-                    transition-transform duration-300 ease-in-out
-                    scale-[0.5] sm:scale-[0.6] md:scale-[0.75] lg:scale-[0.9] xl:scale-100
-                "
+                        w-fit
+                        px-2
+                        origin-top
+                        transition-transform duration-300 ease-in-out
+                        scale-[0.5] sm:scale-[0.6] md:scale-[0.75] lg:scale-[0.9] xl:scale-100
+                    "
                         style={{ overflow: "hidden" }}
                     >
                         <Tree
-                            label={
-                                <NodeBox
-                                    label="Chủ tịch hội đồng thành viên"
-                                    level={1}
-                                />
-                            }
+                            label={<NodeBox label={t("chairman")} level={1} />}
                         >
                             <TreeNode
-                                label={
-                                    <NodeBox label="Ban giám đốc" level={2} />
-                                }
+                                label={<NodeBox label={t("board")} level={2} />}
                             >
                                 <TreeNode
                                     label={
                                         <NodeBox
-                                            label="Phòng kế toán"
+                                            label={t("accounting")}
                                             level={3}
                                         />
                                     }
@@ -67,7 +63,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Kế toán thanh toán"
+                                                label={t("payment")}
                                                 level={4}
                                             />
                                         }
@@ -75,7 +71,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Kế toán tổng hợp"
+                                                label={t("general")}
                                                 level={4}
                                             />
                                         }
@@ -83,7 +79,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Kế toán vật tư"
+                                                label={t("materials_account")}
                                                 level={4}
                                             />
                                         }
@@ -93,7 +89,7 @@ const OrgChartTree = () => {
                                 <TreeNode
                                     label={
                                         <NodeBox
-                                            label="Phòng kinh doanh"
+                                            label={t("business")}
                                             level={3}
                                         />
                                     }
@@ -102,7 +98,7 @@ const OrgChartTree = () => {
                                 <TreeNode
                                     label={
                                         <NodeBox
-                                            label="Phòng cung ứng vật tư"
+                                            label={t("procurement")}
                                             level={3}
                                         />
                                     }
@@ -110,7 +106,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Thu mua vật tư"
+                                                label={t("purchasing")}
                                                 level={4}
                                             />
                                         }
@@ -120,7 +116,7 @@ const OrgChartTree = () => {
                                 <TreeNode
                                     label={
                                         <NodeBox
-                                            label="Phòng hành chính"
+                                            label={t("administration")}
                                             level={3}
                                         />
                                     }
@@ -129,7 +125,7 @@ const OrgChartTree = () => {
                                 <TreeNode
                                     label={
                                         <NodeBox
-                                            label="Phòng thiết kế"
+                                            label={t("design")}
                                             level={3}
                                         />
                                     }
@@ -137,7 +133,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Kiến trúc"
+                                                label={t("architecture")}
                                                 level={4}
                                             />
                                         }
@@ -145,14 +141,17 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Kết cấu"
+                                                label={t("structure")}
                                                 level={4}
                                             />
                                         }
                                     />
                                     <TreeNode
                                         label={
-                                            <NodeBox label="M&E" level={4} />
+                                            <NodeBox
+                                                label={t("me")}
+                                                level={4}
+                                            />
                                         }
                                     />
                                 </TreeNode>
@@ -160,7 +159,7 @@ const OrgChartTree = () => {
                                 <TreeNode
                                     label={
                                         <NodeBox
-                                            label="Phòng kỹ thuật"
+                                            label={t("technical")}
                                             level={3}
                                         />
                                     }
@@ -169,7 +168,7 @@ const OrgChartTree = () => {
                                 <TreeNode
                                     label={
                                         <NodeBox
-                                            label="Đội thi công"
+                                            label={t("construction")}
                                             level={3}
                                         />
                                     }
@@ -177,7 +176,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Đội công trình"
+                                                label={t("site")}
                                                 level={4}
                                             />
                                         }
@@ -185,7 +184,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Đội cấu đường"
+                                                label={t("road")}
                                                 level={4}
                                             />
                                         }
@@ -193,7 +192,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Đội cơ giới"
+                                                label={t("machine")}
                                                 level={4}
                                             />
                                         }
@@ -201,7 +200,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Đội điện, nước, điện lạnh"
+                                                label={t("electric")}
                                                 level={4}
                                             />
                                         }
@@ -209,7 +208,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Đội san lấp, cải tạo"
+                                                label={t("ground")}
                                                 level={4}
                                             />
                                         }
@@ -217,7 +216,7 @@ const OrgChartTree = () => {
                                     <TreeNode
                                         label={
                                             <NodeBox
-                                                label="Đội gia công lắp đặt cơ khí"
+                                                label={t("fabrication")}
                                                 level={4}
                                             />
                                         }

@@ -58,7 +58,8 @@
     "updating": "Updating...",
     "underConstruction": "Under Construction",
     "businessSector": "Business Sector",
-    "certificationTitle": "Capability Certificate"
+    "certificationTitle": "Capability Certificate",
+    "vision": "Creating exceptional value, ensuring optimal quality, absolute safety, and eternal sustainability — pioneering to elevate life and protect the planet"
   },
   "project": {
     "1": {
@@ -145,14 +146,15 @@
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "Chairman's messages", 
-    "chairmanMessageParagraph1": "Dear Partners, Customers, and the entire Binh Doanh Team,",
-    "chairmanMessageParagraph2": "Since our inception, Binh Doanh Construction Company has aspired to become a pioneering brand in the construction industry. We not only erect structures but also build a solid foundation for business growth, community prosperity, and social innovation.",
-    "chairmanMessageParagraph3": "With the motto “Rapid Construction – Quality Assurance – Real Value Creation” Binh Doanh always prioritizes progress, quality, and responsibility. A solid structure is not just about strong concrete blocks but also about dedication, commitment, and trust.",
-    "chairmanMessageParagraph4": "Each project that Binh Doanh undertakes is not merely a commercial contract but a promise of sustainability, safety, and economic efficiency. The world is changing, and the construction industry is constantly evolving. We proactively embrace trends, apply advanced technologies, optimize construction processes, and expand strategic partnerships. Binh Doanh's goal is not only to affirm its position as a reputable general contractor but also to create projects that bear the hallmarks of class, innovation, and sustainability.",
-    "chairmanMessageParagraph5": "To realize this aspiration, we are building a robust ecosystem where Binh Doanh is not just a contractor but a conglomerate of member companies supporting each other, from material production, mechanics, and equipment to construction management and real estate development. This ecosystem is the strength that helps Binh Doanh take the initiative in quality, optimize costs, and provide the most comprehensive solutions for customers.",
-    "chairmanMessageParagraph6": "Looking to the future, I envision a Binh Doanh that is not only strong but also a complete construction ecosystem, where all processes are optimized, where people can maximize their creativity, and where every project bears the hallmark of pioneering spirit. We will continuously innovate and reach further, to build a Binh Doanh that is not only strong in the present but also sustainable in the future.",
+    "chairmanMessageParagraph1": "Dear valued partners, clients, and the entire Bình Doanh team,",
+    "chairmanMessageParagraph2": "Every project is a statement. Every construction is a mark. And every step forward by Bình Doanh is a realization of our aspiration: to become a pioneering symbol of Vietnam’s construction industry – solid, breakthrough, and sustainable.",
+    "chairmanMessageParagraph3": "We don’t just build concrete structures. We build trust, cultivate value, and connect the future. With the philosophy: “Build swiftly – Deliver quality – Create real value”, Bình Doanh is committed to delivering projects that exceed expectations, fulfill promises, and honor every investment.",
+    "chairmanMessageParagraph4": "In a constantly evolving market, Bình Doanh does not remain still. We proactively innovate, integrate technology, standardize processes, and expand our construction ecosystem – from materials, mechanics, and equipment manufacturing to general contracting and real estate development. This is our sustainable competitive edge to optimize costs, ensure quality, and accelerate execution.",
+    "chairmanMessageParagraph5": "Our journey has never been limited to present success. I envision a Bình Doanh that is bolder, more creative, and present in every landmark project across the nation.",
+    "chairmanMessageParagraph6": "We believe that with integrity in our commitments, professionalism in our actions, and a relentless aspiration to rise higher – Bình Doanh will not only be a contractor, but a trusted strategic partner on every client’s development journey.",
     "chairmanMessageParagraph7": "Nguyen Thanh Binh",
-    "chairmanMessageParagraph8": "CHAIRMAN OF BINH DOANH GROUP"
+    "chairmanMessageParagraph8": "CHAIRMAN OF BINH DOANH GROUP",
+    "respectfully": "Sincerely,"
   },
   "pagination": {
     "previous": "Previous",
@@ -221,5 +223,29 @@
     "deputy_site_manager": "Deputy Site Manager",
     "deputy_design": "Deputy Head of Design"
   }
+  },
+   "orgChart": {
+    "chairman": "Chairman of the Members' Council",
+    "board": "Board of Directors",
+    "accounting": "Accounting Department",
+    "payment": "Payment Accountant",
+    "general": "General Accountant",
+    "materials_account": "Material Accountant",
+    "business": "Business Department",
+    "procurement": "Procurement Department",
+    "purchasing": "Material Purchasing",
+    "administration": "Administration Department",
+    "design": "Design Department",
+    "architecture": "Architecture",
+    "structure": "Structure",
+    "me": "M&E",
+    "technical": "Technical Department",
+    "construction": "Construction Team",
+    "site": "Site Team",
+    "road": "Road Structure Team",
+    "machine": "Mechanical Team",
+    "electric": "Electrical, Water, and Air Conditioning Team",
+    "ground": "Ground Levelling & Renovation Team",
+    "fabrication": "Mechanical Fabrication & Installation Team"
   }
 }

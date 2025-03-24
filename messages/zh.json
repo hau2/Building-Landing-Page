@@ -58,7 +58,8 @@
     "updating": "更新中",
     "underConstruction": "施工中",
     "businessSector": "经营领域",
-    "certificationTitle": "能力认证证书"
+    "certificationTitle": "能力认证证书",
+    "vision": "创造卓越价值，确保最佳质量、绝对安全与永续发展，领先提升生活品质并守护地球"
   },
   "project": {
     "1": {
@@ -147,14 +148,15 @@
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "董事长寄语", 
-    "chairmanMessageParagraph1": "亲爱的合作伙伴、客户以及整个Binh Doanh 团队：",
-    "chairmanMessageParagraph2": "自成立以来，Binh Doanh 建筑公司始终致力于成为建筑行业的先锋品牌。我们不仅构筑建筑物，更奠定了企业成长、社区繁荣和社会创新的坚实基础。",
-    "chairmanMessageParagraph3": "秉持“建设快速 – 质量保障 – 创造真实价值”的宗旨，Binh Doanh 始终将进度、质量与责任放在首位。坚固的结构不仅源于坚实的混凝土，更源自奉献精神、承诺与信任。",
-    "chairmanMessageParagraph4": "Binh Doanh 承建的每一个项目，不仅是一个商业合同，更是一份关于可持续、安全与经济效益的承诺。世界在变化，建筑行业也在不断发展。我们积极拥抱趋势，应用先进技术，优化施工流程，拓展战略合作伙伴关系。Binh Doanh 的目标不仅是确立作为值得信赖的总承包商的地位，更要打造具有品位、创新与可持续性的标志性项目。",
-    "chairmanMessageParagraph5": "为实现这一愿景，我们正在构建一个强大的生态系统，在这里，Binh Doanh 不仅是一家承包商，更是一个由多家成员公司组成的集团，相互支持，涵盖从材料生产、机械设备到施工管理和房地产开发的各个环节。这个生态系统是Binh Doanh 掌控质量、优化成本并为客户提供最全面解决方案的核心力量。",
-    "chairmanMessageParagraph6": "展望未来，我所设想的Binh Doanh 不仅强大，更是一个完整的建筑生态系统，所有流程均被优化，每个人都能发挥最大的创造力，每一个项目都承载着开拓进取的精神。我们将不断创新，不断拓展，打造一个既强于当下、更可持续于未来的Binh Doanh 。",
+    "chairmanMessageParagraph1": "致尊敬的合作伙伴、客户以及整个平营团队：",
+  "chairmanMessageParagraph2": "每一个工程都是一种宣言，每一个项目都是一份印记，而平营的每一步前行，都是实现我们愿景的体现：成为越南建筑行业的先锋象征——稳固、突破、可持续。",
+  "chairmanMessageParagraph3": "我们不仅仅是在建设钢筋混凝土的建筑，而是在构建信任、积累价值并连接未来。秉持“快速建设——精准交付——创造真实价值”的理念，平营承诺打造超越期待、兑现承诺、匹配投资的卓越工程。",
+  "chairmanMessageParagraph4": "在不断变化的市场环境中，平营从不止步。我们积极创新，整合技术，标准化流程，并拓展建筑生态系统——涵盖材料生产、机械设备、施工总包乃至房地产开发。这是我们可持续的竞争优势，有助于优化成本、控制品质并加快执行速度。",
+  "chairmanMessageParagraph5": "我们的征程从未止步于当下的成功。我期望看到一个更有魄力、更具创意的平营，出现在国家每一个标志性工程之中。",
+  "chairmanMessageParagraph6": "我们相信：凭借承诺中的真诚、行动中的专业与不断追求卓越的渴望——平营不仅是一家承包商，更将成为客户发展道路上值得信赖的战略合作伙伴。",
     "chairmanMessageParagraph7": "Nguyen Thanh Binh",
-    "chairmanMessageParagraph8": "BINH DOANH集团董事长"
+    "chairmanMessageParagraph8": "BINH DOANH集团董事长",
+    "respectfully": "此致敬礼！"
   },
   "pagination": {
     "previous": "返回",
@@ -223,5 +225,29 @@
     "deputy_site_manager": "副施工主管",
     "deputy_design": "设计部副主管"
   }
+  },
+   "orgChart": {
+    "chairman": "董事会主席",
+    "board": "董事会",
+    "accounting": "会计部",
+    "payment": "付款会计",
+    "general": "总账会计",
+    "materials_account": "材料会计",
+    "business": "商务部",
+    "procurement": "采购部",
+    "purchasing": "材料采购",
+    "administration": "行政部",
+    "design": "设计部",
+    "architecture": "建筑设计",
+    "structure": "结构设计",
+    "me": "机电",
+    "technical": "技术部",
+    "construction": "施工队",
+    "site": "工程队",
+    "road": "道路结构队",
+    "machine": "机械队",
+    "electric": "电、水、空调队",
+    "ground": "场地平整与改造队",
+    "fabrication": "机械加工与安装队"
   }
 }
