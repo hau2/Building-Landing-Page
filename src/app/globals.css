@@ -156,3 +156,25 @@
   opacity: 1;
   z-index: 10;
 }
+
+.node {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #e6f4ff;
+  border: 2px solid #0070f3;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #003366;
+  font-size: 14px;
+  white-space: nowrap;
+  /* Giúp không bị xuống dòng */
+  max-width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.node:hover {
+  background-color: #bae0ff;
+  transform: scale(1.05);
+  cursor: pointer;
+}
