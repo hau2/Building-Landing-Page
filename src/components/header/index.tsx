@@ -66,7 +66,7 @@ export default function Header() {
     <header className="z-50 fixed top-0 left-0 right-0 bg-white shadow-md">
       <div className="flex justify-between items-center px-4 py-3 lg:px-20">
         {/* Logo */}
-        <Link href="/">
+        <Link href="/" onClick={() => setMenuOpen(false)}>
           <Image
             src="/images/mainlogo.jpg"
             alt="Bình Doanh"
@@ -95,6 +95,7 @@ export default function Header() {
                 <Link
                   href={menu.link}
                   className="uppercase text-[14px] hover:text-yellow-600 flex items-center gap-1 transition"
+                  onClick={() => setMenuOpen(!menuOpen)}
                 >
                   {menu.title}
                   {menu.subMenu && (
@@ -108,7 +109,11 @@ export default function Header() {
                         key={idx}
                         className="px-4 py-2 hover:text-yellow-600 transition"
                       >
-                        <Link href={sub.link} className="block text-sm">
+                        <Link
+                          onClick={() => setMenuOpen(!menuOpen)}
+                          href={sub.link}
+                          className="block text-sm"
+                        >
                           {sub.title}
                         </Link>
                       </li>
@@ -137,14 +142,14 @@ export default function Header() {
           <ul className="flex flex-col gap-3 text-black/80 font-semibold">
             {menuItems.map((menu, index) => (
               <li key={index}>
-                <Link href={menu.link} className="block py-2">
+                <Link href={menu.link} className="block py-2" onClick={() => setMenuOpen(false)}>
                   {menu.title}
                 </Link>
                 {menu.subMenu && (
                   <ul className="ml-4 text-sm text-gray-700">
                     {menu.subMenu.map((sub, idx) => (
                       <li key={idx}>
-                        <Link href={sub.link} className="block py-1">
+                        <Link href={sub.link} onClick={() => setMenuOpen(false)} className="block py-1">
                           {sub.title}
                         </Link>
                       </li>
