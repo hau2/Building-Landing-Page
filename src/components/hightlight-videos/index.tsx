@@ -9,6 +9,18 @@ import { useState } from "react";
 
 const videos = [
   {
+    id: 4,
+    title: "Sự kiện cuối năm",
+    thumbnail: "/images/videonoibatthumb4.png",
+    url: "https://pwa-app.leconghau.id.vn/videonoibat4.mp4",
+  },
+  {
+    id: 5,
+    title: "Sự kiện cuối năm",
+    thumbnail: "/images/videonoibatthumb5.png",
+    url: "https://pwa-app.leconghau.id.vn/videonoibat5.mp4",
+  },
+  {
     id: 1,
     title: "Công trường thi công",
     thumbnail: "/images/videonoibatthumb1.png",
@@ -25,7 +37,7 @@ const videos = [
     title: "Sự kiện cuối năm",
     thumbnail: "/images/videonoibatthumb3.png",
     url: "https://pwa-app.leconghau.id.vn/videonoibat3.mp4",
-  },
+  }
 ];
 
 export function VideoGallery() {
