@@ -74,28 +74,30 @@ export default function OurBusinessLines() {
 
         {showMotion && (
           <MotionDiv
-            className="grid grid-cols-2 gap-4 items-center"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center"
             variants={effects.zoomIn}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
           >
-            <Image
-              src="/images/du-an/duan-shing-mark-vina-8.JPG"
-              height={500}
-              width={500}
-              alt="Dự án tiêu biểu"
-              className="rounded-lg shadow-lg"
-              style={{ height: 500, objectFit: "cover" }}
-            />
-            <Image
-              src="/images/du-an/duan-shing-mark-vina-9.JPG"
-              width={500}
-              height={300}
-              alt="Dự án tiêu biểu khác"
-              className="rounded-lg shadow-lg"
-              style={{ height: 350, objectFit: "cover" }}
-            />
+            <div className="relative w-full h-[400px] sm:h-[500px]">
+              <Image
+                src="/images/du-an/duan-shing-mark-vina-8.JPG"
+                alt="Dự án tiêu biểu"
+                fill
+                className="rounded-2xl shadow-lg object-cover"
+                sizes="(max-width: 640px) 100vw, 50vw"
+              />
+            </div>
+            <div className="relative w-full h-[300px] sm:h-[350px]">
+              <Image
+                src="/images/du-an/duan-shing-mark-vina-9.JPG"
+                alt="Dự án tiêu biểu khác"
+                fill
+                className="rounded-2xl shadow-lg object-cover"
+                sizes="(max-width: 640px) 100vw, 50vw"
+              />
+            </div>
           </MotionDiv>
         )}
       </section>
