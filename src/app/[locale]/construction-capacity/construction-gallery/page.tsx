@@ -17,7 +17,7 @@ const images = [
   "/images/thicong1.jpg",
   "/images/thicong2.jpg",
   "/images/thicong3.jpg",
-  "/images/thicong4.jpg",
+  "/images/thicong4.JPG",
   "/images/thicong5.jpg",
   "/images/thicong6.jpg",
   "/images/du-an/duan-apex-1.jpg",

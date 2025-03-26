@@ -185,12 +185,23 @@ export default function DuAnNoiBat() {
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 4,
+            },
+          }}
           className="w-full"
         >
           {listDuAn?.map((item, index) => (
             <SwiperSlide key={index} className="slide-custom">
               <motion.div
-                className="relative w-full aspect-[4/5]"
+                className="relative w-full aspect-[4/5] sm:aspect-[4/5] max-h-[500px] sm:max-h-[500px] md:max-h-none"
                 initial={{ scale: 0.9, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.6 }}

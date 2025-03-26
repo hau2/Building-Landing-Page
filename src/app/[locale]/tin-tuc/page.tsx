@@ -6,18 +6,18 @@ const articles = [
     title:
       "Ricons ký kết hợp tác chiến lược tổng thầu thi công dự án The Gió cùng chủ đầu tư",
     date: "11/03/2025",
-    image: "/images/duan.png",
+    image: "/images/du-an/duan-y-duoc-9.jpg",
   },
   {
     title: "Những đóa hồng Ricons lung linh trong sự kiện ngày Quốc tế Phụ nữ",
     date: "08/03/2025",
-    image: "/images/duan.png",
+    image: "/images/du-an/duan-y-duoc-9.jpg",
   },
   {
     title:
       "Ricons khai giảng khóa đào tạo quản lý tài chính dành cho chỉ huy trưởng",
     date: "07/03/2025",
-    image: "/images/duan.png",
+    image: "/images/du-an/duan-y-duoc-9.jpg",
   },
 ];
 
@@ -59,7 +59,7 @@ export default function TinTuc() {
     <div>
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/duan.png"
+          src="/images/du-an/duan-y-duoc-9.jpg"
           alt="Background"
           fill
           style={{ objectFit: "cover", zIndex: -1 }}

@@ -29,7 +29,7 @@ export default function TuyenDung() {
     <div>
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/duan.png"
+          src="/images/du-an/duan-y-duoc-9.jpg"
           alt="Background"
           fill
           style={{ objectFit: "cover", zIndex: -1 }}

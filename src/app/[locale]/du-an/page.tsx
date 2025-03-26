@@ -137,25 +137,25 @@ const listDuAn: IDuAn[] = [
 
 export default function DuAn() {
     return (
-        <div>
-            <div className="relative w-full h-[300px]">
-                <Image
-                    src="/images/duan.png"
-                    alt="Background"
-                    fill
-                    style={{ objectFit: "cover", zIndex: -1 }}
-                />
-                <div className="absolute inset-0 bg-black/50"></div>
-                <div className="relative z-10 p-10 text-white h-full flex justify-center items-center">
-                    <h1 className="text-5xl">Dự Án</h1>
-                </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-6 mt-10 px-10 max-w-7xl mx-auto p-3">
-                {listDuAn.map((item, index) => (
-                    <DuAnItem key={index} item={item} />
-                ))}
-            </div>
+      <div>
+        <div className="relative w-full h-[300px]">
+          <Image
+            src="/images/du-an/duan-y-duoc-9.jpg"
+            alt="Background"
+            fill
+            style={{ objectFit: "cover", zIndex: -1 }}
+          />
+          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="relative z-10 p-10 text-white h-full flex justify-center items-center">
+            <h1 className="text-5xl">Dự Án</h1>
+          </div>
         </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-6 mt-10 max-w-7xl mx-auto">
+          {listDuAn.map((item, index) => (
+            <DuAnItem key={index} item={item} />
+          ))}
+        </div>
+      </div>
     );
 }
