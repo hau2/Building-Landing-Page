@@ -151,7 +151,7 @@ export default function DuAn() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-6 mt-10 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-6 mt-10 max-w-7xl mx-auto p-4">
           {listDuAn.map((item, index) => (
             <DuAnItem key={index} item={item} />
           ))}

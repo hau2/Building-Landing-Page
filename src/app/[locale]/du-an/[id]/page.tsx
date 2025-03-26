@@ -36,13 +36,13 @@ export default function DuAnDetail() {
 
   return (
     <motion.div
-      className="pl-20 pr-20"
+      className="px-4 sm:px-10 md:px-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
     >
       <motion.h1
-        className="text-4xl font-bold mb-4 mt-8 text-[#152E51]"
+        className="text-3xl sm:text-4xl font-bold mb-4 mt-8 text-[#152E51]"
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 }}
@@ -51,15 +51,16 @@ export default function DuAnDetail() {
       </motion.h1>
 
       <motion.div
-        className="flex max-w-7xl mx-auto gap-6"
+        className="flex flex-col md:flex-row max-w-7xl mx-auto gap-6"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.8 }}
       >
-        <div className="w-1/2">
+        {/* Hình ảnh dự án */}
+        <div className="w-full md:w-1/2">
           <motion.h2
-            className="text-3xl font-bold text-[#DAB87A]"
+            className="text-2xl sm:text-3xl font-bold text-[#DAB87A]"
             initial={{ x: -30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.6 }}
@@ -77,25 +78,26 @@ export default function DuAnDetail() {
                 alt={item?.name || ""}
                 width={800}
                 height={400}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg w-full h-auto"
               />
             </motion.div>
           </div>
         </div>
 
+        {/* Thông tin dự án */}
         <motion.div
-          className="w-1/2 space-y-10 mt-20 ml-30"
+          className="w-full md:w-1/2 space-y-10 mt-10 md:mt-20 md:ml-10"
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div className="space-y-6">
               <div>
                 <h4 className="text-xl font-bold text-gray-700 flex items-center gap-2">
                   <Building /> {t("investor")}
                 </h4>
-                <p className="text-l text-gray-700 mt-2">
+                <p className="text-base text-gray-700 mt-2">
                   {item?.investor || "Đang cập nhật"}
                 </p>
               </div>
@@ -103,7 +105,7 @@ export default function DuAnDetail() {
                 <h4 className="text-xl font-bold text-gray-700 flex items-center gap-2">
                   <Briefcase /> {t("businessSector")}
                 </h4>
-                <p className="text-l text-gray-700 mt-2">
+                <p className="text-base text-gray-700 mt-2">
                   {projectTranslate(`${item?.id}.businessSector`)}
                 </p>
               </div>
@@ -111,7 +113,7 @@ export default function DuAnDetail() {
                 <h4 className="text-xl font-bold text-gray-700 flex items-center gap-2">
                   <MapPin /> {t("address")}
                 </h4>
-                <p className="text-l text-gray-700 mt-2">
+                <p className="text-base text-gray-700 mt-2">
                   {projectTranslate(`${item?.id}.address`)}
                 </p>
               </div>
@@ -122,7 +124,7 @@ export default function DuAnDetail() {
                 <h4 className="text-xl font-bold text-gray-700 flex items-center gap-2">
                   <Calendar /> {t("constructionPeriod")}
                 </h4>
-                <p className="text-l text-gray-700 mt-2">
+                <p className="text-base text-gray-700 mt-2">
                   {item?.constructionPeriod}
                 </p>
               </div>
@@ -130,7 +132,7 @@ export default function DuAnDetail() {
                 <h4 className="text-xl font-bold text-gray-700 flex items-center gap-2">
                   <Wrench /> {t("status")}
                 </h4>
-                <p className="text-l text-gray-700 mt-2">
+                <p className="text-base text-gray-700 mt-2">
                   {projectTranslate(`${item?.id}.status`)}
                 </p>
               </div>
@@ -138,7 +140,7 @@ export default function DuAnDetail() {
                 <h4 className="text-xl font-bold text-gray-700 flex items-center gap-2">
                   <DollarSign /> {t("totalInvestment")}
                 </h4>
-                <p className="text-l text-gray-700 mt-2">
+                <p className="text-base text-gray-700 mt-2">
                   {item?.totalInvestment}
                 </p>
               </div>
@@ -147,8 +149,9 @@ export default function DuAnDetail() {
         </motion.div>
       </motion.div>
 
+      {/* Hình ảnh chi tiết */}
       <motion.h1
-        className="text-4xl font-bold mb-4 mt-8 text-[#152E51]"
+        className="text-3xl sm:text-4xl font-bold mb-4 mt-8 text-[#152E51]"
         initial={{ y: 30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7 }}
@@ -162,12 +165,12 @@ export default function DuAnDetail() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6 }}
       >
-        <div className="relative mx-auto px-4 sm:px-10 max-w-[1460px]">
-          <button className="custom-prev absolute left-10 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full z-10 hover:bg-black/80 transition">
-            <ChevronLeft size={22} />
+        <div className="relative mx-auto px-2 sm:px-4 md:px-10 max-w-[1460px]">
+          <button className="custom-prev absolute left-2 sm:left-6 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 sm:p-3 rounded-full z-10 hover:bg-black/80 transition">
+            <ChevronLeft size={20} />
           </button>
-          <button className="custom-next absolute right-10 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-full z-10 hover:bg-black/80 transition">
-            <ChevronRight size={22} />
+          <button className="custom-next absolute right-2 sm:right-6 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 sm:p-3 rounded-full z-10 hover:bg-black/80 transition">
+            <ChevronRight size={20} />
           </button>
 
           <Swiper
@@ -190,7 +193,7 @@ export default function DuAnDetail() {
             {item?.detailImages.map((image, index) => (
               <SwiperSlide key={index}>
                 <motion.div
-                  className="w-full h-[280px] sm:h-[320px] md:h-[360px] relative"
+                  className="w-full h-[240px] sm:h-[300px] md:h-[360px] relative"
                   initial={{ scale: 0.9, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.6 }}
