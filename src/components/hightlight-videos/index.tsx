@@ -37,7 +37,7 @@ const videos = [
     title: "Sự kiện cuối năm",
     thumbnail: "/images/videonoibatthumb3.png",
     url: "https://pwa-app.leconghau.id.vn/videonoibat3.mp4",
-  }
+  },
 ];
 
 export function VideoGallery() {
@@ -79,20 +79,18 @@ export function VideoGallery() {
         ))}
       </div>
 
-
       <Dialog open={open} onOpenChange={setOpen}>
-  <DialogContent className="dialog-video-large overflow-hidden">
-    <DialogTitle className="hidden">Video Nổi Bật</DialogTitle>
-    <iframe
-      src={currentVideo || ""}
-      className="w-full h-full rounded-md"
-      allowFullScreen
-      allow="autoplay; encrypted-media"
-    ></iframe>
-  </DialogContent>
-</Dialog>
-
-
+        <DialogContent className="dialog-video-large overflow-hidden">
+          <DialogTitle className="hidden">Video Nổi Bật</DialogTitle>
+          <video
+            src={currentVideo || ""}
+            className="w-full h-full rounded-md"
+            controls
+            autoPlay
+            playsInline
+          />
+        </DialogContent>
+      </Dialog>
     </section>
   );
 }
