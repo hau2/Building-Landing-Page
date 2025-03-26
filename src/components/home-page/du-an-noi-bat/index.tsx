@@ -145,22 +145,23 @@ export default function DuAnNoiBat() {
   const t = useTranslations("HomePage");
   const projectTranslate = useTranslations("project");
 
-   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-   const handleNavigate = (item: any) => {
-     localStorage.setItem("duAnData", JSON.stringify(item));
-   };
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const handleNavigate = (item: any) => {
+    localStorage.setItem("duAnData", JSON.stringify(item));
+  };
 
   return (
-    <div className="px-20 w-full">
-      <h2 className="text-4xl font-bold text-[#152E51] mb-4 pb-4 border-b">
+    <div className="px-4 sm:px-8 md:px-20 w-full">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#152E51] mb-4 pb-4 border-b">
         {t("projectHighlightTitle")}
       </h2>
 
-      <div className="relative p-2 bg-[#F5F5F5]">
-        <div className="custom-prev absolute top-1/2 left-0 z-20 -translate-y-1/2 cursor-pointer p-2 bg-white/80 rounded-full shadow-md hover:bg-white">
+      <div className="relative p-2 bg-[#F5F5F5] rounded-lg">
+        {/* Prev Button */}
+        <div className="custom-prev absolute top-1/2 left-2 sm:left-4 z-20 -translate-y-1/2 cursor-pointer p-1 sm:p-2 bg-white/80 rounded-full shadow-md hover:bg-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 text-black"
+            className="h-5 w-5 sm:h-6 sm:w-6 text-black"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -173,36 +174,31 @@ export default function DuAnNoiBat() {
             />
           </svg>
         </div>
+
+        {/* Swiper */}
         <Swiper
           modules={[Navigation, Autoplay]}
-          spaceBetween={30}
+          spaceBetween={16}
           loop={true}
           centeredSlides={true}
           autoplay={{ delay: 3000 }}
           speed={800}
-          slidesPerView={4}
+          slidesPerView={1}
+          breakpoints={{
+            640: { slidesPerView: 2 },
+            1024: { slidesPerView: 4 },
+          }}
           navigation={{
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
-          }}
-          breakpoints={{
-            0: {
-              slidesPerView: 1,
-            },
-            640: {
-              slidesPerView: 2,
-            },
-            1024: {
-              slidesPerView: 4,
-            },
           }}
           className="w-full"
         >
           {listDuAn?.map((item, index) => (
             <SwiperSlide key={index} className="slide-custom">
               <motion.div
-                className="relative w-full aspect-[4/5] sm:aspect-[4/5] max-h-[500px] sm:max-h-[500px] md:max-h-none"
-                initial={{ scale: 0.9, opacity: 0 }}
+                className="relative w-full aspect-[4/5] max-h-[500px]"
+                initial={{ scale: 0.95, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.6 }}
               >
@@ -218,43 +214,33 @@ export default function DuAnNoiBat() {
                       src={item.image}
                       alt={`Slide ${index + 1}`}
                       fill
-                      style={{ objectFit: "cover" }}
+                      className="object-cover rounded-lg"
                     />
-                    <div className="absolute top-0 left-0 w-full h-full bg-black opacity-10 "></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-black/10 rounded-lg" />
 
                     {/* Tiêu đề mặc định */}
-                    <div className="absolute bottom-[32px] group-hover:opacity-0 bg-black/10 shadow-2xl transition-all duration-300 px-4 py-2 rounded-lg">
-                      <p className="text-white text-[16px] font-semibold uppercase text-center">
+                    <div className="absolute bottom-8 group-hover:opacity-0 bg-black/20 shadow-2xl transition-all duration-300 px-3 py-2 rounded-lg">
+                      <p className="text-white text-lg sm:text-lg md:text-lg font-semibold uppercase text-center">
                         {item && projectTranslate(`${item.id}.name`)}
                       </p>
                     </div>
 
-                    {/* Hover nội dung */}
-                    <div className="absolute bottom-0 left-0 w-full h-full p-4 bg-black/30 text-white opacity-0 group-hover:opacity-100 transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 flex flex-col">
-                      <h5 className="font-semibold text-[20px] text-center text-white">
+                    <div className="absolute inset-0 p-4 bg-black/40 text-white opacity-0 group-hover:opacity-100 transition-all duration-500 rounded-lg flex flex-col justify-start">
+                      {/* Tên dự án */}
+                      <h5 className="font-bold text-lg sm:text-xl uppercase mb-4 leading-snug">
                         {item && projectTranslate(`${item.id}.name`)}
                       </h5>
-                      <div className="flex flex-col gap-[16px] pt-1">
-                        <div className="flex flex-row w-full">
-                          <p className="flex-1 text-[14px]">{t("investor")}</p>
-                          <p className="flex-1 text-[14px]">
-                            {projectTranslate(`${item?.id}.businessSector`)}
-                          </p>
-                        </div>
-                        <div className="flex flex-row w-full gap-[8px]">
-                          <p className="flex-1 text-[14px]">{t("address")}</p>
-                          <p className="flex-1 text-[14px]">
-                            {projectTranslate(`${item?.id}.address`)}
-                          </p>
-                        </div>
-                        <div className="flex flex-row w-full gap-[8px]">
-                          <p className="flex-1 text-[14px]">
-                            {t("totalInvestment")}
-                          </p>
-                          <p className="flex-1 text-[14px]">
-                            {item.totalInvestment}
-                          </p>
-                        </div>
+
+                      {/* Nội dung chia 2 cột */}
+                      <div className="grid grid-cols-2 gap-y-2 text-sm sm:text-base">
+                        <p className="font-medium">{t("investor")}</p>
+                        <p>{projectTranslate(`${item.id}.businessSector`)}</p>
+
+                        <p className="font-medium">{t("address")}</p>
+                        <p>{projectTranslate(`${item.id}.address`)}</p>
+
+                        <p className="font-medium">{t("totalInvestment")}</p>
+                        <p>{item.totalInvestment}</p>
                       </div>
                     </div>
                   </div>
@@ -263,10 +249,12 @@ export default function DuAnNoiBat() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="custom-next absolute top-1/2 right-0 z-20 -translate-y-1/2 cursor-pointer p-2 bg-white/80 rounded-full shadow-md hover:bg-white">
+
+        {/* Next Button */}
+        <div className="custom-next absolute top-1/2 right-2 sm:right-4 z-20 -translate-y-1/2 cursor-pointer p-1 sm:p-2 bg-white/80 rounded-full shadow-md hover:bg-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 text-black"
+            className="h-5 w-5 sm:h-6 sm:w-6 text-black"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
