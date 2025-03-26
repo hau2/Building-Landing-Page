@@ -41,52 +41,52 @@ const logos = [
 export default function ClientPartnerSlider() {
     const t = useTranslations("HomePage");
     return (
-        <section className="bg-gray-50 py-16 px-16">
-            <FadeUp>
-                <h2 className="text-4xl font-bold text-[#152E51] mb-10 border-b pb-4">
-                    {t("aboutCustomer")}
-                </h2>
-            </FadeUp>
-            <FadeUp>
-                <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    loop={true}
-                    autoplay={{
-                        delay: 1200,
-                        disableOnInteraction: false,
-                    }}
-                    modules={[Autoplay]}
-                    breakpoints={{
-                        640: { slidesPerView: 3 },
-                        768: { slidesPerView: 4 },
-                        1024: { slidesPerView: 6 },
-                    }}
-                    className="px-6"
-                >
-                    {logos.map((src, index) => (
-                        <SwiperSlide key={index}>
-                            <div className="flex justify-center items-center p-4 h-32 sm:h-36">
-                                <div className="relative  w-[160px] h-[80px] sm:w-[180px] sm:h-[90px]">
-                                    <Image
-                                        src={src}
-                                        alt={`partner-${index}`}
-                                        fill
-                                        className="object-contain"
-                                        sizes="(max-width: 768px) 160px, 180px"
-                                    />
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-                <Link
-                    className="italic text-[#152E51] text-lg  font-medium"
-                    href={`/${
-                        localStorage.getItem("locale") || "vi"
-                    }/about/customer`}
-                >{`Xem tất cả >`}</Link>
-            </FadeUp>
-        </section>
+      <section className="bg-gray-50 py-16 px-16">
+        <FadeUp>
+          <h2 className="text-4xl font-bold text-[#152E51] mb-10 border-b pb-4">
+            {t("aboutCustomer")}
+          </h2>
+        </FadeUp>
+        <FadeUp>
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={30}
+            loop={true}
+            autoplay={{
+              delay: 1200,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
+            breakpoints={{
+              640: { slidesPerView: 3 },
+              768: { slidesPerView: 4 },
+              1024: { slidesPerView: 6 },
+            }}
+            className="px-6"
+          >
+            {logos.map((src, index) => (
+              <SwiperSlide key={index}>
+                <div className="flex justify-center items-center p-4 h-32 sm:h-36">
+                  <div className="relative  w-[160px] h-[80px] sm:w-[180px] sm:h-[90px]">
+                    <Image
+                      src={src}
+                      alt={`partner-${index}`}
+                      fill
+                      className="object-contain"
+                      sizes="(max-width: 768px) 160px, 180px"
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <Link
+            className="italic text-[#152E51] text-lg  font-medium"
+            href={`/${localStorage.getItem("locale") || "vi"}/about/customer`}
+          >
+            {t("seeAll")}
+          </Link>
+        </FadeUp>
+      </section>
     );
 }

@@ -57,6 +57,7 @@
     "scale": "Scale",
     "updating": "Updating...",
     "underConstruction": "Under Construction",
+    "seeAll": "See All >>",
     "businessSector": "Business Sector",
     "certificationTitle": "Capability Certificate",
     "vision": "Creating exceptional value, ensuring optimal quality, absolute safety, and eternal sustainability — pioneering to elevate life and protect the planet"
@@ -145,7 +146,7 @@
     "tableHeaderDetails": "Details"
   },
   "chairmanMessages": {
-    "chairmanMessageTitle": "Chairman's messages", 
+    "chairmanMessageTitle": "Introduction", 
     "chairmanMessageParagraph1": "Dear valued partners, clients, and the entire Bình Doanh team,",
     "chairmanMessageParagraph2": "Every project is a statement. Every construction is a mark. And every step forward by Bình Doanh is a realization of our aspiration: to become a pioneering symbol of Vietnam’s construction industry – solid, breakthrough, and sustainable.",
     "chairmanMessageParagraph3": "We don’t just build concrete structures. We build trust, cultivate value, and connect the future. With the philosophy: “Build swiftly – Deliver quality – Create real value”, Bình Doanh is committed to delivering projects that exceed expectations, fulfill promises, and honor every investment.",

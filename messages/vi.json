@@ -58,6 +58,7 @@
     "updating": "Đang cập nhật",
     "underConstruction": "Đang thi công",
     "businessSector": "Ngành kinh doanh",
+    "seeAll": "Xem tất cả >>",
     "certificationTitle": "Chứng Chỉ Năng Lực",
     "vision": "Kiến tạo giá trị vượt bậc, đảm bảo chất lượng tối ưu, an toàn tuyệt đối và bền vững vĩnh cửu, tiên phong nâng tầm cuộc sống và bảo vệ hành tinh"
   },
@@ -150,7 +151,7 @@
     "tableHeaderDetails": "CHI TIẾT"
   },
   "chairmanMessages": {
-    "chairmanMessageTitle": "Thông điệp chủ tịch",
+    "chairmanMessageTitle": "Lời mở đầu",
     "chairmanMessageParagraph1": "Kính gửi Quý đối tác, khách hàng và toàn thể đội ngũ Bình Doanh,",
     "chairmanMessageParagraph2": "Mỗi công trình là một tuyên ngôn. Mỗi dự án là một dấu ấn. Và mỗi bước tiến của Bình Doanh là một bước hiện thực hóa khát vọng: trở thành biểu tượng tiên phong của ngành xây dựng Việt Nam – vững chắc, đột phá và bền vững",
     "chairmanMessageParagraph3": "Chúng tôi không chỉ xây dựng những khối bê tông cốt thép. Chúng tôi kiến tạo niềm tin, vun đắp giá trị và kết nối tương lai. Với triết lý “Xây dựng nhanh chóng – Cung cấp đúng chất lượng – Kiến tạo giá trị thực”, Bình Doanh cam kết mang đến những công trình vượt kỳ vọng, đúng cam kết và xứng tầm đầu tư",

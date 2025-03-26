@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Menu, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Header() {
   const t = useTranslations("HomePage");
@@ -137,44 +138,60 @@ export default function Header() {
       </div>
 
       {/* Mobile Menu Drawer */}
-      {menuOpen && (
-        <div className="lg:hidden fixed top-[80px] left-0 right-0 bottom-0 bg-white z-40 overflow-y-auto px-6 pb-6 pt-4">
-          <ul className="flex flex-col gap-3 text-black/80 font-semibold">
-            {menuItems.map((menu, index) => (
-              <li key={index}>
-                <Link href={menu.link} className="block py-2" onClick={() => setMenuOpen(false)}>
-                  {menu.title}
-                </Link>
-                {menu.subMenu && (
-                  <ul className="ml-4 text-sm text-gray-700">
-                    {menu.subMenu.map((sub, idx) => (
-                      <li key={idx}>
-                        <Link href={sub.link} onClick={() => setMenuOpen(false)} className="block py-1">
-                          {sub.title}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                )}
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            initial={{ y: -50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -50, opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="lg:hidden fixed top-[80px] left-0 right-0 bottom-0 bg-white z-40 overflow-y-auto px-6 pb-6 pt-4"
+          >
+            <ul className="flex flex-col gap-3 text-black/80 font-semibold">
+              {menuItems.map((menu, index) => (
+                <li key={index}>
+                  <Link
+                    href={menu.link}
+                    className="block py-2"
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {menu.title}
+                  </Link>
+                  {menu.subMenu && (
+                    <ul className="ml-4 text-sm text-gray-700">
+                      {menu.subMenu.map((sub, idx) => (
+                        <li key={idx}>
+                          <Link
+                            href={sub.link}
+                            onClick={() => setMenuOpen(false)}
+                            className="block py-1"
+                          >
+                            {sub.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+              <li>
+                <LanguageSwitcher />
               </li>
-            ))}
-            <li>
-              <LanguageSwitcher />
-            </li>
-            <li>
-              <Button size="sm" className="w-full">
-                <a
-                  href="https://pwa-app.leconghau.id.vn/BINH_DOANH_GROUP.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  E-Brochure
-                </a>
-              </Button>
-            </li>
-          </ul>
-        </div>
-      )}
+              <li>
+                <Button size="sm" className="w-full">
+                  <a
+                    href="https://pwa-app.leconghau.id.vn/BINH_DOANH_GROUP.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    E-Brochure
+                  </a>
+                </Button>
+              </li>
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }
