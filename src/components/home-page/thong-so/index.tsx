@@ -23,11 +23,11 @@ export default function ThongSo() {
           <h2 className="text-2xl md:text-3xl font-bold text-blue-900 uppercase">
             {t("heading")}
           </h2>
-          <p className="text-xl md:text-2xl font-bold text-orange-600 mt-4">
+          {/* <p className="text-xl md:text-2xl font-bold text-orange-600 mt-4">
             <i className="fas fa-award animate-pulse mr-2" />
             {t("subheading")}
             <i className="fas fa-award animate-pulse ml-2" />
-          </p>
+          </p> */}
         </motion.div>
 
         {/* Dãy số liệu */}

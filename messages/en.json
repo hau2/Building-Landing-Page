@@ -1,11 +1,11 @@
 {
   "HomePage": {
     "title": "Hello world!",
-    "homePage": "Home page",
+    "homePage": "Home",
     "about": "About",
     "capacity": "Construction capacity",
-    "project": "Project",
-    "new": "New",
+    "project": "Projects",
+    "new": "News",
     "recruitment": "Careers",
     "aboutOverview": "Overview",
     "aboutForeword": "Chairman's Message",
@@ -162,7 +162,7 @@
     "next": "Next"
   },
   "thongSo": {
-    "heading": "Leading General Contractor & MEPF in Vietnam",
+    "heading": "Vietnam's Leading General Contractor in Construction and Steel Truss Manufacturing",
     "subheading": "Asia Pacific Enterprise Award Winner 3 Years In A Row",
     "data": [
       { "title": "Projects Completed", "unit": "projects" },

@@ -234,7 +234,7 @@ export default function DuAnNoiBat() {
                       {/* Nội dung chia 2 cột */}
                       <div className="grid grid-cols-2 gap-y-2 text-sm sm:text-base">
                         <p className="font-medium">{t("investor")}</p>
-                        <p>{projectTranslate(`${item.id}.businessSector`)}</p>
+                        <p>{projectTranslate(`${item.id}.investor`)}</p>
 
                         <p className="font-medium">{t("address")}</p>
                         <p>{projectTranslate(`${item.id}.address`)}</p>
