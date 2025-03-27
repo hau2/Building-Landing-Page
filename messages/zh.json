@@ -5,7 +5,7 @@
     "about": "关于我们",
     "capacity": "建设能力",
     "project": "项目",
-    "new": "新闻",
+    "contact": "接触",
     "recruitment": "招聘",
     "aboutOverview": "公司概况",
     "aboutForeword": "董事长寄语",
@@ -146,6 +146,9 @@
     "tableHeaderDeadline": "截止日期",
     "tableHeaderDetails": "详情"
    
+  },
+  "contact": {
+    "contactPageTitle": "接触"
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "前言", 

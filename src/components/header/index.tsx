@@ -59,7 +59,7 @@ export default function Header() {
         },
       ],
     },
-    { title: t("new"), link: `/${currentLocale}/tin-tuc` },
+    { title: t("contact"), link: `/${currentLocale}/lien-he` },
     { title: t("recruitment"), link: `/${currentLocale}/tuyen-dung` },
   ];
 

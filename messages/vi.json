@@ -5,7 +5,7 @@
     "about": "Giới thiệu",
     "capacity": "Năng lực xây dựng",
     "project": "Dự án",
-    "new": "Tin tức",
+    "contact": "Liên hệ",
     "recruitment": "Tuyển dụng",
     "aboutOverview": "Tổng Quan",
     "aboutForeword": "Thông điệp Chủ tịch",
@@ -149,6 +149,9 @@
     "tableHeaderQuantity": "SỐ LƯỢNG",
     "tableHeaderDeadline": "HẾT HẠN",
     "tableHeaderDetails": "CHI TIẾT"
+  },
+  "contact": {
+    "contactPageTitle": "Liên hệ"
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "Lời mở đầu",

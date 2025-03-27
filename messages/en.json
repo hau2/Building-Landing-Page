@@ -5,7 +5,7 @@
     "about": "About",
     "capacity": "Construction capacity",
     "project": "Projects",
-    "new": "News",
+    "contact": "Contact",
     "recruitment": "Careers",
     "aboutOverview": "Overview",
     "aboutForeword": "Chairman's Message",
@@ -144,6 +144,9 @@
     "tableHeaderQuantity": "Quantity",
     "tableHeaderDeadline": "Deadline",
     "tableHeaderDetails": "Details"
+  },
+  "contact": {
+    "contactPageTitle": "Contact"
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "Introduction", 
