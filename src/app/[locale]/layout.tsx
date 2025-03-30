@@ -8,6 +8,20 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
+import { Playfair_Display } from "next/font/google";
+import { Great_Vibes } from "next/font/google";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  variable: "--font-playfair",
+});
+
+const greatVibes = Great_Vibes({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-greatvibes",
+});
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -53,7 +67,7 @@ export default async  function RootLayout({
  
   return (
     <html lang="locale">
-      <body className={roboto.variable}>
+      <body className={`${roboto.variable} ${playfair.variable} ${greatVibes.variable} font-sans`}>
          <NextIntlClientProvider messages={messages}>
           <Header />
           <div className="h-[90px]" />

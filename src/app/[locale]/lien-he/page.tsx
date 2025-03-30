@@ -44,9 +44,41 @@ export default function LienHe() {
 
       <div className="bg-gray-100 min-h-screen p-6">
         <main className="max-w-6xl mx-auto mt-6 space-y-12">
+          <div className="relative bg-white px-6 py-12 rounded-2xl shadow-xl overflow-hidden border border-gray-200 max-w-3xl mx-auto mt-20">
+            {/* Hiệu ứng nền động */}
+            <div className="absolute inset-0 bg-gradient-to-br from-green-100 via-white to-blue-100 opacity-30 animate-pulse pointer-events-none" />
+
+            {/* Nội dung */}
+            <div className="relative z-10 text-center space-y-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 tracking-tight">
+                <span className="inline-block transform -rotate-1 bg-yellow-200 px-3 py-1 rounded shadow-lg">
+                  Nơi nào đó
+                </span>{" "}
+                có{" "}
+                <span className="text-green-800 font-vibes text-[1.8rem]">
+                  “hạt giống”
+                </span>{" "}
+                <span className="text-green-700 font-playfair font-semibold">
+                  Bình Doanh Construction
+                </span>
+              </h2>
+
+              <p className="text-lg md:text-xl text-gray-700 font-medium">
+                Nơi đó{" "}
+                <span className="bg-green-100 text-green-900 px-3 py-1 rounded-lg shadow font-playfair font-semibold">
+                  “vững chắc”
+                </span>{" "}
+                và{" "}
+                <span className="bg-blue-100 text-blue-900 px-3 py-1 rounded-lg shadow font-vibes text-[1.75rem]">
+                  “vươn cao”
+                </span>
+              </p>
+            </div>
+          </div>
+
           {/* Bản đồ Google – có marker đúng địa chỉ */}
           <FadeUp>
-            <div className="w-full h-[300px] sm:h-[400px] my-32">
+            <div className="w-full h-[300px] sm:h-[400px] my-16">
               <iframe
                 src="https://maps.google.com/maps?q=10.9813464,106.9527545&z=18&output=embed"
                 width="100%"
