@@ -151,7 +151,18 @@
     "tableHeaderDetails": "CHI TIẾT"
   },
   "contact": {
-    "contactPageTitle": "Liên hệ"
+    "contactPageTitle": "Liên hệ",
+    "title": "Liên hệ chúng tôi",
+    "description": "Nơi nào đó có “hạt giống” Bình Doanh Construction Nơi đó “vững chắc” và “vương cao”",
+    "sectionTitle": {
+      "info": "THÔNG TIN",
+      "highlight": "LIÊN HỆ"
+    },
+    "company": "BÌNH DOANH GROUP",
+    "address": "11 Đường D2, Sài Gòn Pearl, Phường 22, Q. Bình Thạnh, Tp. Hồ Chí Minh",
+    "phone": "0913 795 765",
+    "email": "info@binhdoanhgroup.com",
+    "website": "www.binhdoanhgroup.com"
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "Lời mở đầu",

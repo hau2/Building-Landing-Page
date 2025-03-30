@@ -30,6 +30,18 @@ export default function LienHe() {
         </div>
       </div>
 
+      <section className="w-full border-t border-gray-300 py-10 px-4 md:px-40 flex flex-col gap-6 md:gap-10 md:flex-row md:justify-between md:items-start">
+        {/* Left: Title */}
+        <div className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug">
+          {t("title")}
+        </div>
+
+        {/* Right: Description */}
+        <div className="text-gray-700 text-xl sm:text-base md:text-base leading-relaxed max-w-full md:max-w-xl">
+          {t("description")}
+        </div>
+      </section>
+
       <div className="bg-gray-100 min-h-screen p-6">
         <main className="max-w-6xl mx-auto mt-6 space-y-12">
           {/* Bản đồ Google – có marker đúng địa chỉ */}
@@ -48,22 +60,32 @@ export default function LienHe() {
 
           {/* Thông tin liên hệ */}
           <FadeUp>
-            <div className="bg-gray-100 rounded-xl p-6 sm:p-8 shadow-md space-y-4 text-sm sm:text-base">
-              <h2 className="text-xl font-semibold">Thông tin liên hệ</h2>
-              <p>
-                <strong>Địa chỉ:</strong> Tỉnh lộ 767, thôn Tây Lạc, Ấp Bùi Chu,
-                xã Bắc Sơn, huyện Trảng Bom, tỉnh Đồng Nai, Việt Nam
-              </p>
-              <p>
-                <strong>Điện thoại:</strong> (+84) 91 379 57 65
-              </p>
-              <p>
-                <strong>Email:</strong> binhdoanhgroup@gmail.com
-              </p>
-              <p>
-                <strong>Giờ làm việc:</strong> Thứ 2 - Thứ 6 (8:00 - 17:00)
-              </p>
-            </div>
+            <section className="bg-[#fdf7e4] py-10 px-4 sm:px-8 md:px-20 text-center">
+              {/* Title */}
+              <div className="flex flex-wrap justify-center items-center gap-1 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug">
+                <span className="text-[#1c355e]">
+                  {t("sectionTitle.info")}
+                </span>
+                <span className="text-[#00a8e8]">
+                  {t("sectionTitle.highlight")}
+                </span>
+              </div>
+
+              {/* Company bar */}
+              <div className="bg-[#1c355e] text-white font-semibold mt-6 py-2 px-4 inline-block text-sm sm:text-base md:text-lg">
+                {t("company")}
+              </div>
+
+              {/* Info */}
+              <div className="mt-4 space-y-2 text-sm sm:text-base text-[#1c355e] max-w-2xl mx-auto">
+                <p className="px-2">{t("address")}</p>
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-6 px-2 flex-wrap">
+                  <p>{t("phone")}</p>
+                  <p>{t("email")}</p>
+                  <p>{t("website")}</p>
+                </div>
+              </div>
+            </section>
           </FadeUp>
         </main>
       </div>

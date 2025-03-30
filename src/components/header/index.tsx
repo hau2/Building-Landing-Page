@@ -15,6 +15,11 @@ export default function Header() {
   const pathname = usePathname();
   const [currentLocale, setCurrentLocale] = useState("vi");
   const [menuOpen, setMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<number | null>(null);
+
+  const toggleDropdown = (index: number) => {
+    setOpenDropdown((prev) => (prev === index ? null : index));
+  };
 
   useEffect(() => {
     const locales = ["en", "vi", "zh"];
@@ -59,8 +64,8 @@ export default function Header() {
         },
       ],
     },
-    { title: t("contact"), link: `/${currentLocale}/lien-he` },
     { title: t("recruitment"), link: `/${currentLocale}/tuyen-dung` },
+    { title: t("contact"), link: `/${currentLocale}/lien-he` },
   ];
 
   return (
@@ -147,18 +152,30 @@ export default function Header() {
             transition={{ duration: 0.3 }}
             className="lg:hidden fixed top-[80px] left-0 right-0 bottom-0 bg-white z-40 overflow-y-auto px-6 pb-6 pt-4"
           >
-            <ul className="flex flex-col gap-3 text-black/80 font-semibold">
+            <ul className="flex flex-col gap-2 text-black/80 font-semibold">
               {menuItems.map((menu, index) => (
                 <li key={index}>
-                  <Link
-                    href={menu.link}
-                    className="block py-2"
-                    onClick={() => setMenuOpen(false)}
+                  <div
+                    onClick={() =>
+                      menu.subMenu ? toggleDropdown(index) : setMenuOpen(false)
+                    }
+                    className="flex justify-between items-center py-2 cursor-pointer"
                   >
-                    {menu.title}
-                  </Link>
-                  {menu.subMenu && (
-                    <ul className="ml-4 text-sm text-gray-700">
+                    <Link href={menu.link}>{menu.title}</Link>
+                    {menu.subMenu && (
+                      <ChevronDown
+                        className={`w-4 h-4 transition-transform ${
+                          openDropdown === index
+                            ? "rotate-180 text-orange-500"
+                            : ""
+                        }`}
+                      />
+                    )}
+                  </div>
+
+                  {/* Submenu */}
+                  {menu.subMenu && openDropdown === index && (
+                    <ul className="ml-4 mt-1 text-sm text-gray-700">
                       {menu.subMenu.map((sub, idx) => (
                         <li key={idx}>
                           <Link
@@ -174,11 +191,13 @@ export default function Header() {
                   )}
                 </li>
               ))}
+
               <li>
                 <LanguageSwitcher />
               </li>
+
               <li>
-                <Button size="sm" className="w-full">
+                <Button size="sm" className="w-full mt-2">
                   <a
                     href="https://pwa-app.leconghau.id.vn/BINH_DOANH_GROUP.pdf"
                     target="_blank"

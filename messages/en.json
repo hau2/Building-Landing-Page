@@ -146,7 +146,18 @@
     "tableHeaderDetails": "Details"
   },
   "contact": {
-    "contactPageTitle": "Contact"
+    "contactPageTitle": "Contact",
+     "title": "Contact Us",
+    "description": "Wherever the 'seed' of Binh Doanh Construction is planted, that place will be strong and rise high.",
+    "sectionTitle": {
+      "info": "CONTACT",
+      "highlight": "INFO"
+    },
+    "company": "BINH DOANH GROUP",
+    "address": "11 D2 Street, Saigon Pearl, Ward 22, Binh Thanh District, Ho Chi Minh City",
+    "phone": "0913 795 765",
+    "email": "info@binhdoanhgroup.com",
+    "website": "www.binhdoanhgroup.com"
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "Introduction", 

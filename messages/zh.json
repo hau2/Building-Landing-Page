@@ -148,7 +148,18 @@
    
   },
   "contact": {
-    "contactPageTitle": "接触"
+    "contactPageTitle": "接触",
+    "title": "联系我们",
+    "description": "有“Binh Doanh Construction”种子的地方，就有坚实与高耸。",
+    "sectionTitle": {
+      "info": "联系",
+      "highlight": "信息"
+    },
+    "company": "BÌNH DOANH GROUP",
+    "address": "胡志明市，平盛郡，第22坊，西贡明珠，D2街11号",
+    "phone": "0913 795 765",
+    "email": "info@binhdoanhgroup.com",
+    "website": "www.binhdoanhgroup.com"
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "前言", 
