@@ -159,7 +159,14 @@
     "address": "胡志明市，平盛郡，第22坊，西贡明珠，D2街11号",
     "phone": "0913 795 765",
     "email": "info@binhdoanhgroup.com",
-    "website": "www.binhdoanhgroup.com"
+    "website": "www.binhdoanhgroup.com",
+    "headquarters": "总部",
+    "mainAddress": "地址",
+    "mainAddressValue": "越南同奈省壮 Bom 县北山乡裴珠邑西乐村 767 省道",
+    "mainPhone": "电话",
+    "mainEmail": "电子邮件",
+    "workingHour": "工作时间",
+    "workingHourValue": "周一至周五（上午 8:00 - 下午 5:00）"
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "前言", 

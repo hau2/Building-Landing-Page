@@ -147,7 +147,7 @@
   },
   "contact": {
     "contactPageTitle": "Contact",
-     "title": "Contact Us",
+    "title": "Contact Us",
     "description": "Wherever the 'seed' of Binh Doanh Construction is planted, that place will be strong and rise high.",
     "sectionTitle": {
       "info": "CONTACT",
@@ -157,7 +157,14 @@
     "address": "11 D2 Street, Saigon Pearl, Ward 22, Binh Thanh District, Ho Chi Minh City",
     "phone": "0913 795 765",
     "email": "info@binhdoanhgroup.com",
-    "website": "www.binhdoanhgroup.com"
+    "website": "www.binhdoanhgroup.com",
+    "headquarters": "Headquarters",
+    "mainAddress": "Address",
+    "mainAddressValue": "Provincial Road 767, Tay Lac Village, Bui Chu Hamlet, Bac Son Commune, Trang Bom District, Dong Nai Province, Vietnam",
+    "mainPhone": "Phone",
+    "mainEmail": "Email",
+    "workingHour": "Working Hours",
+    "workingHourValue": "Monday - Friday (8:00 AM - 5:00 PM)"
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "Introduction", 

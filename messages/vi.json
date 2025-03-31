@@ -162,7 +162,14 @@
     "address": "11 Đường D2, Sài Gòn Pearl, Phường 22, Q. Bình Thạnh, Tp. Hồ Chí Minh",
     "phone": "0913 795 765",
     "email": "info@binhdoanhgroup.com",
-    "website": "www.binhdoanhgroup.com"
+    "website": "www.binhdoanhgroup.com",
+    "headquarters": "Trụ sở chính",
+    "mainAddress": "Địa chỉ",
+    "mainAddressValue": "Tỉnh lộ 767, thôn Tây Lạc, Ấp Bùi Chu, xã Bắc Sơn, huyện Trảng Bom, tỉnh Đồng Nai, Việt Nam",
+    "mainPhone": "Điện thoại",
+    "mainEmail": "Email",
+    "workingHour": "Giờ làm việc",
+    "workingHourValue": "Thứ 2 - Thứ 6 (8:00 - 17:00)"
   },
   "chairmanMessages": {
     "chairmanMessageTitle": "Lời mở đầu",
