@@ -65,7 +65,7 @@ export default function Footer() {
                     href={`/${currentLocale}/tin-tuc`}
                     className="hover:underline"
                   >
-                    {t("new")}
+                    {t("contact")}
                   </Link>
                 </li>
                 <li>
