@@ -88,7 +88,7 @@ export default function LienHe() {
             </section>
           </FadeUp>
           <FadeUp>
-             <div className="bg-gray-100 rounded-xl p-6 sm:p-8 shadow-md space-y-4 text-sm sm:text-base">
+             <div className="bg-white p-6 sm:p-8 space-y-4 text-sm sm:text-base">
                <h2 className="text-xl font-semibold">{t("headquarters")}</h2>
                <p>
                  <strong>{t("mainAddress")}:</strong>{t("mainAddressValue")}
