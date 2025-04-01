@@ -58,6 +58,7 @@ export default function ClientPartnerSlider() {
           }}
           modules={[Autoplay]}
           breakpoints={{
+            1: { slidesPerView: 1, spaceBetween: 24 },
             640: { slidesPerView: 2.5, spaceBetween: 24 },
             768: { slidesPerView: 4, spaceBetween: 30 },
             1024: { slidesPerView: 6, spaceBetween: 30 },
