@@ -86,6 +86,7 @@ export function VideoGallery() {
             src={currentVideo || ""}
             className="w-full h-full rounded-md"
             controls
+            muted
             autoPlay
             playsInline
           />
