@@ -63,9 +63,7 @@ export default function LienHe() {
             <section className="bg-[#fdf7e4] py-10 px-4 sm:px-8 md:px-20 text-center">
               {/* Title */}
               <div className="flex flex-wrap justify-center items-center gap-1 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug">
-                <span className="text-[#1c355e]">
-                  {t("sectionTitle.info")}
-                </span>
+                <span className="text-[#1c355e]">{t("sectionTitle.info")}</span>
                 <span className="text-[#00a8e8]">
                   {t("sectionTitle.highlight")}
                 </span>
@@ -88,22 +86,21 @@ export default function LienHe() {
             </section>
           </FadeUp>
           <FadeUp>
-             <div className="bg-white p-6 sm:p-8 space-y-4 text-sm sm:text-base">
-               <h2 className="text-xl font-semibold">{t("headquarters")}</h2>
-               <p>
-                 <strong>{t("mainAddress")}:</strong>{t("mainAddressValue")}
-               </p>
-               <p>
-                 <strong>{t("mainPhone")}:</strong> (+84) 91 379 57 65
-               </p>
-               <p>
-                 <strong>{t("mainEmail")}:</strong> binhdoanhgroup@gmail.com
-               </p>
-               <p>
-                 <strong>{t("workingHour")}:</strong>{t("workingHourValue")}
-               </p>
-             </div>
-           </FadeUp>
+            <div className="bg-white flex items-center flex-col p-6 sm:p-8 space-y-4 text-sm sm:text-base">
+              <div className="flex flex-wrap justify-center items-center gap-1 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug">
+                <span className="text-[#1c355e]">{t("headquarters")}</span>
+              </div>
+              <div className="mt-4 space-y-2 text-sm sm:text-base text-[#1c355e] max-w-2xl mx-auto">
+                <p className="px-2">{t("mainAddressValue")}</p>
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-6 px-2 flex-wrap">
+                  <p>(+84) 91 379 57 65</p>
+                  <p>binhdoanhgroup@gmail.com</p>
+                  <p>{t("workingHourValue")}</p>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </FadeUp>
         </main>
       </div>
     </div>
