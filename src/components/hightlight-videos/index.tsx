@@ -24,7 +24,7 @@ const videos = [
     id: 1,
     title: "Công trường thi công",
     thumbnail: "/images/videonoibatthumb1.png",
-    url: "https://pwa-app.leconghau.id.vn/videonoibat1.mp4",
+    url: "https://pwa-app.leconghau.id.vn/ios-fixed.mp4",
   },
   {
     id: 2,
@@ -85,10 +85,12 @@ export function VideoGallery() {
           <video
             src={currentVideo || ""}
             className="w-full h-full rounded-md"
-            controls
-            muted
             autoPlay
+            muted
             playsInline
+            loop
+            preload="auto"
+            controls
           />
         </DialogContent>
       </Dialog>
