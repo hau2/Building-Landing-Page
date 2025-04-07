@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import dynamic from "next/dynamic";
+import ConstructionGallery from "../construction-gallery/page";
 
 const MotionDiv = dynamic(
   () => import("framer-motion").then((mod) => mod.motion.div),
@@ -12,7 +13,6 @@ const MotionDiv = dynamic(
 
 export default function OurBusinessLines() {
   const t = useTranslations("ourBusiness");
-
   const effects = {
     fadeUp: {
       hidden: { opacity: 0, y: 40 },
@@ -61,7 +61,7 @@ export default function OurBusinessLines() {
             <h2 className="text-3xl font-bold text-[#152E51] mb-4">
               {t("generalTitle")}
             </h2>
-            <p className="text-gray-700 mb-4">{t("paragraph1")}</p>
+            <p className="text-gray-700 font-bold mb-4">{t("paragraph1")}</p>
             <p className="text-gray-700 mb-4">{t("paragraph2")}</p>
             <p className="text-gray-700 mb-6">{t("paragraph3")}</p>
             <div className="bg-gray-100 border-l-4 border-red-500 p-4 text-center">
@@ -169,6 +169,7 @@ export default function OurBusinessLines() {
           </>
         )}
       </section>
+      <ConstructionGallery></ConstructionGallery>
     </div>
   );
 }

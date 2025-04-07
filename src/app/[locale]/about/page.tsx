@@ -5,6 +5,12 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import dynamic from "next/dynamic";
+import ChairmanMessage from "./foreword/page";
+import CoreAndVision from "./core-vision/page";
+import Staff from "./staff/page";
+import Partner from "./customer/page";
+import Certificates from "./award/page";
+import { FadeUp } from "@/components/animations";
 
 // ✅ Dynamic import motion (disable SSR)
 const MotionDiv = dynamic(
@@ -38,7 +44,12 @@ export default function TongQuan() {
 
     return (
       <div>
-        <div className="pl-[32px] pr-[32px] my-[32px]">
+        <div className="py-16 px-4 md:px-12 lg:px-24 ">
+          <FadeUp>
+            <h2 className="text-4xl font-bold text-[#152E51] mb-10 border-b pb-4">
+              {t("aboutOverview")}
+            </h2>
+          </FadeUp>
           {showMotion && (
             <MotionDiv
               className="max-w-7xl mx-auto my-[16px] bg-white border-1 overflow-hidden flex flex-col sm:flex-row"
@@ -167,6 +178,12 @@ export default function TongQuan() {
             </a>
           </MotionDiv>
         )}
+
+        <ChairmanMessage></ChairmanMessage>
+        <CoreAndVision></CoreAndVision>
+        <Staff></Staff>
+        <Partner></Partner>
+        <Certificates></Certificates>
       </div>
     );
 }

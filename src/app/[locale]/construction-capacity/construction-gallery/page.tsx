@@ -157,7 +157,7 @@ export default function ConstructionGallery() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl text-[#152E51] font-bold text-center mb-6">
+      <h1 className="text-3xl font-bold text-[#152E51] font-bold text-center mb-6">
         {t("constructionGallery")}
       </h1>
 

@@ -60,9 +60,6 @@ export default function TuyenDung() {
               <p className="text-gray-600 mt-4">
                 {t("workEnvironmentParagraph1")}
               </p>
-              <p className="text-gray-600 mt-2">
-                {t("workEnvironmentParagraph2")}
-              </p>
             </div>
             <motion.div
               className="relative w-full h-64"
@@ -105,6 +102,9 @@ export default function TuyenDung() {
               </p>
               <p className="text-gray-600 mt-2">
                 {t("careerOpportunityParagraph2")}
+              </p>
+              <p className="text-gray-600 mt-2">
+                {t("careerOpportunityParagraph3")}
               </p>
             </div>
           </motion.section>
