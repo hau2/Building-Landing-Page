@@ -5,6 +5,7 @@ import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
+import SubmitCVButton from "./SubmitCVButton";
 
 export default function TuyenDung() {
   const t = useTranslations("career");
@@ -198,6 +199,8 @@ export default function TuyenDung() {
               </table>
             </div>
           </motion.section>
+
+          <SubmitCVButton />
         </main>
       </div>
     </div>
