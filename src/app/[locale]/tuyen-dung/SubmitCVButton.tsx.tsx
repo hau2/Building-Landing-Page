@@ -1,8 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function SubmitCVButton() {
+  const t = useTranslations("career");
   return (
     <div className="flex justify-center">
       <motion.a
@@ -14,15 +16,15 @@ export default function SubmitCVButton() {
         transition={{
           duration: 2,
           repeat: Infinity,
-          ease: "easeInOut"
+          ease: "easeInOut",
         }}
         whileHover={{
           scale: 1.12,
-          boxShadow: "0 0 20px rgba(255,255,255,0.4)"
+          boxShadow: "0 0 20px rgba(255,255,255,0.4)",
         }}
         whileTap={{ scale: 0.95 }}
       >
-        Nộp CV tại đây
+        {t("submitCVButtonTitle")}
       </motion.a>
     </div>
   );

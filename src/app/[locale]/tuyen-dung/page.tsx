@@ -205,7 +205,7 @@ export default function TuyenDung() {
           </motion.section>
           <SubmitCVButton />
           <span>
-            Hoặc truy cập:{" "}
+          {t("submitTitle2")}:{" "}
             <Link className="underline" target="_blank" href="https://forms.gle/u3tZHCAQSbeb2XeF7">
               https://forms.gle/u3tZHCAQSbeb2XeF7
             </Link>
