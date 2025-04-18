@@ -107,12 +107,13 @@
     }
   },
   "ourBusiness": {
-    "generalTitle": "General Contractor",
-    "paragraph1": "With experience from a series of successful projects, Binh Doanh Construction Joint Stock Company always understands the difficulties that investors face during the project implementation and management process.",
-    "paragraph2": "Common challenges include: lack of experienced management personnel, prolonged implementation time from design to construction, and high management costs. To bring more practical benefits to investors, Binh Doanh Construction has researched and applied advanced building materials, 3D simulation drawing techniques, etc. These technologies help reduce errors, increase work efficiency, reduce environmental impact, lower long-term operating costs, and ensure the highest level of project quality.",
-    "paragraph3": "Binh Doanh's prestigious brand today is built on the trust and high appreciation of customers, based on the world-class quality products and services that the company continuously provides.",
+    "generalTitle": "Construction Capabilities",
+    "paragraph1": "D&B General Contractor – Construction & Steel Truss Manufacturing",
+    "paragraph2": "Binh Doanh Construction Design Joint Stock Company proudly brings extensive experience from numerous successful projects. We deeply understand the challenges that investors face during implementation and management, such as a lack of experienced managers, prolonged construction time, and high management costs.",
+    "paragraph3": "With a pioneering vision, Binh Doanh boldly applies modern building materials and advanced 3D simulation techniques to minimize errors, optimize efficiency, protect the environment, and reduce operating costs. Especially in industrial construction, Binh Doanh affirms its competitive edge by owning a high-quality steel truss manufacturing plant. Our reputation is built on the trust of clients through durable projects and premium services.",
+    "slogan": "Brand assurance through project quality & customer trust",
     "advantagesTitle": "Advantages of the Design & Build General Contractor Model",
-    "advantagesDescription": "Binh Doanh Construction possesses strong construction capabilities, affirmed through a team of skilled architects, engineers, and workers. We specialize in providing services from architectural design, structural design, to construction execution, project management, and construction consulting. With a commitment to outstanding quality, on-time delivery, and cost optimization, we confidently deliver comprehensive solutions that meet all client requirements in civil, commercial, and industrial projects.",
+    "advantagesDescription": "Binh Doanh Construction is proud to affirm its outstanding advantages in the field of factory construction thanks to its large-scale steel truss manufacturing plant, with a production capacity of over 20,000 tons of steel per year. This is the key factor that allows Binh Doanh to proactively supply materials, ensure construction progress, and control quality from production to installation. Beyond that, Binh Doanh also owns a team of highly experienced engineers who are pioneers in researching and applying the latest design standards. The combination of strong production capabilities and technical expertise enables Binh Doanh to deliver superior quality factory buildings that fully meet the strictest investor requirements for durability, safety, and long-term efficiency.",
     "servicesArchitectureTitle": "Architectural Design",
     "servicesArchitectureDesc": "Save time in project implementation from the beginning, maximizing investor benefits as the project goes into operation early.",
     "servicesStructureTitle": "Structural Design",
@@ -127,12 +128,13 @@
   "career": {
     "recruitmentBannerTitle": "Recruitment",
     "recruitmentPageTitle": "Binh Doanh Recruitment",
-    "workEnvironmentTitle": "WORK ENVIRONMENT",
-    "workEnvironmentParagraph1": "BINH DOANH aims to create a disciplined and human-centered working environment. Here, every employee is supported to grow, improve themselves, and advance in their careers.",
+    "workEnvironmentTitle": "WORKING ENVIRONMENT",
+    "workEnvironmentParagraph1": "Binh Doanh is committed to building a professional, disciplined, and human-centered working environment where every employee is fully supported to develop themselves and advance in their careers. With a flexible compensation policy, in addition to a fixed salary, employees also receive performance-based bonuses. Salary reviews are conducted regularly and are tied to individual achievements and the company’s overall performance, fostering motivation and sustainable development.",
     "workEnvironmentParagraph2": "In addition to a fixed salary, employees are rewarded based on performance. Salary increases are considered based on individual contributions and company performance.",
     "careerOpportunityTitle": "CAREER OPPORTUNITIES",
-    "careerOpportunityParagraph1": "At BINH DOANH, every position represents a career that you build yourself—with growth opportunities, benefits, and a creative work environment.",
-    "careerOpportunityParagraph2": "We believe that by investing in our people and fostering a positive workplace, we can achieve significant success in the future.",
+    "careerOpportunityParagraph1": "At Binh Doanh, human resources are the solid foundation that enables the company to create sustainable value for customers and society. Therefore, Binh Doanh consistently sets long-term goals in building corporate culture, focusing on professional development and a positive work ethic.",
+    "careerOpportunityParagraph2": "We take pride in our team of professional, dynamic, and dedicated staff, who are constantly innovating to deliver high-quality products and reinforce the Binh Doanh brand.",
+    "careerOpportunityParagraph3": "With a core value system of “Sustainable Development - Trustful Partnership - Balanced Benefits”, Binh Doanh is committed to creating an ideal working environment, attracting talent through competitive benefits and comprehensive professional growth opportunities.",
     "hrStrategyTitle": "HUMAN RESOURCE STRATEGY",
     "hrStrategyParagraph1": "At BINH DOANH, human resources are the solid foundation that helps the company constantly create effective added value for customers and society. Therefore, we always focus on long-term goals and a clear vision for building corporate culture.",
     "hrStrategyParagraph2": "We take pride in a team that is PROFESSIONAL - DYNAMIC - PASSIONATE and constantly creative in delivering quality products under the BINH DOANH brand.",
@@ -167,7 +169,7 @@
     "workingHourValue": "Monday - Friday (8:00 AM - 5:00 PM)"
   },
   "chairmanMessages": {
-    "chairmanMessageTitle": "Introduction", 
+    "chairmanMessageTitle": "Introduction",
     "chairmanMessageParagraph1": "Dear valued partners, clients, and the entire Bình Doanh team,",
     "chairmanMessageParagraph2": "Every project is a statement. Every construction is a mark. And every step forward by Bình Doanh is a realization of our aspiration: to become a pioneering symbol of Vietnam’s construction industry – solid, breakthrough, and sustainable.",
     "chairmanMessageParagraph3": "We don’t just build concrete structures. We build trust, cultivate value, and connect the future. With the philosophy: “Build swiftly – Deliver quality – Create real value”, Bình Doanh is committed to delivering projects that exceed expectations, fulfill promises, and honor every investment.",
@@ -186,10 +188,22 @@
     "heading": "Vietnam's Leading General Contractor in Construction and Steel Truss Manufacturing",
     "subheading": "Asia Pacific Enterprise Award Winner 3 Years In A Row",
     "data": [
-      { "title": "Projects Completed", "unit": "projects" },
-      { "title": "Backlog Revenue", "unit": "billion VND" },
-      { "title": "Total Employees", "unit": "people" },
-      { "title": "Construction Workforce", "unit": "workers" }
+      {
+        "title": "PROJECTS IMPLEMENTED",
+        "unit": "projects"
+      },
+      {
+        "title": "STEEL OUTPUT/YEAR",
+        "unit": "tons"
+      },
+      {
+        "title": "YEARS OF OPERATION",
+        "unit": "years"
+      },
+      {
+        "title": "CONSTRUCTION WORKFORCE",
+        "unit": "staff"
+      }
     ]
   },
   "staff": {
@@ -234,19 +248,19 @@
       "Seasonal: <strong>1,200+ workers</strong>"
     ],
     "role": {
-    "ceo": "Chief Executive Officer",
-    "vice_ceo_design": "Vice CEO - Head of Design",
-    "cfo": "Chief Financial Officer",
-    "assistant_sales_director": "Executive Assistant - Sales Director",
-    "accounting_head": "Head of Accounting",
-    "procurement_head": "Head of Procurement",
-    "tech_head": "Head of Technical Department",
-    "site_manager": "Site Manager",
-    "deputy_site_manager": "Deputy Site Manager",
-    "deputy_design": "Deputy Head of Design"
-  }
+      "ceo": "Chief Executive Officer",
+      "vice_ceo_design": "Vice CEO - Head of Design",
+      "cfo": "Chief Financial Officer",
+      "assistant_sales_director": "Executive Assistant - Sales Director",
+      "accounting_head": "Head of Accounting",
+      "procurement_head": "Head of Procurement",
+      "tech_head": "Head of Technical Department",
+      "site_manager": "Site Manager",
+      "deputy_site_manager": "Deputy Site Manager",
+      "deputy_design": "Deputy Head of Design"
+    }
   },
-   "orgChart": {
+  "orgChart": {
     "chairman": "Chairman of the Members' Council",
     "board": "Board of Directors",
     "accounting": "Accounting Department",

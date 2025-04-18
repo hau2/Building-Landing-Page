@@ -8,7 +8,7 @@ export default function ThongSo() {
   const t = useTranslations("thongSo");
 
   // Giá trị số cố định tại FE
-  const values = [130, 16955, 900, 10000];
+  const values = [130, 20000, 19, 200];
 
   return (
     <section className="w-full bg-gray-50 py-16 overflow-hidden">
@@ -49,7 +49,7 @@ export default function ThongSo() {
               <div className="text-5xl font-extrabold text-orange-600 drop-shadow-glow">
                 <CountUp end={value} duration={2.5} separator="," />
               </div>
-              <div className="text-sm text-gray-600 mt-1 uppercase">
+              <div className="text-sm text-gray-600 mt-2 uppercase">
                 {t(`data.${idx}.unit`)}
               </div>
             </div>

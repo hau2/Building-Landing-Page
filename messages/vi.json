@@ -15,7 +15,7 @@
     "aboutCustomer": "Đối tác và khách hàng",
     "constructionBusinessLines": "Lĩnh vực thi công",
     "constructionGallery": "Hình ảnh thi công",
-     "fullName": "Tên đầy đủ",
+    "fullName": "Tên đầy đủ",
     "shortName": "Tên viết tắt",
     "taxCode": "Mã số thuế",
     "charterCapital": "Vốn điều lệ",
@@ -107,13 +107,13 @@
     }
   },
   "ourBusiness": {
-    "generalTitle": "Tổng thầu",
-    "paragraph1": "Công ty cổ phần thiết kế xây dựng Bình Doanh Construction với kinh nghiệm qua hàng loạt dự án thành công, luôn thấu hiểu những khó khăn mà chủ đầu tư gặp phải trong quá trình triển khai và quản lý dự án.",
-    "paragraph2": "Những thách thức phổ biến bao gồm: thiếu nhân sự có kinh nghiệm quản lý, thời gian triển khai từ thiết kế đến thi công kéo dài, và chi phí quản lý cao. Nhằm mang lại nhiều lợi ích thiết thực hơn cho Chủ đầu tư, Bình Doanh Construction  đã nghiên cứu và áp dụng Vật liệu xây dựng tiên tiến, Kỹ thuật vẽ mô phỏng 3D… . Những công nghệ này giúp giảm sai sót, tăng hiệu quả làm việc, giảm tác động đến môi trường, hạ chi phí vận hành lâu dài, và đảm bảo chất lượng công trình ở mức cao nhất.",
-    "paragraph3": "Thương hiệu uy tín của Bình Doanh ngày nay được xây dựng từ sự tin tưởng và đánh giá cao của khách hàng, dựa trên những sản phẩm và dịch vụ chất lượng đẳng cấp mà công ty không ngừng cung cấp.",
+    "generalTitle": "Năng lực thi công ",
+    "paragraph1": "Tổng thầu D&B – Xây dựng & Sản xuất kèo thép ",
+    "paragraph2": "Công ty Cổ phần Thiết kế Xây dựng Bình Doanh Construction tự hào với bề dày kinh nghiệm từ nhiều dự án thành công, luôn thấu hiểu sâu sắc những thách thức mà Chủ đầu tư gặp phải trong quá trình triển khai và quản lý, như thiếu nhân sự quản lý giàu kinh nghiệm, kéo dài thời gian thi công và chi phí quản lý cao",
+    "paragraph3": "Với tầm nhìn tiên phong, Bình Doanh đã mạnh dạn ứng dụng vật liệu xây dựng hiện đại và kỹ thuật vẽ mô phỏng 3D tiên tiến, giúp giảm thiểu sai sót, tối ưu hiệu suất, bảo vệ môi trường và tiết kiệm chi phí vận hành. Đặc biệt, Bình Doanh khẳng định lợi thế vượt trội trong xây dựng nhà xưởng khi sở hữu nhà máy sản xuất kèo thép chất lượng cao. Uy tín của Bình Doanh được khẳng định qua sự tin tưởng của khách hàng với các công trình bền vững và dịch vụ đẳng cấp",
     "slogan": "Bảo chứng thương hiệu từ chất lượng công trình & niềm tin khách hàng",
     "advantagesTitle": "Ưu điểm từ mô hình Tổng thầu Thiết kế & Thi công",
-    "advantagesDescription": "Công ty cổ phần thiết kế xây dựng Bình Doanh Construction sở hữu năng lực thi công vững mạnh, được khẳng định qua đội ngũ kiến trúc sư, kỹ sư và công nhân lành nghề, giàu kinh nghiệm. Chúng tôi chuyên cung cấp các dịch vụ từ thiết kế kiến trúc, thiết kế kết cấu, đến thi công xây dựng, quản lý dự án và tư vấn xây dựng. Với cam kết đảm bảo chất lượng vượt trội, đúng tiến độ và tối ưu chi phí, Bình Doanh Construction tự tin mang đến giải pháp toàn diện, đáp ứng mọi yêu cầu của khách hàng trong các dự án dân dụng, thương mại và công nghiệp",
+    "advantagesDescription": "Bình Doanh Construction tự hào khẳng định lợi thế vượt trội trong lĩnh vực xây dựng nhà xưởng nhờ sở hữu nhà máy sản xuất kèo thép quy mô lớn, với sản lượng hơn 20.000 tấn thép mỗi năm. Đây chính là yếu tố then chốt giúp Bình Doanh chủ động trong việc cung ứng vật liệu, đảm bảo tiến độ thi công và kiểm soát chất lượng từ khâu sản xuất đến lắp đặt. Không chỉ dừng lại ở đó, Bình Doanh còn sở hữu đội ngũ kỹ sư dày dạn kinh nghiệm, luôn tiên phong trong việc nghiên cứu và áp dụng những tiêu chuẩn thiết kế hiện đại nhất hiện nay. Sự kết hợp giữa năng lực sản xuất mạnh mẽ và chuyên môn kỹ thuật cao đã giúp Bình Doanh tạo nên những công trình nhà xưởng chất lượng vượt trội, đáp ứng tối đa các yêu cầu khắt khe của Chủ đầu tư về độ bền vững, an toàn và hiệu quả sử dụng lâu dài.",
     "servicesArchitectureTitle": "Thiết kế kiến trúc",
     "servicesArchitectureDesc": "Tiết kiệm thời gian triển khai dự án ngay từ ban đầu, gia tăng giá trị lợi ích tối đa cho Chủ đầu tư khi dự án sớm đi vào hoạt động.",
     "servicesStructureTitle": "Thiết kế kết cấu",
@@ -130,12 +130,12 @@
     "recruitmentPageTitle": "Bình Doanh Tuyển Dụng",
 
     "workEnvironmentTitle": "MÔI TRƯỜNG LÀM VIỆC",
-    "workEnvironmentParagraph1": "BÌNH DOANH mong muốn tạo nên môi trường làm việc kỷ luật, văn hóa, đề cao tính nhân văn. Tại đây, mỗi nhân viên được quan tâm tạo điều kiện để rèn luyện, phát triển bản thân và thăng tiến trong sự nghiệp.",
-    "workEnvironmentParagraph2": "Ngoài mức lương cố định, nhân viên được thưởng theo mức độ hoàn thành chỉ tiêu công việc được giao. Chế độ xem xét tăng lương gắn liền với hiệu quả công việc và hiệu quả hoạt động của công ty.",
+    "workEnvironmentParagraph1": "Bình Doanh luôn chú trọng xây dựng môi trường làm việc chuyên nghiệp, kỷ luật và giàu tính nhân văn, nơi mỗi nhân viên đều được tạo điều kiện tối đa để phát triển bản thân và thăng tiến trong sự nghiệp. Với chính sách đãi ngộ linh hoạt, bên cạnh mức lương cố định, nhân viên còn được hưởng các khoản thưởng dựa trên hiệu quả công việc và mức độ hoàn thành nhiệm vụ. Chế độ xét tăng lương thường xuyên, gắn liền với thành tích cá nhân và hiệu quả hoạt động của công ty, tạo động lực phấn đấu và phát triển bền vững.",
 
     "careerOpportunityTitle": "CƠ HỘI NGHỀ NGHIỆP",
-    "careerOpportunityParagraph1": "Tại BÌNH DOANH, một vị trí nhân sự đồng nghĩa với một sự nghiệp được xây dựng bởi chính Bạn, cùng những cơ hội phát triển, lợi ích và một môi trường làm việc thỏa sức sáng tạo.",
-    "careerOpportunityParagraph2": "Chúng tôi tin rằng, bằng việc đặt nỗ lực của mình vào đội ngũ nhân sự và hết lòng tạo ra một môi trường làm việc tích cực, chúng ta sẽ gặt hái được không ít thành công trong tương lai.",
+    "careerOpportunityParagraph1": "Tại Bình Doanh, nguồn nhân lực là nền tảng vững chắc giúp công ty tạo ra giá trị bền vững cho khách hàng và xã hội. Vì vậy, Bình Doanh luôn đặt mục tiêu dài hạn trong việc xây dựng văn hóa doanh nghiệp, chú trọng phát triển chuyên môn và tinh thần làm việc tích cực.",
+    "careerOpportunityParagraph2": "Chúng tôi tự hào sở hữu đội ngũ nhân sự chuyên nghiệp, năng động và tâm huyết, không ngừng sáng tạo để mang đến những sản phẩm chất lượng cao, khẳng định thương hiệu Bình Doanh. ",
+    "careerOpportunityParagraph3": "Với hệ giá trị cốt lõi “Phát triển bền vững - Tin tưởng đồng hành - Hài hòa lợi ích”, Bình Doanh cam kết tạo dựng môi trường làm việc lý tưởng, thu hút nhân tài bằng chính sách đãi ngộ cạnh tranh và cơ hội phát triển chuyên môn toàn diện.",
 
     "hrStrategyTitle": "CHIẾN LƯỢC NHÂN SỰ",
     "hrStrategyParagraph1": "Tại BÌNH DOANH, nguồn nhân lực là nền tảng vững chắc giúp Công ty không ngừng tạo nên những giá trị gia tăng hiệu quả cho khách hàng và xã hội. Do đó, BÌNH DOANH luôn đặt ra mục tiêu dài hạn và tầm nhìn trong việc xây dựng các giá trị văn hóa doanh nghiệp.",
@@ -179,7 +179,7 @@
     "chairmanMessageParagraph4": "Trong bối cảnh thị trường liên tục chuyển mình, Bình Doanh không đứng yên. Chúng tôi chủ động đổi mới, tích hợp công nghệ, chuẩn hóa quy trình và mở rộng hệ sinh thái xây dựng – từ sản xuất vật liệu, cơ khí, thiết bị đến tổng thầu thi công và phát triển bất động sản. Đây chính là lợi thế cạnh tranh bền vững giúp chúng tôi tối ưu chi phí, kiểm soát chất lượng và tăng tốc độ triển khai",
     "chairmanMessageParagraph5": "Hành trình của chúng tôi chưa bao giờ chỉ dừng lại ở thành công hiện tại. Tôi hình dung một Bình Doanh bản lĩnh hơn, sáng tạo hơn và có mặt ở mọi công trình mang tính biểu tượng của đất nước.",
     "chairmanMessageParagraph6": "Chúng tôi tin rằng: bằng sự tử tế trong cam kết, sự chuyên nghiệp trong hành động và khát vọng không ngừng vươn cao – Bình Doanh sẽ không chỉ là một nhà thầu, mà là một đối tác chiến lược đáng tin cậy trên hành trình phát triển của mọi khách hàng.",
-    "chairmanMessageParagraph7": "Nguyễn Thanh Bình", 
+    "chairmanMessageParagraph7": "Nguyễn Thanh Bình",
     "chairmanMessageParagraph8": "CHỦ TỊCH BÌNH DOANH GROUP",
     "respectfully": "Trân trọng,"
   },
@@ -196,16 +196,16 @@
         "unit": "dự án"
       },
       {
-        "title": "DOANH SỐ BACKLOG",
-        "unit": "tỷ"
+        "title": "SẢN LƯỢNG THÉP/NĂM",
+        "unit": "Tấn"
       },
       {
-        "title": "TỔNG SỐ NHÂN VIÊN",
-        "unit": "nhân viên"
+        "title": "SỐ NĂM HOẠT ĐỘNG",
+        "unit": "năm"
       },
       {
         "title": "LỰC LƯỢNG THI CÔNG",
-        "unit": "nhân công"
+        "unit": "nhân sự"
       }
     ]
   },
@@ -251,17 +251,17 @@
       "Thời vụ: <strong>Hơn 1.200 người</strong>"
     ],
     "role": {
-    "ceo": "Tổng giám đốc",
-    "vice_ceo_design": "Phó tổng giám đốc - Trưởng phòng thiết kế",
-    "cfo": "Giám đốc tài chính",
-    "assistant_sales_director": "Trợ lý giám đốc - Giám đốc kinh doanh",
-    "accounting_head": "Trưởng phòng kế toán",
-    "procurement_head": "Trưởng phòng vật tư",
-    "tech_head": "Trưởng phòng kỹ thuật",
-    "site_manager": "Chỉ huy trưởng",
-    "deputy_site_manager": "Chỉ huy phó công trình",
-    "deputy_design": "Phó phòng thiết kế"
-  }
+      "ceo": "Tổng giám đốc",
+      "vice_ceo_design": "Phó tổng giám đốc - Trưởng phòng thiết kế",
+      "cfo": "Giám đốc tài chính",
+      "assistant_sales_director": "Trợ lý giám đốc - Giám đốc kinh doanh",
+      "accounting_head": "Trưởng phòng kế toán",
+      "procurement_head": "Trưởng phòng vật tư",
+      "tech_head": "Trưởng phòng kỹ thuật",
+      "site_manager": "Chỉ huy trưởng",
+      "deputy_site_manager": "Chỉ huy phó công trình",
+      "deputy_design": "Phó phòng thiết kế"
+    }
   },
   "orgChart": {
     "chairman": "Chủ tịch hội đồng thành viên",

@@ -15,11 +15,6 @@ export default function Header() {
   const pathname = usePathname();
   const [currentLocale, setCurrentLocale] = useState("vi");
   const [menuOpen, setMenuOpen] = useState(false);
-  const [openDropdown, setOpenDropdown] = useState<number | null>(null);
-
-  const toggleDropdown = (index: number) => {
-    setOpenDropdown((prev) => (prev === index ? null : index));
-  };
 
   useEffect(() => {
     const locales = ["en", "vi", "zh"];
@@ -72,7 +67,7 @@ export default function Header() {
     <header className="z-50 fixed top-0 left-0 right-0 bg-white shadow-md">
       <div className="flex justify-between items-center px-4 py-3 lg:px-20">
         {/* Logo */}
-        <Link href="/" onClick={() => setMenuOpen(false)}>
+        <Link href={`/${currentLocale}`} onClick={() => setMenuOpen(false)}>
           <Image
             src="/images/mainlogo.jpg"
             alt="Bình Doanh"
@@ -101,7 +96,7 @@ export default function Header() {
                 <Link
                   href={menu.link}
                   className="uppercase text-[14px] hover:text-yellow-600 flex items-center gap-1 transition"
-                  onClick={() => setMenuOpen(!menuOpen)}
+                  onClick={() => setMenuOpen(false)}
                 >
                   {menu.title}
                   {menu.subMenu && (
@@ -155,40 +150,14 @@ export default function Header() {
             <ul className="flex flex-col gap-2 text-black/80 font-semibold">
               {menuItems.map((menu, index) => (
                 <li key={index}>
-                  <div
-                    onClick={() =>
-                      menu.subMenu ? toggleDropdown(index) : setMenuOpen(false)
-                    }
-                    className="flex justify-between items-center py-2 cursor-pointer"
-                  >
-                    <Link href={menu.link}>{menu.title}</Link>
-                    {menu.subMenu && (
-                      <ChevronDown
-                        className={`w-4 h-4 transition-transform ${
-                          openDropdown === index
-                            ? "rotate-180 text-orange-500"
-                            : ""
-                        }`}
-                      />
-                    )}
-                  </div>
+                  <Link
+                    href={menu.link}
+                    onClick={() => setMenuOpen(false)}
+                    className="block py-2"
 
-                  {/* Submenu */}
-                  {menu.subMenu && openDropdown === index && (
-                    <ul className="ml-4 mt-1 text-sm text-gray-700">
-                      {menu.subMenu.map((sub, idx) => (
-                        <li key={idx}>
-                          <Link
-                            href={sub.link}
-                            onClick={() => setMenuOpen(false)}
-                            className="block py-1"
-                          >
-                            {sub.title}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
+                  >
+                    {menu.title}
+                  </Link>
                 </li>
               ))}
 

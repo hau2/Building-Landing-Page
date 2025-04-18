@@ -107,13 +107,13 @@
     }
   },
   "ourBusiness": {
-    "generalTitle": "总承包",
-    "paragraph1": "平盈建设股份公司凭借一系列成功项目的经验，始终了解投资者在项目实施和管理过程中遇到的困难。",
-    "paragraph2": "常见的挑战包括：缺乏经验丰富的管理人员、从设计到施工的实施时间过长以及管理成本高。为了给投资者带来更多实际利益，平盈建设研究并应用了先进的建筑材料、3D模拟绘图技术等。这些技术有助于减少错误、提高工作效率、减少对环境的影响、降低长期运营成本，并确保最高水平的工程质量。",
-    "paragraph3": "平盈如今的声誉卓著的品牌建立在客户的信任和高度赞赏之上，这源于公司不断提供的世界一流的优质产品和服务。",
+    "generalTitle": "施工能力",
+    "paragraph1": "设计与施工总承包 – 建筑与钢结构制造",
+    "paragraph2": "平端建设设计股份公司凭借多个成功项目的丰富经验，深刻理解投资方在实施与管理过程中所面临的挑战，例如缺乏经验丰富的管理人员、施工周期延长以及高昂的管理成本。",
+    "paragraph3": "本着开拓先锋的愿景，平端大胆采用现代建筑材料和先进的3D模拟绘图技术，有效减少错误、优化效率、保护环境并降低运营成本。尤其在厂房建设领域，平端凭借自有的高质量钢结构生产工厂，展现出明显的竞争优势。凭借高质量工程与优质服务赢得客户信赖，树立了企业良好声誉。",
     "slogan": "以工程质量与客户信任铸就品牌保障",
-    "advantagesTitle": "设计与施工一体化总承包模式的优势",
-    "advantagesDescription": "Binh Doanh 拥有强大的施工能力，由经验丰富的建筑师、工程师和技术工人组成的团队为基础。我们专注于提供从建筑设计、结构设计，到施工执行、项目管理及咨询的全方位服务。凭借对卓越品质、准时交付和成本优化的承诺，我们有信心为民用、商业及工业项目提供全面解决方案，满足客户的各种需求。",
+    "advantagesTitle": "设计施工总承包模式的优势",
+    "advantagesDescription": "平端建设在厂房建设领域展现出卓越优势，拥有大型钢结构生产工厂，年产能超过2万吨。这一关键因素使平端能够主动供应建材，确保施工进度，并实现从生产到安装的质量全流程控制。不仅如此，平端还拥有一支经验丰富的工程师团队，始终走在研究与应用最新设计标准的前沿。强大的生产能力与高超的技术专长相结合，使平端能够建造出质量卓越的厂房工程，全面满足投资方在耐用性、安全性与长期使用效率等方面的高标准要求。",
     "servicesArchitectureTitle": "建筑设计",
     "servicesArchitectureDesc": "从项目初期节省实施时间，使项目尽早投入使用，为投资者带来最大价值。",
     "servicesStructureTitle": "结构设计",
@@ -129,11 +129,12 @@
     "recruitmentBannerTitle": "招聘",
     "recruitmentPageTitle": "平盈建设招聘",
     "workEnvironmentTitle": "工作环境",
-    "workEnvironmentParagraph1": "平盈建设致力于营造一个有纪律、有文化、以人为本的工作环境。每位员工都被关心并获得发展和晋升的机会。",
-    "workEnvironmentParagraph2": "除了固定薪资外，员工还将根据任务完成情况获得奖励。涨薪制度与个人绩效和公司运营效果密切相关。",
-    "careerOpportunityTitle": "职业机会",
-    "careerOpportunityParagraph1": "在平盈建设，每一个职位都是您亲自打造的职业生涯，充满发展机会、福利与一个充满创意的工作环境。",
-    "careerOpportunityParagraph2": "我们相信，通过投入资源培养人才并打造积极工作氛围，未来将收获众多成果。",
+    "workEnvironmentParagraph1": "平端公司致力于打造一个专业、有纪律且充满人文关怀的工作环境，在这里，每一位员工都能获得最大程度的发展机会与职业晋升空间。公司实施灵活的薪酬政策，除了固定工资外，员工还可根据工作绩效获得奖励。公司定期进行加薪评估，与员工的个人成就和整体运营绩效挂钩，从而激发员工动力，实现可持续发展。",
+
+    "careerOpportunityTitle": "职业发展机会",
+    "careerOpportunityParagraph1": "在平端，我们坚信人力资源是企业创造可持续价值的坚实基础。因此，平端始终以长远的眼光规划企业文化建设，注重专业能力培养和积极的工作态度塑造。",
+    "careerOpportunityParagraph2": "我们引以为傲的是一支专业、充满活力且充满热忱的团队，不断创新，致力于打造高品质产品，彰显平端品牌的卓越价值。",
+    "careerOpportunityParagraph3": "凭借“可持续发展 - 互信合作 - 利益共赢”的核心价值观，平端致力于营造理想的工作环境，通过具有竞争力的福利制度和全面的专业成长机会，吸引并留住优秀人才。",
     "hrStrategyTitle": "人力资源战略",
     "hrStrategyParagraph1": "在平盈建设，人力资源是公司持续为客户和社会创造价值的坚实基础。因此，我们始终以建立企业文化为长期目标和愿景。",
     "hrStrategyParagraph2": "我们以一支专业、积极、热忱的团队为傲，他们不断创新，打造属于平盈建设的高质量产品。",
@@ -145,7 +146,6 @@
     "tableHeaderQuantity": "人数",
     "tableHeaderDeadline": "截止日期",
     "tableHeaderDetails": "详情"
-   
   },
   "contact": {
     "contactPageTitle": "接触",
@@ -169,13 +169,13 @@
     "workingHourValue": "周一至周五（上午 8:00 - 下午 5:00）"
   },
   "chairmanMessages": {
-    "chairmanMessageTitle": "前言", 
+    "chairmanMessageTitle": "前言",
     "chairmanMessageParagraph1": "致尊敬的合作伙伴、客户以及整个平营团队：",
-  "chairmanMessageParagraph2": "每一个工程都是一种宣言，每一个项目都是一份印记，而平营的每一步前行，都是实现我们愿景的体现：成为越南建筑行业的先锋象征——稳固、突破、可持续。",
-  "chairmanMessageParagraph3": "我们不仅仅是在建设钢筋混凝土的建筑，而是在构建信任、积累价值并连接未来。秉持“快速建设——精准交付——创造真实价值”的理念，平营承诺打造超越期待、兑现承诺、匹配投资的卓越工程。",
-  "chairmanMessageParagraph4": "在不断变化的市场环境中，平营从不止步。我们积极创新，整合技术，标准化流程，并拓展建筑生态系统——涵盖材料生产、机械设备、施工总包乃至房地产开发。这是我们可持续的竞争优势，有助于优化成本、控制品质并加快执行速度。",
-  "chairmanMessageParagraph5": "我们的征程从未止步于当下的成功。我期望看到一个更有魄力、更具创意的平营，出现在国家每一个标志性工程之中。",
-  "chairmanMessageParagraph6": "我们相信：凭借承诺中的真诚、行动中的专业与不断追求卓越的渴望——平营不仅是一家承包商，更将成为客户发展道路上值得信赖的战略合作伙伴。",
+    "chairmanMessageParagraph2": "每一个工程都是一种宣言，每一个项目都是一份印记，而平营的每一步前行，都是实现我们愿景的体现：成为越南建筑行业的先锋象征——稳固、突破、可持续。",
+    "chairmanMessageParagraph3": "我们不仅仅是在建设钢筋混凝土的建筑，而是在构建信任、积累价值并连接未来。秉持“快速建设——精准交付——创造真实价值”的理念，平营承诺打造超越期待、兑现承诺、匹配投资的卓越工程。",
+    "chairmanMessageParagraph4": "在不断变化的市场环境中，平营从不止步。我们积极创新，整合技术，标准化流程，并拓展建筑生态系统——涵盖材料生产、机械设备、施工总包乃至房地产开发。这是我们可持续的竞争优势，有助于优化成本、控制品质并加快执行速度。",
+    "chairmanMessageParagraph5": "我们的征程从未止步于当下的成功。我期望看到一个更有魄力、更具创意的平营，出现在国家每一个标志性工程之中。",
+    "chairmanMessageParagraph6": "我们相信：凭借承诺中的真诚、行动中的专业与不断追求卓越的渴望——平营不仅是一家承包商，更将成为客户发展道路上值得信赖的战略合作伙伴。",
     "chairmanMessageParagraph7": "Nguyen Thanh Binh",
     "chairmanMessageParagraph8": "BINH DOANH集团董事长",
     "respectfully": "此致敬礼！"
@@ -188,10 +188,22 @@
     "heading": "越南领先的建筑总承包商与钢结构桁架制造商",
     "subheading": "连续三年荣获亚太企业卓越奖（APEA）",
     "data": [
-      { "title": "施工项目", "unit": "项目" },
-      { "title": "待执行合同金额", "unit": "亿越盾" },
-      { "title": "员工总数", "unit": "人" },
-      { "title": "施工人员", "unit": "工人" }
+      {
+        "title": "施工项目",
+        "unit": "个项目"
+      },
+      {
+        "title": "年钢产量",
+        "unit": "吨"
+      },
+      {
+        "title": "运营年限",
+        "unit": "年"
+      },
+      {
+        "title": "施工人员",
+        "unit": "人"
+      }
     ]
   },
   "staff": {
@@ -236,19 +248,19 @@
       "临时：<strong>1200人以上</strong>"
     ],
     "role": {
-    "ceo": "总经理",
-    "vice_ceo_design": "副总经理 - 设计部主管",
-    "cfo": "财务总监",
-    "assistant_sales_director": "总经理助理 - 销售总监",
-    "accounting_head": "会计部主管",
-    "procurement_head": "采购部主管",
-    "tech_head": "技术部主管",
-    "site_manager": "施工主管",
-    "deputy_site_manager": "副施工主管",
-    "deputy_design": "设计部副主管"
-  }
+      "ceo": "总经理",
+      "vice_ceo_design": "副总经理 - 设计部主管",
+      "cfo": "财务总监",
+      "assistant_sales_director": "总经理助理 - 销售总监",
+      "accounting_head": "会计部主管",
+      "procurement_head": "采购部主管",
+      "tech_head": "技术部主管",
+      "site_manager": "施工主管",
+      "deputy_site_manager": "副施工主管",
+      "deputy_design": "设计部副主管"
+    }
   },
-   "orgChart": {
+  "orgChart": {
     "chairman": "董事会主席",
     "board": "董事会",
     "accounting": "会计部",
