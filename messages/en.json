@@ -146,8 +146,8 @@
     "tableHeaderQuantity": "Quantity",
     "tableHeaderDeadline": "Deadline",
     "tableHeaderDetails": "Details",
-    "submitCVButtonTitle:": "Submit your CV here",
-    "submitTitle2:": "Or visit"
+    "submitCVButtonTitle": "Submit your CV here",
+    "submitTitle2": "Or visit"
   },
   "contact": {
     "contactPageTitle": "Contact",
