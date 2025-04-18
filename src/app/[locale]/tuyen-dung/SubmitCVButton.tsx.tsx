@@ -7,6 +7,7 @@ export default function SubmitCVButton() {
     <div className="flex justify-center">
       <motion.a
         href="https://forms.gle/u3tZHCAQSbeb2XeF7"
+        target="_blank"
         className="bg-[#152E51] px-10 py-5 rounded-xl text-white text-lg font-semibold shadow-xl"
         initial={{ scale: 1 }}
         animate={{ scale: [1, 1.06, 1] }} // scale liên tục
