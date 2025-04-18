@@ -6,7 +6,6 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import SubmitCVButton from "./SubmitCVButton.tsx";
-import Link from "next/link.js";
 
 export default function TuyenDung() {
   const t = useTranslations("career");
@@ -204,12 +203,12 @@ export default function TuyenDung() {
             </div>
           </motion.section>
           <SubmitCVButton />
-          <span>
+          {/* <span>
           {t("submitTitle2")}:{" "}
             <Link className="underline" target="_blank" href="https://forms.gle/u3tZHCAQSbeb2XeF7">
               https://forms.gle/u3tZHCAQSbeb2XeF7
             </Link>
-          </span>
+          </span> */}
         </main>
       </div>
     </div>
