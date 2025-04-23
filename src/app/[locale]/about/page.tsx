@@ -57,9 +57,12 @@ export default function TongQuan() {
                   className="absolute inset-0"
                 />
                 <div className="absolute z-10 top-[20px] right-[20px]">
-                  <h2 className="text-orange-500 font-semibold text-2xl leading-tight uppercase">
+                <div className="inline-block bg-white/40 backdrop-blur-sm px-2 py-1 rounded">
+                  <h2 style={{ fontWeight: 700 }} className="text-[#c79538] font-semibold text-2xl leading-tight uppercase drop-shadow-md">
                     BUILD TRUST <br /> CREATE VALUE
                   </h2>
+                </div>
+
                 </div>
               </div>
 
@@ -119,7 +122,7 @@ export default function TongQuan() {
             >
               {/* Nội dung bên trái */}
               <MotionDiv className="w-full md:w-1/2" variants={fadeRight}>
-                <h2 className="text-orange-500 font-bold text-3xl md:text-4xl mb-4">
+                <h2 style={{fontWeight: 700}} className="text-[#c79538] font-bold text-3xl md:text-4xl mb-4">
                   {t("slogan")}
                 </h2>
                 <p className="text-gray-800 leading-relaxed mb-4">

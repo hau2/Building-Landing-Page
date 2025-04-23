@@ -52,7 +52,7 @@ export default function ChairmanMessage() {
                         <p className="mt-6  text-gray-700 text-base md:text-l">
                             {t("respectfully")}
                         </p>
-                        <p className=" font-bold text-yellow-600 text-lg md:text-xl">
+                        <p className=" font-bold text-[#c79538] text-lg md:text-xl" style={{fontWeight: 700}}>
                             {t("chairmanMessageParagraph7")}
                         </p>
                         <p className="mt-6 font-bold text-lg md:text-xl">

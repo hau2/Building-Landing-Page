@@ -46,7 +46,7 @@ export default function ThongSo() {
               <div className="text-gray-500 text-sm font-medium tracking-wide mb-2">
                 {t(`data.${idx}.title`)}
               </div>
-              <div className="text-5xl font-extrabold text-orange-600 drop-shadow-glow">
+              <div style={{fontWeight: 900}} className="text-5xl font-extrabold text-[#c79538] drop-shadow-glow">
                 <CountUp end={value} duration={2.5} separator="," />
               </div>
               <div className="text-sm text-gray-600 mt-2 uppercase">
