@@ -178,3 +178,16 @@
   transform: scale(1.05);
   cursor: pointer;
 }
+
+@keyframes expandLine {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.expand-line {
+  animation: expandLine 1s ease-out forwards;
+}

@@ -6,14 +6,14 @@ import ChairmanMessage from "./about/foreword/page";
 import ClientPartnerSlider from "@/components/partners";
 
 export default function Home() {
-  return (
-    <main className="bg-gray-50">
-      <Intro />
-      <ThongSo />
-      <ChairmanMessage />
-      <DuAnNoiBat />
-      <VideoGallery />
-      <ClientPartnerSlider />
-    </main>
-  );
+    return (
+        <main className="bg-gray-50">
+            <Intro />
+            <ThongSo />
+            <ChairmanMessage />
+            <DuAnNoiBat />
+            <VideoGallery />
+            <ClientPartnerSlider />
+        </main>
+    );
 }
