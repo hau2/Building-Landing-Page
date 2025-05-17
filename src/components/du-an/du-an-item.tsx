@@ -22,11 +22,12 @@ export default function DuAnItem(props: Readonly<{ item: IDuAn }>) {
     const t = useTranslations("project");
     const commonTranslate = useTranslations("HomePage");
 
-    console.log("aaaaaaa", t);
     const [isHovered, setIsHovered] = useState(false);
+
     const handleNavigate = () => {
         localStorage.setItem("duAnData", JSON.stringify(props.item));
     };
+
     return (
         <div
             className="relative w-[400px] h-[300px] overflow-hidden rounded-lg shadow-lg transition-transform duration-500 ease-in-out transform hover:scale-105"
@@ -40,6 +41,7 @@ export default function DuAnItem(props: Readonly<{ item: IDuAn }>) {
                 onClick={handleNavigate}
                 className="relative w-full h-full block"
             >
+                {/* Ảnh nền */}
                 <Image
                     src={props.item.image}
                     alt={t(`${props.item.id}.name`)}
@@ -47,9 +49,18 @@ export default function DuAnItem(props: Readonly<{ item: IDuAn }>) {
                     height={300}
                     className="w-full h-full object-cover transition-opacity duration-500 ease-in-out"
                 />
-                <div className="absolute inset-0 bg-black/2 transition-opacity duration-500 ease-in-out hover:bg-black/20"></div>
+
+                {/* Overlay gradient đẹp hơn */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a]/80 via-[#1e293b]/40 to-transparent transition-opacity duration-500 ease-in-out z-10" />
+
+                {/* Viền glow ánh vàng khi hover */}
+                {isHovered && (
+                    <div className="absolute inset-0 pointer-events-none z-20 before:content-[''] before:absolute before:inset-0 before:rounded-lg before:border before:border-[#c79538]/40 before:blur-[6px] before:animate-pulse" />
+                )}
+
+                {/* Info thường */}
                 {!isHovered && (
-                    <div className="absolute bottom-0 left-0 p-4 text-white transition-all duration-500 ease-in-out">
+                    <div className="absolute bottom-0 left-0 p-4 text-white z-20 transition-all duration-500 ease-in-out">
                         <h3 className="font-bold text-xl">
                             {t(`${props.item.id}.name`)}
                         </h3>
@@ -59,23 +70,18 @@ export default function DuAnItem(props: Readonly<{ item: IDuAn }>) {
                     </div>
                 )}
 
+                {/* Info khi hover */}
                 {isHovered && (
-                    <div className="absolute bottom-0 left-0 w-full p-4 bg-black/60 text-white flex flex-col gap-2 transition-opacity duration-500 ease-in-out">
-                        <p className="text-sm font-bold text-white">
+                    <div className="absolute bottom-0 left-0 w-full p-4 bg-black/60 text-white flex flex-col gap-2 transition-opacity duration-500 ease-in-out z-20">
+                        <p className="text-sm font-bold">
                             {t(`${props.item.id}.businessSector`)}
                         </p>
                         <p className="text-sm opacity-90 flex items-center gap-2">
-                            <MapPin
-                                size={16}
-                                className="text-gray-500 text-white"
-                            />
+                            <MapPin size={16} />
                             {t(`${props.item.id}.address`)}
                         </p>
                         <p className="text-sm opacity-90 flex items-center gap-2">
-                            <Calendar
-                                size={16}
-                                className="text-gray-500 text-white"
-                            />
+                            <Calendar size={16} />
                             {props.item.constructionPeriod}
                         </p>
                         <button className="border border-white py-2 px-4 text-white font-semibold uppercase hover:bg-white hover:text-black transition-all duration-300">

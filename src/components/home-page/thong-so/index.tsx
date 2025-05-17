@@ -6,28 +6,20 @@ import { useTranslations } from "next-intl";
 
 export default function ThongSo() {
     const t = useTranslations("thongSo");
-
-    // Giá trị số cố định tại FE
     const values = [130, 20000, 19, 200];
 
     return (
-        <section className="w-full bg-gray-50 py-16 overflow-hidden">
+        <section className="w-full bg-gradient-to-b from-[#f5f7fa] to-[#e4ebf1]  py-20 overflow-hidden">
             <div className="container mx-auto px-4 text-center">
                 {/* Tiêu đề */}
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
-                    viewport={{ once: true }}
                 >
-                    <h2 className="text-2xl md:text-3xl font-bold text-blue-900 uppercase">
+                    <h2 className="text-2xl md:text-4xl font-bold text-blue-900 uppercase tracking-wide">
                         {t("heading")}
                     </h2>
-                    {/* <p className="text-xl md:text-2xl font-bold text-orange-600 mt-4">
-            <i className="fas fa-award animate-pulse mr-2" />
-            {t("subheading")}
-            <i className="fas fa-award animate-pulse ml-2" />
-          </p> */}
                 </motion.div>
 
                 {/* Dãy số liệu */}
@@ -35,24 +27,22 @@ export default function ThongSo() {
                     initial={{ opacity: 0, y: 80 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    viewport={{ once: true }}
                     className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12 max-w-6xl mx-auto"
                 >
                     {values.map((value, idx) => (
                         <motion.div
                             key={idx}
-                            className="bg-white border border-gray-200 rounded-xl p-6 shadow-md hover:shadow-xl :scale-105 transition-all duration-300 transform"
+                            className="bg-white border border-gray-200 rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                             initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: idx * 0.2 }}
-                            viewport={{ once: true }}
                         >
-                            <div className="text-gray-500 text-sm font-medium tracking-wide mb-2">
+                            <div className="text-gray-700 text-sm font-medium tracking-wide mb-3">
                                 {t(`data.${idx}.title`)}
                             </div>
                             <div
+                                className="text-5xl font-extrabold text-[#c79538] drop-shadow-[0_4px_8px_rgba(0,0,0,0.15)]"
                                 style={{ fontWeight: 900 }}
-                                className="text-5xl font-extrabold text-[#c79538] drop-shadow-glow"
                             >
                                 <CountUp
                                     end={value}
@@ -60,7 +50,7 @@ export default function ThongSo() {
                                     separator=","
                                 />
                             </div>
-                            <div className="text-sm text-gray-600 mt-2 uppercase">
+                            <div className="text-sm text-gray-600 mt-3 uppercase tracking-wider">
                                 {t(`data.${idx}.unit`)}
                             </div>
                         </motion.div>

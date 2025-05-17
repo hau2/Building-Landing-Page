@@ -21,11 +21,11 @@ export default function AnimatedDivider() {
 
     return (
         <div
-            className="w-full h-[1px] bg-gray-300 overflow-hidden my-8"
+            className="w-full h-[2px] bg-gray-300 overflow-hidden my-8"
             ref={ref}
         >
             <div
-                className={`h-full bg-blue-900 transition-all duration-1000 ${
+                className={`h-full bg-blue-900 ${
                     isVisible ? "expand-line" : "w-0"
                 }`}
             ></div>

@@ -10,7 +10,7 @@ export default function ChairmanMessage() {
     const t = useTranslations("chairmanMessages");
 
     return (
-        <div className="py-16 px-4 md:px-12 lg:px-24 bg-white">
+        <div className="py-16 px-4 md:px-12 lg:px-24]">
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ export default function ChairmanMessage() {
             </motion.div>
 
             <div
-                className="relative bg-gray-100 rounded-xl overflow-hidden p-6 lg:p-12 flex flex-col lg:flex-row items-center lg:items-start justify-between mt-8"
+                className="relative rounded-xl overflow-hidden p-6 lg:p-12 flex flex-col lg:flex-row items-center lg:items-start justify-between mt-8"
                 style={{
                     backgroundImage: "url('/images/du-an/duan-y-duoc-1.jpg')",
                     backgroundPosition: "right bottom",
