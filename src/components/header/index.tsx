@@ -73,6 +73,10 @@ export default function Header() {
                     link: `/${currentLocale}/construction-capacity/our-business-lines`,
                 },
                 {
+                    title: t("steelProduction"),
+                    link: `/${currentLocale}/construction-capacity/steel-production`,
+                },
+                {
                     title: t("constructionGallery"),
                     link: `/${currentLocale}/construction-capacity/construction-gallery`,
                 },

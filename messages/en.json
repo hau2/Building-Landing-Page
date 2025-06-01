@@ -15,6 +15,10 @@
     "aboutCustomer": "Partners & Clients",
     "constructionBusinessLines": "Our Business Lines",
     "constructionGallery": "Construction Gallery",
+    "steelProduction": "Steel Frame Production",
+    "sloganLine1": "We build",
+    "sloganLine2": "With intelligence and responsibility.",
+    "sloganLine3": "From foundation – to lasting trust.",
     "fullName": "Full Company Name",
     "shortName": "Short Name",
     "taxCode": "Tax Code",
@@ -285,5 +289,11 @@
     "electric": "Electrical, Water, and Air Conditioning Team",
     "ground": "Ground Levelling & Renovation Team",
     "fabrication": "Mechanical Fabrication & Installation Team"
+  },
+  "SteelFactory": {
+    "title": "BINH DOANH STEEL STRUCTURE FACTORY",
+    "description": "With a 5-hectare steel truss manufacturing facility, a total investment of 8.9 million USD, and a production capacity of 1,500 tons per month, Binh Doanh takes full control of steel structure fabrication—ensuring consistent quality, optimized construction timelines, and reduced intermediary costs. Backed by advanced machinery, a highly skilled engineering team, and professional operational systems, we are a trusted partner to investors, committed to delivering projects on time and to the highest standards.",
+    "image1Alt": "Foundation construction process of the factory",
+    "image2Alt": "Steel frame of the factory under construction"
   }
 }

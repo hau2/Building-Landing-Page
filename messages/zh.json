@@ -15,6 +15,10 @@
     "aboutCustomer": "合作伙伴与客户",
     "constructionBusinessLines": "施工领域",
     "constructionGallery": "施工图片",
+    "steelProduction": "钢结构桁架生产",
+    "sloganLine1": "我们建设",
+    "sloganLine2": "以智慧与责任。",
+    "sloganLine3": "从地基开始，筑牢信任。",
     "fullName": "公司全称",
     "shortName": "简称",
     "taxCode": "税号",
@@ -285,5 +289,11 @@
     "electric": "电、水、空调队",
     "ground": "场地平整与改造队",
     "fabrication": "机械加工与安装队"
+  },
+  "SteelFactory": {
+    "title": "平端钢结构制造厂",
+    "description": "平盈拥有5公顷的钢结构制造厂，总投资890万美元，月产能高达1,500吨，能够自主完成钢结构全流程生产，有效保障产品品质、加快工期、降低中间成本。依托先进设备、经验丰富的工程师团队及专业化管理体系，平盈为业主提供值得信赖的服务，确保每一个项目按时交付、质量达标，为工程建设打下坚实基础。",
+    "image1Alt": "工厂地基施工过程",
+    "image2Alt": "正在施工中的工厂钢结构"
   }
 }

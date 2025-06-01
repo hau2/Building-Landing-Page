@@ -15,6 +15,10 @@
     "aboutCustomer": "Đối tác và khách hàng",
     "constructionBusinessLines": "Lĩnh vực thi công",
     "constructionGallery": "Hình ảnh thi công",
+    "steelProduction": "Sản xuất kèo thép",
+    "sloganLine1": "Chúng tôi xây dựng",
+    "sloganLine2": "Bằng trí tuệ và trách nhiệm.",
+    "sloganLine3": "Từ nền móng - Vững đến niềm tin.",
     "fullName": "Tên đầy đủ",
     "shortName": "Tên viết tắt",
     "taxCode": "Mã số thuế",
@@ -288,5 +292,11 @@
     "electric": "Đội điện, nước, điện lạnh",
     "ground": "Đội san lấp, cải tạo",
     "fabrication": "Đội gia công lắp đặt cơ khí"
+  },
+  "SteelFactory": {
+    "title": "NHÀ MÁY SẢN XUẤT KÈO THÉP BÌNH DOANH",
+    "description": "Với nhà máy sản xuất kèo thép quy mô 5ha, tổng vốn đầu tư 8,9 triệu USD và công suất đạt 1.500 tấn/tháng, Bình Doanh chủ động sản xuất toàn bộ kết cấu thép, đảm bảo chất lượng đầu ra, tối ưu tiến độ thi công và giảm thiểu chi phí trung gian. Sở hữu dây chuyền hiện đại, đội ngũ kỹ sư giàu kinh nghiệm cùng hệ thống quản lý vận hành chuyên nghiệp, chúng tôi cam kết đồng hành cùng chủ đầu tư trong việc hoàn thành dự án đúng tiến độ, đúng chất lượng – tạo nên nền móng vững chắc cho mọi công trình.",
+    "image1Alt": "Quá trình thi công nền móng nhà máy",
+    "image2Alt": "Khung thép nhà máy đang thi công"
   }
 }
