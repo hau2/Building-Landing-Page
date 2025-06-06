@@ -9,6 +9,7 @@ import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { RESOURCES, STORAGE_PREFIX } from "@/constants/storage-prefix";
 
 export default function Header() {
     const t = useTranslations("HomePage");
@@ -152,7 +153,7 @@ export default function Header() {
                     <LanguageSwitcher />
                     <Button size="lg">
                         <a
-                            href="https://pwa-app.leconghau.id.vn/BINH_DOANH_GROUP.pdf"
+                            href="http://103.155.161.5:3001/BINHDOANHCONSTRUCTION-HSNL.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -225,7 +226,7 @@ export default function Header() {
                             <li>
                                 <Button size="sm" className="w-full mt-2">
                                     <a
-                                        href="https://pwa-app.leconghau.id.vn/BINH_DOANH_GROUP.pdf"
+                                        href={`${STORAGE_PREFIX}/${RESOURCES.pdf}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

@@ -5,6 +5,7 @@ import ThongSo from "@/components/home-page/thong-so";
 import ChairmanMessage from "./about/foreword/page";
 import ClientPartnerSlider from "@/components/partners";
 import HeroPage from "./about/intro/page";
+import { SteelProduction } from "@/components/steel-production";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
             <HeroPage />
             <DuAnNoiBat />
             <VideoGallery />
+            <SteelProduction />
             <ClientPartnerSlider />
         </main>
     );

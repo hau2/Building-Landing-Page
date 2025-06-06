@@ -9,40 +9,7 @@ import { useState } from "react";
 import AnimatedDivider from "../animations/LineAnimation";
 import { RESOURCES, STORAGE_PREFIX } from "@/constants/storage-prefix";
 
-const videos = [
-    {
-        id: 4,
-        title: "Sự kiện cuối năm",
-        thumbnail: "/images/videonoibatthumb4.png",
-        url: `${STORAGE_PREFIX}/${RESOURCES.videos.noibat4}`,
-    },
-    {
-        id: 5,
-        title: "Sự kiện cuối năm",
-        thumbnail: "/images/videonoibatthumb5.png",
-        url: `${STORAGE_PREFIX}/${RESOURCES.videos.notbat5}`,
-    },
-    {
-        id: 1,
-        title: "Công trường thi công",
-        thumbnail: "/images/videonoibatthumb1.png",
-        url: `${STORAGE_PREFIX}/${RESOURCES.videos.noibat1}`,
-    },
-    {
-        id: 2,
-        title: "Doanh nghiệp xuất sắc 2021",
-        thumbnail: "/images/videonoibatthumb2.png",
-        url: `${STORAGE_PREFIX}/${RESOURCES.videos.notbat2}`,
-    },
-    {
-        id: 3,
-        title: "Sự kiện cuối năm",
-        thumbnail: "/images/videonoibatthumb3.png",
-        url: `${STORAGE_PREFIX}/${RESOURCES.videos.notbat3}`,
-    },
-];
-
-export function VideoGallery() {
+export function SteelProduction() {
     const [open, setOpen] = useState(false);
     const [currentVideo, setCurrentVideo] = useState<string | null>(null);
 
@@ -53,23 +20,32 @@ export function VideoGallery() {
         setOpen(true);
     };
 
+    const getVideoUrl = () => {
+        const locale = localStorage.getItem("locale") || "vi"
+        if(locale === "vi") {
+            return RESOURCES.videos.thep.vn;
+        } else if(locale === "cn") {
+            return RESOURCES.videos.thep.cn;
+        } else {
+            return RESOURCES.videos.thep.en;
+        }
+    }
+
     return (
-        <section className="px-4 sm:px-8 md:px-20 w-full">
+        <section className="px-4 py-4 sm:px-8 md:px-20 w-full">
             <FadeUp>
                 <h2 className="text-4xl font-bold text-[#152E51]">
-                    {t("projectVideoHighlightTitle")}
+                    {t("productTitle")}
                 </h2>
                 <AnimatedDivider></AnimatedDivider>
             </FadeUp>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                {videos.map((video) => (
-                    <div
-                        key={video.id}
-                        onClick={() => handleOpen(video.url)}
+                <div
+                        onClick={() => handleOpen(`${STORAGE_PREFIX}/${getVideoUrl()}`)}
                         className="relative group cursor-pointer overflow-hidden rounded-xl shadow-md"
                     >
                         <Image
-                            src={video.thumbnail}
+                            src={'/images/sxkeothep.png'}
                             alt={""}
                             width={500}
                             height={300}
@@ -79,7 +55,6 @@ export function VideoGallery() {
                             <PlayCircle className="text-white w-16 h-16 opacity-80 group-hover:scale-110 transition-transform duration-300" />
                         </div>
                     </div>
-                ))}
             </div>
 
             <Dialog open={open} onOpenChange={setOpen}>
