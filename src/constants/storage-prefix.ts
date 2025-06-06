@@ -14,6 +14,6 @@ const RESOURCES = {
   }
 };
 
-const STORAGE_PREFIX = 'http://103.155.161.5:3001/'
+const STORAGE_PREFIX = 'https://storage.binhdoanhcons.vn/'
 
 export {STORAGE_PREFIX, RESOURCES};
