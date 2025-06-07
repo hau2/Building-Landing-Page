@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import dynamic from "next/dynamic";
+import { RESOURCES, STORAGE_PREFIX } from "@/constants/storage-prefix";
 
 // ✅ Dynamic import motion (disable SSR)
 const MotionDiv = dynamic(
@@ -160,7 +161,7 @@ export default function TongQuan() {
             viewport={{ once: true, amount: 0.2 }}
           >
             <a
-              href="https://pwa-app.leconghau.id.vn/BINH_DOANH_GROUP.pdf"
+              href={`${STORAGE_PREFIX}/${RESOURCES.pdf}`}
               target="_blank"
               rel="noopener noreferrer"
             >
